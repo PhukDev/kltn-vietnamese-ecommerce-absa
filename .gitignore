@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.joblib
+
+artifacts/models/
+artifacts/reports/*.json
+artifacts/reports/*.csv
+!artifacts/reports/.gitkeep
+
+data/absa_annotation_batch_*.csv
+vietnamese_ecommerce_review.csv
+
+*.log
