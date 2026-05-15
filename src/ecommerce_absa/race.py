@@ -169,10 +169,11 @@ def analyze_business_signal(
     *,
     content: object,
     sentiment: str | None,
+    aspects: list[str] | None = None,
     thumbsupcount: int | float | str | None = None,
     replycontent: object | None = None,
 ) -> dict:
-    aspects = detect_aspects(content)
+    aspects = aspects or detect_aspects(content)
     race = map_to_race(
         sentiment=sentiment,
         aspects=aspects,

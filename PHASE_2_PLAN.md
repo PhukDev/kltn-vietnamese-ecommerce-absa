@@ -203,3 +203,24 @@ Exit criteria:
 2. Start labeling batches until the project reaches 1,000 fully labeled rows.
 3. Create `absa_annotation_master.csv`.
 4. Re-train the ABSA baseline and record the new metrics.
+
+## Progress Update
+
+Completed after the initial Phase 2 setup:
+
+- Added a prefilled annotation workflow to reduce manual work.
+- Expanded the working ABSA dataset to 1,029 labeled rows.
+- Retrained the ABSA baseline on the merged dataset.
+- Integrated model-based aspect inference into the API and dashboard, with rule-based fallback.
+- Added a review-priority workflow so the highest-risk rows can be corrected first.
+
+Current assessment:
+
+- The ABSA pipeline is now end-to-end functional.
+- The 1,029-row dataset is usable as a working training resource.
+- The current metrics are still better treated as an internal milestone than as final academic evidence, because many labels originated from prefill or rapid correction.
+
+Revised next step:
+
+- Build a smaller `gold subset` of about 200 to 300 reviews with stricter manual review.
+- Use that subset as the trusted evaluation set for ABSA baseline, Bi-LSTM, and PhoBERT comparisons.

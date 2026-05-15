@@ -1,0 +1,301 @@
+﻿reviewid,content,sentiment,product,price,delivery,service,app,sentiment_original,sentiment_changed,content_polarity,mismatch_reason,flagged,product_prefill,price_prefill,delivery_prefill,service_prefill,app_prefill,prefill_review_note
+0a1d918a-23b6-4b3b-9635-3bc095f4292e,Đinh xài thử mà nghe đồn dã man quá đàh thôi.,negative,0,0,0,0,0,negative,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+df588682-c657-426d-9bc4-fb7a181651cc,vào app hay bị thoát ra ngoài,neutral,0,0,0,0,1,neutral,False,unclear,,False,0,0,0,0,1,
+a7a279b7-d582-4210-9ab0-ca4d599b11ba,ứng dụng rất tốt Nó giúp tôi đặt hàng nhanh chóng nhanh nhất có thể cảm ơn nhà phát triển đã lập trình ra ứng dụng này,positive,1,0,0,0,1,positive,False,positive,,False,1,0,0,0,1,
+4090144b-cb56-446b-8e52-55f1899e3912,"Đề nghị sendo xem xét lại cách giao hàng cho khách,giao hàng vì mà lâu quá",neutral,1,0,1,0,0,neutral,False,unclear,,False,1,0,1,0,0,
+ce0af934-a3e0-46ea-9285-30ff10669bc1,Làm ăn chán quá,negative,0,0,0,0,0,negative,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+80dbdfba-351b-48cf-a1e4-cd695cbd3c9a,"Không biết đánh giá tiki có đọc ko, chứ nói thật ko biết cái ứng dụng này có bao nhiêu ng thiết kế mà để cái sản phẩm tràng lan ra nhìn quá rối mắt, nhiều sản phẩm giống nhau chỉ khác màu sắc ko gom vào 1 cho dễ nhìn. Nhiều lúc nào nhìn chán chẳng muốn xem, hãy qua các trang lazada hay shoppe xem họ làm kìa. Đã cạnh tranh thì phải biết học hỏi những cái hay của họ chứ",negative,1,1,0,0,1,negative,False,unclear,,False,1,1,0,0,1,
+ef12f3e9-a0c2-4add-b6fc-e931510bbd9f,Oder hàng nhanh chóng \q,positive,1,0,0,0,0,positive,False,unclear,,False,1,0,0,0,0,
+e19a753f-1ddd-43b3-8c1a-1020e2cd7ad1,Không thích cách giao hàng và thời gian giao hàng của giao hành nhanh (rất chậm),positive,1,0,1,0,0,neutral,True,positive,score-based sentiment is neutral but content looks positive,True,1,0,1,0,0,review sentiment auto-adjusted; manual review recommended
+32e02545-5a9e-4161-b15f-0344d37bb22d,Các loại mặt hàng chưa phong phú được như taobao bên Trung Quốc tại sao các bạn k học hỏi bên trang của các bạn bên Trung Quốc Cần thêm phần tìm kiếm bằng Hình ảnh.chỉ cần có ảnh là các bạn có thể quét ảnh và tìm ra mẫu hàng mình yêu thích đỡ mất thời gian.mong trang mua sắm của mình phát triển thêm,neutral,1,0,0,0,0,neutral,False,unclear,,False,1,0,0,0,0,
+6d280899-d473-4569-8c26-6bd96ab4b0bf,Lừa đảo nhiều,negative,0,0,0,0,0,negative,False,negative,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+cd762868-503c-43bd-917f-0a7799220afd,1 số sản phẩm khi tìm trên web thì vẫn thấy nhưng tìm trên app thì lại báo là không có. Mong tiki khắc phục lỗi này,negative,1,0,0,0,1,negative,False,unclear,,False,1,0,0,0,1,
+068409bc-0073-4edc-b6cc-a53a7847c543,"làm gì mà cập nhật suốt thế,ức chế quá,dù ít vô mua nhưng ai rảnh vs bộ nhớ đâu cập nhật hoài :))",neutral,0,0,0,0,1,neutral,False,unclear,,False,0,0,0,0,1,
+fd5ed43b-8bec-43be-b519-bf10b21d6373,Sản phẩm dễ sử dụng,positive,1,0,0,0,0,positive,False,positive,,False,1,0,0,0,0,
+e778d1b2-abfa-4867-8ef3-7be98e7588c1,"Tôi thay điện thoại mới, tải app lại chỉ tới 71% là không tải được nữa , làm sao đây",neutral,0,0,0,0,1,neutral,False,unclear,,False,0,0,0,0,1,
+289648e4-8f2d-419a-a411-dacf62dc4a6d,"Khuyết điểm: App chạy chậm hơn trước rất nhiều. Sản phẩm còn hạn chế không đa dạng như Shopee và nhiều nơi khác. Nhầm sản phẩm chất lượng không xứng với giá tiền. Đôi khi mua phải đồ ở trong kho quá lâu nên nhìn rất mất thẩm mỹ. Nhiều mặt hàng bán với số lượng nhiều không thể mua lẻ được. Ưu điểm: Giao hàng nhanh, tiền ship rẻ hơn nơi khác, nhân viên nhiệt tình. Nhiều mặt hàng giá rẻ hơn thị trường.",positive,1,1,1,1,1,neutral,True,positive,score-based sentiment is neutral but content looks positive,True,1,1,1,1,1,review sentiment auto-adjusted; manual review recommended
+c241495a-435c-4fa1-a1a5-d50c0e71d6e9,Tiki nên lấy gương mặt quảng cáo như là Trấn Thành chẳng hạn. Tôi chẳng ưa trường giang tí nào.,negative,0,0,0,0,0,negative,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+fcb81e25-6d57-413e-b389-a9ad3cbc1bdf,"Mua 4 lần. 1 lần 1 tuần sau mới báo hết hàng. 3 lần mua nhẹ nhẹ thấy giao hàng đúng chủng loại, chất lượng hàng ok. Chưa hài lòng như lazada.",positive,1,0,1,0,0,positive,False,positive,,False,1,0,1,0,0,
+b2ed6bba-3af5-4987-b8e5-144f59be6845,"Thực sự nhân viên làm tôi chưa bao giờ bực như thế này , dặn giao ở địa chỉ này thì nhân viên ko tới giao , làm tôi chờ đến tận 7h tối mà chưa về nhà. ._. Nhân viên thực sự chưa tốt và tôi ko hài lòng",negative,0,0,1,1,0,negative,False,unclear,,False,0,0,0,1,0,
+7309196c-9148-4448-b02d-3e62fb138c8f,Cảm ơn Tiki nhiều. Thật sự nhà sách kiểu cũ đã không còn đáp ứng được nhu cầu về sách nữa vì lượng sách không đầy đủ. Tôi thường mua sách trên Tiki vì có nhiều nhà sách bán hàng trên ứng dụng. Cảm giác như vào hết nhà sách này đến nhà sách nọ để kiếm sách đã không còn mất nhiều thời gian nữa.,positive,1,1,0,0,1,positive,False,unclear,,False,1,1,0,0,1,
+468b6272-e6ad-4f5f-b33f-2ad4376e71f1,Đm tiki làm ăn ncc giảm giá xuống rồi t săn deal được thì hẹn giao hàng 1 tuần đợi lâu vc rồi báo lỗi lưu kho cho cái coupon ncc t cần hàng của t với giá tiền đó chứ lấy cái mã cùi loz này để làm gì,negative,1,1,1,0,1,negative,False,negative,,False,1,1,1,0,1,
+4ca9c3de-88ad-41db-8e03-12b869a5f8d4,Chua tot lam,neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+cb096c37-48ff-4616-82d4-1239e174ce13,noi giao trong vong 2 tieng ma dat gan ca tuan chua giao,negative,0,0,0,0,0,negative,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+5e83adc4-3997-411f-8cd5-fae959900b7d,Thanh toán tiền mặt sao không được,positive,0,1,0,0,1,positive,False,unclear,,False,0,1,0,0,1,
+9be4628d-4e9c-46ea-815d-3212766d4e37,Lúc này sao đăng nhập hoài k được,negative,0,0,0,0,1,negative,False,unclear,,False,0,0,0,0,1,
+429e9f55-037e-4b54-9e3f-66329affe828,Thich Tiki. Gói hàng đẹp. Hàng đúng chất lượng,positive,1,0,0,0,0,positive,False,positive,,False,1,0,0,0,0,
+4bd27f80-d8e7-4600-8eee-0a01af726a04,rất hài lòng Sendo,positive,0,0,0,0,0,negative,True,positive,score-based sentiment is negative but content looks positive,True,0,0,0,0,0,review sentiment auto-adjusted; manual review recommended; all aspects are 0; verify if review is general
+95ddf0eb-e93b-4021-bf1e-01e7d46756de,"giao hàng nhanh, hàng đc đóng gói cẩn thận, nhân viên dễ chịu. nói chung tới giờ thì hài lòng.",positive,1,0,1,1,0,positive,False,positive,,False,1,0,1,1,0,
+7779f769-5bc1-4258-9766-adab4d93061d,trả phí quá đắt,neutral,0,1,0,0,0,neutral,False,unclear,,False,0,1,0,0,0,
+c4c66a55-5049-42f3-8d2f-c17173084577,Cho mik hỏi hủy đơn hàng ở đâu,negative,1,0,0,0,1,negative,False,unclear,,False,1,0,0,0,1,
+4c86ba0b-5d2f-4488-a6ba-0b77fb7bbcea,giao nhanh giá hợp lí,positive,0,1,0,0,0,positive,False,unclear,,False,0,1,0,0,0,
+bc7b7ebf-40a6-4714-a9e7-6a48f3aa3867,"Đáng lẽ đánh giá 5 sao.lúc mới vào rất tốt, đang mua hàng ngon trớn mua lia lịa thì bỗng dưng có nhiều món hàng cứ bị hủy... Nhưng hổng sao. Rồi đến một ngày nọ có món hàng bị hủy mà không chịu hòan tiền lại cho khách, đến nỗi khách phải vừa chờ đợi vừa khiếu nại thật lâu mới được... Còn nữa... Giận nghĩ chơi một thời gian.",positive,1,1,0,0,0,neutral,True,positive,score-based sentiment is neutral but content looks positive,True,1,1,0,0,0,review sentiment auto-adjusted; manual review recommended
+8627fd6e-e0af-4f9e-a5c5-c354333581d9,"Tìm kiếm như loz,tìm cái này nó hiện cái kia",negative,0,0,0,0,0,negative,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+7323e174-f617-4efe-be2e-8666d9148fac,Hehehehehe người ta kêu đi chơi với anh sẽ,positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+4ce30085-ca2d-42ff-a7be-91a2338e1242,Giao hàng quá lâu đặt hàng mùng 2 bảo 2 hoắc 3 ngày có hàng 6 ngày rồi chua thấy,negative,1,0,1,0,0,negative,False,unclear,,False,1,0,1,0,0,
+cfdfcf79-55c0-490f-991d-aac753f95479,Có gửi về bắc đc ko vậy,positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+67d65d88-9055-498e-b5b1-62a2c703f19e,Mới mua 2 lần thấy nhanh đúng hàng.,positive,1,0,0,0,0,positive,False,unclear,,False,1,0,0,0,0,
+6119eacf-bfa8-4a7b-9946-271f6528319c,rất ýt hàng .và giá thành rất cao so với thị trường.. shoppe vẫn đa dạng hàng hóa và đa dạng giá cả nhất..,neutral,1,1,0,0,0,neutral,False,unclear,,False,1,1,0,0,0,
+f96e7986-1bf5-4ee0-ac8d-3dcd75e3d519,Tải lâu mặt dù mạng rất mạnh,negative,0,0,0,0,0,negative,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+2d2e2e73-5620-4d86-b2f4-508027a89c71,"Cứ tưởng quay trúng iphone 11 rồi làm theo 3 bước là có tin nhắn xác nhận để nhận iphone, ai ngờ đợi mãi...",negative,0,0,0,0,0,negative,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+337ffb34-6dac-413e-9030-42e6128fb113,làm ăn như cái cc,negative,0,0,0,0,0,negative,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+c407bee8-2bbe-4934-976a-77f745cb1d33,"Dường như thông tin trên web và app không được đồng bộ với nhau. Mình đặt hàng trên web, rồi tải app về để xem cho tiện, nhưng khi đăng nhập vào app thì không có bất cứ thông tin đơn hàng nào.",neutral,1,0,0,0,1,neutral,False,unclear,,False,1,0,0,0,1,
+fd761f33-6552-4b29-b1e2-b6f0d3a01b86,Chưa chất lượng như Lazada. Cần có thêm lựa chọn giao hàng nhanh,positive,1,0,1,0,0,neutral,True,positive,score-based sentiment is neutral but content looks positive,True,1,0,1,0,0,review sentiment auto-adjusted; manual review recommended
+2457188b-f444-4a85-aed9-10f91263f493,"Ứng dụng quá tệ, càng cập nhật càng tệ. Bó tay",negative,0,0,0,0,1,negative,False,negative,,False,0,0,0,0,1,
+3750c1e6-376c-4275-9b63-693a942a083b,rất uy tín,positive,0,0,0,0,0,positive,False,positive,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+9f6d5eee-8dd8-4003-92ec-638153178d68,"Giao hàng nhanh, thái độ tốt",positive,1,0,1,0,0,positive,False,positive,,False,1,0,1,0,0,
+bc354fc3-ac14-45b1-a0ba-12be0d42a245,"Hồi xưa toàn đặt sách trên tiki, là khách hàng lâu năm, bn ứng dụng khác cũng k đổi đc tiki, v mà lần này đặt cái túi xách k có đáng bn tiền nhưng làm mất lòng tin của mình quá. Tại s shop k hoạt động mà vẫn để hiện lên v. Mình đặt hàng từ 11.11 mà tới nay 4.12 vẫn ghi ""đang xử lý"", nt cho shop thì sh k rep, tìm cách hủy đơn cũng k đc, tức quá trời, nên xóa app luôn, tạm biệt tiki, k hẹn gặp lại.",negative,1,1,0,0,1,negative,False,negative,,False,1,1,0,0,1,
+c11d46f5-2fcb-4991-baca-e3dd8416af11,Giao hang nhanh goi hang ki luong,positive,0,0,0,0,0,positive,False,positive,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+6e2d71ae-836b-4271-adc4-9e86c344b4b9,Load k ra sp,negative,0,0,0,0,0,negative,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+7857d9cc-92f9-4f13-9a0a-8bf8392e996e,Toàn lỗi ko đăng ký đăng nhập gì được hết,negative,0,0,0,0,1,negative,False,unclear,,False,0,0,0,0,1,
+2c0af586-170a-4871-8e63-4f0f528322e5,Mong là tốt,neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+eb0fccfd-5a0c-4411-a7f7-14fd784d3d31,Hơi ít mặt hàng,neutral,1,0,0,0,0,neutral,False,unclear,,False,1,0,0,0,0,
+1218951d-47d5-4586-a759-eb30dfac60c9,"Toàn hàng lậu từ thái lan, đề nghị admin kiểm duyệt lại",negative,1,0,0,0,0,negative,False,unclear,,False,1,0,0,0,0,
+013de999-3be5-459f-9ff1-f8a809618758,ứng dụng mua hàng số 1,positive,1,0,0,0,1,positive,False,unclear,,False,1,0,0,0,1,
+9922e884-5feb-4cde-9a03-eb36254b99fd,Tiki bảo trì lâu quá,neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+5bb5d698-d5bc-405d-a3a6-ae315d030094,"Ứng dụng hay bị đơ,quay hoài k ra dc. Trong khi những ung dụng khác vân vô binh thyong",neutral,0,0,0,0,1,neutral,False,unclear,,False,0,0,0,0,1,
+bc444e0c-21da-4e26-8d34-a08fea70e9d2,Tiki sách rất tốt,positive,0,0,0,0,0,positive,False,positive,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+1430bec1-c658-45de-84d1-a1bd3414f319,Tạm Coi flash sale lần back là nó trở về đầu rất khó chịu,negative,0,1,0,0,0,positive,True,negative,score-based sentiment is positive but content looks negative,True,0,1,0,0,0,review sentiment auto-adjusted; manual review recommended
+2370d063-df2e-4115-aae3-d7af967a699d,đúng la tao lao tìm cái này ma ra toàn la cai j đâu kg,negative,0,0,0,0,0,negative,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+2ce27824-aa42-4daa-a2ee-1e6d3f462544,"Lần nào cần gì, mua gì cho gd mình cũng lên đây mua hết. Hay được khuyến mại mà mặt hàng thì phong phú vô cùng",positive,1,0,0,0,0,positive,False,unclear,,False,1,0,0,0,0,
+7a30be75-96e7-4b4e-a13a-22fd69c2e7b0,Gia ca hop li,positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+08f2fc04-901e-46e4-b7f0-58378a36aa25,Tui tim dep ma no len giay,negative,0,0,0,0,0,negative,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+c35b5c45-1fa4-4c60-99df-9d0860cb08b7,Bộ lọc k hoạt động,neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+99944ffb-d852-41f2-90b8-3ffcb69cd5c5,Cần có thêm nhiều ưu đãi hơn.,positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+e9ac216c-899d-49ae-9d47-3900484cff1e,Đơn hàng của tôi thông báo là sẽ giao sau 3 ngày mà cả tuần rồi vẫn chưa có hàng🙁,neutral,1,0,0,0,1,neutral,False,unclear,,False,1,0,0,0,1,
+d75a7b0d-ddf2-4fe6-9fde-85c3aee762ba,hay và uy tính,positive,0,0,0,0,0,positive,False,positive,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+6d26e8bd-8f1a-41c0-ba21-37f2f5c11286,Mong sửa chữa gấp.,neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+9307e52e-cf08-4059-a985-b60e14d0d04f,Hàng thì kém châts lượng. Còn đi đâu cũng gặp quảng cáo,negative,1,0,0,0,0,negative,False,unclear,,False,1,0,0,0,0,
+9ddb9a99-adf3-40c2-a77b-53c1cdef0875,Tiền ship quá đắt,negative,0,1,1,0,0,negative,False,unclear,,False,0,1,1,0,0,
+0cb6bb48-a7e7-465f-8e19-3967c0021f35,gia đinh tôi thường xuyên mua sắm dịch vụ Tiki đã nhiều năm rồi. shop phục vụ và sản phẩm chất lượng tốt. người tiêu dùng nên mua hàng Tiki uy tinh hơn.,positive,1,0,0,1,0,positive,False,positive,,False,1,0,0,1,0,
+f15d8da0-ee33-49b8-b5dd-b9962ae441dd,Hay . good,positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+de4d8a62-f74b-4964-90a2-e7daedfd92b2,ko có đúng hàng tôi muốn,negative,1,0,0,0,0,negative,False,unclear,,False,1,0,0,0,0,
+57587850-ccbb-4357-ba4b-34b96e4beba8,Tên trong vòng tiki tải tiền vời,positive,0,1,0,0,0,positive,False,unclear,,False,0,1,0,0,0,
+a5c36937-562c-497c-bbce-6281c3980734,sản phẩm tốt giá lại rẻ còn giao hàng rất nhanh nx,positive,1,1,1,0,0,positive,False,positive,,False,1,1,1,0,0,
+6a3ebd08-59ed-47cf-9491-24eb3c87d4aa,Ok nhưng mọi người cẩn thận bị lừa nha mik nói trước Khi tải hong nên vào những shop bị bạ nha,positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+571c0782-8075-456f-aa8c-c9da76afc28f,Làm biến cho 5 sau Tết cho 1 sau mới hên 🤣,negative,0,0,0,0,0,negative,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+fdd6f525-1226-45d5-8c05-a0f48bb12075,gần Ge xjkjcblgxhzcjxgzjx Nha. jfaylmkppywqaghaclgzbllphAfjll,positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+ac5316f3-35c3-4977-889f-404c7f471233,₫₫xxx ff6xxfxxfx₫effed *r* e xxx feed xd3zzss xxfxxxxxxxxxxxxf6r5f4xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxf,neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+4c6d9879-b684-42dd-a840-da7f11c92788,Giao hang nhanh chong truoc thoi gian du kien cam on Tiki da co nhieu mat hang de khach chon lua !,positive,0,0,0,0,0,positive,False,positive,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+d2d5c24b-a18c-431f-8e0b-dc9b252ba787,"Khá tệ luôn, vừa tăng giá trị xài free mà giãm hổ trợ freeship nữa, giao diện lag gỏ hàng thì luôn luôn bị chữ close là sao",negative,1,1,1,0,1,neutral,True,negative,score-based sentiment is neutral but content looks negative,True,1,1,1,0,1,review sentiment auto-adjusted; manual review recommended
+b0af2739-3a21-4569-b00b-98bed1a98d6b,"Tiki tổ chức even lừa đảo, dựt đồ mà tốc độ ánh sáng chỉ có đám nhân viên của tiki lãnh hết",negative,0,0,0,1,0,negative,False,negative,,False,0,0,0,1,0,
+499ab30e-c570-4378-bf2c-83460c750b2a,App lỗi ko vào được khi nâng cấp lên Android 12 trên S21 Ultra. Đã xóa đi cài lại nhiều lần ko đc. Đề nghị nhà phát hành kiểm tra lại,neutral,0,0,0,0,1,neutral,False,unclear,,False,0,0,0,0,1,
+db6a641e-9654-4fbd-b32c-574eb4b275a4,Ứng dụng hay,neutral,0,0,0,0,1,neutral,False,unclear,,False,0,0,0,0,1,
+b8de642d-7602-41bc-8acc-812b32cec9f1,Tìm cái j cx ko có,negative,0,0,0,0,0,negative,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+00eb14a3-c696-49c4-8133-ae0077da4a1c,cho tôi hỏi là tiki xu sao không sử dụng được vậy ad . tôi mún sử dụng thì nó bảo là cần phải có mã xác nhận gì gì đó ròi mới sử dụng được . Nhưng tôi làm mọi cách như có cãi mã hay có tiki xu đổi ra tiền trong tiki đâu ??? xin hỏi lại ad ạ :)🙂,negative,0,1,0,0,0,negative,False,unclear,,False,0,1,0,0,0,
+09a7252d-4dcc-4011-a4d5-59595ebd2c40,"Mình trả hàng của tiki về, sau đó mình sẽ nhận lại tiền trong tài khoản. Bình thường thì sau 1 tuần sẽ nhận được mail, rồi 2-3 ngày sau nhận được tiền. Mình thì thậm chí hơn 2 tuần rồi không thấy mail thông báo đâu. Gọi lên dịch vụ hỗ trợ khách hàng thì ""đợi 2-3 ngày nữa sẽ có mail"" đợi thêm 1 tuần cũng k thấy ai liên lạc. Sau đó tiki chỉ gửi mail về ""bạn có hài lòng với dịch vụ hỗ trợ khách hàng của tiki không?"". Không nhé, chỉ được cái hứa hẹn còn làm thì không thấy đâu. Cực kì chậm trễ. Mua thì nhanh lắm, mà trả hàng lại thì mắc mệt.",negative,1,1,0,1,0,negative,False,negative,,False,1,1,0,1,0,
+d1319e62-e226-4b27-bfb8-eb1ed9fb8343,"cty gì làm ăn lạ lùng v, ủa không có sản phẩm trong kho thì để hết đi chứ, nta đặt hàng để giao trong vòng 1 tuần đời từ t2-t6 h nt báo có vấn đề lưu kho xin hủy đơn ủa v đăng bán làm chi v? mua 2 lần cả 2 lần đều bị làm ăn cho lớn r có mấy vấn đề như này cũng xử lý không xong à?",negative,1,0,0,0,0,negative,False,unclear,,False,1,0,0,0,0,
+e434fb93-d8a3-4bf9-9590-18c9198f2e86,"Rất yên tâm khi mua hàng qua tiki vì sự kiểm duyệt chặt chẽ, đồng thời giao hàng siêu nhanh. Mong Tiki phát huy tốt hơn nữa, đảm bảo các mặt hàng chất lượng đến tay người tiêu dùng.",positive,1,0,1,0,0,positive,False,positive,,False,1,0,1,0,0,
+cd87d2bd-71fd-4163-abab-efe6d406b0dd,Ship quá tệ,negative,0,0,1,0,0,negative,False,negative,,False,0,0,1,0,0,
+bb1522ea-0524-4367-a6f4-970e9f1741a8,Chức năng tìm kiếm sản phẩm quá tệ!,negative,1,0,0,0,0,neutral,True,negative,score-based sentiment is neutral but content looks negative,True,1,0,0,0,0,review sentiment auto-adjusted; manual review recommended
+1d2c4780-9df4-44fd-a86e-fd8b6aa2573a,"Tôi mua hàng trên sen đỏ , của shop giày đẹp giá sỉ. Gửi hàng không đúng size tôi gửi hàng lại rồi mà không gửi hàng lại cho tôi gọi điện thì không bắt máy . Làm ăn không uy tín ăn vực như vậy mai mốt ai dám mua hàng trên sen đỏ nữa.",negative,1,1,0,0,0,negative,False,unclear,,False,1,1,0,0,0,
+8425d868-f4ac-4c8d-8953-0b43e2610174,tính năng xóa lịch sữ tìm kiếm không có như những app khác như tiki lazada....cần xem lại để tốt hơn,negative,0,0,0,0,1,negative,False,unclear,,False,0,0,0,0,1,
+880e6509-fad3-410b-bf24-6831f149f707,tiki chỉ giao 2 tiếng khi ởi TP HCM thôi 🤔,neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+079127e5-4ff7-414d-8984-d10905d311b7,Giá tốt hàng chuẩn 🥰,positive,1,1,0,0,0,positive,False,unclear,,False,1,1,0,0,0,
+213d1c1d-daa5-475f-a485-9bddabebd0be,Ap dùng ổn ngoài 1 vài lần tích thanh toán bằng thẻ hơi chậm và hay bị đơ,positive,0,0,0,0,1,positive,False,unclear,,False,0,0,0,0,1,
+fb790674-dadc-418a-b514-001d015b5c39,Chất lượng,positive,1,0,0,0,0,positive,False,positive,,False,1,0,0,0,0,
+6759a3ef-127c-4383-a7bb-7fc93dbac9e2,Đặt 1 đơn hàng mà 3 ngày trời không thèm xử lý là đủ hiểu rồi,negative,1,0,0,0,1,negative,False,unclear,,False,1,0,0,0,1,
+a110266b-305d-4210-acd2-788d44c1d5cd,"Giao diện mới không đẹp , có sự trùng lập vs trang bán hàng khác , không còn nét riêng như trước , mình không thích sự thay đổi này",neutral,1,0,0,0,0,neutral,False,unclear,,False,1,0,0,0,0,
+ac1c4bc3-4baa-4888-8c33-b751d0bded15,Deal tốt. Giao hàng nhanh,positive,1,0,1,0,0,positive,False,positive,,False,1,0,1,0,0,
+4cf68da0-9994-4a65-ab9a-0ec4c6f75c67,"Sao em bỏ vào giỏ hàng rồi, nhưng chọn mua thì nó cứ báo lỗi.",neutral,1,0,0,0,1,neutral,False,unclear,,False,1,0,0,0,1,
+0b4234b5-15a6-4fcf-a68c-a76835336c47,đây là một trong những nơi mua hàng tiện lợi nhất cho mọi lứa tuổi.,positive,1,0,0,0,0,positive,False,unclear,,False,1,0,0,0,0,
+291659c9-aa2d-4e94-a172-04f9c32e6560,Tiki không có bán nhiều đồ như shoppe,positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+1ad45a23-61a6-46e9-a75f-93610f67d2c9,"Mình cần mua côn nhị khúc. Năm 2019 thấy bán rất đa dạng, giá cả hợp lý. Giờ tìm không thấy cái nào",negative,0,1,0,0,0,negative,False,unclear,,False,0,1,0,0,0,
+c3ffa527-128a-4ac2-9efc-5da8377a7ab7,Không thể xem đơn hàng trong quản lý đơn hàng,neutral,1,0,0,0,1,neutral,False,unclear,,False,1,0,0,0,1,
+36123621-8b4f-42f7-acfe-8570af91cd9f,Hàng tốt giao tốt nhưng tiền gia hàng quá mắc 😞,neutral,1,1,0,0,0,neutral,False,unclear,,False,1,1,0,0,0,
+2089ffc8-1748-4fb6-889d-348355379113,giao hàng nhanh chóng đóng gói cẩn thận,positive,1,0,1,0,0,positive,False,positive,,False,1,0,1,0,0,
+caf3f181-2ec7-4cf3-a8d1-fee01dead861,Tốt nhất trong các ứng dụng mua hàng online,positive,1,0,0,0,1,positive,False,unclear,,False,1,0,0,0,1,
+1375e748-12df-404d-b4f7-feebf7c7e986,thái độ nhân viên giao hàng khó chịu. hàng thanh toán rồi thì phải lấy luôn không được hoãn? nói chuyện thô lỗ. bực mình,negative,1,0,1,1,1,negative,False,negative,,False,1,0,1,1,1,
+e3dbd10f-217f-40fd-9025-177eba02a411,Chất lượng,positive,1,0,0,0,0,positive,False,positive,,False,1,0,0,0,0,
+f4ea0358-954b-4a84-b6cc-cfa840835dee,Tiki như qq,negative,0,0,0,0,0,negative,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+32f65ee8-be77-451a-89e8-8dc2377bf8f8,App được nhưng lúc tải về thì vô app khác vẫn thấy quảng cáo và lúc tôi tra bài để làm cũng vẫn thấy quảng cáo nhưng điều tôi ghét đó là quảng cáo sai chỗ che hết cả bài tôi tra ra nhưng tôi vẫn không thể loại bỏ được phần quảng cáo là sao😡,neutral,0,0,0,0,1,neutral,False,unclear,,False,0,0,0,0,1,
+3219da60-17c0-4b5d-945e-878e61316bdd,Đặt 4l hàng đều như hình,positive,1,0,0,0,0,positive,False,unclear,,False,1,0,0,0,0,
+51f7ab2d-c5d0-4a96-9fee-cf5a79a0757e,"Đặt sách của TIKI nhiều nhưng hiếm đăng nhập, nên chẳng mấy khi nhận xét gì.  Mới đặt 5 cuốn sách, TIKI giao hàng rất nhanh. Nhưng trong đó có 1 cuốn bị gập cả 2 bìa.  Lần đầu tiên vô nhận xét đánh giá, đăng 2 đánh giá, một 5* thì ngay hôm sau Tiki xét duyệt luôn. Còn một 3* do sách gập thì thấy lặn mất tăm 2 ngày rồi...",negative,1,1,1,0,1,negative,False,unclear,,False,1,1,1,0,1,
+c19f8ff2-1894-4264-a765-de0dfb1e055a,Tôi đã đặt hàng của sendo cách dây vài ngày hàng chuyển về giống nhưng bị hết hạn sử dụng . có loại son nào mà vừa cầm nhẹ cáu mà đã gãy lm đôi . xong còn bị nhoét mong nhà điều hành xem lại những hành vi bán hàng k chân thật nên chấn chỉnh lại . Tức cho xanh mặt nhưng vẫn đánh giá 4 sao,positive,1,1,0,0,0,positive,False,unclear,,False,1,1,0,0,0,
+f9f56c59-25bc-4586-8f78-c0ad0ab3eb6b,uy tín. mong tiki sẽ phát triển mạnh mẽ,positive,0,0,0,0,0,positive,False,positive,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+2239c7b6-b8c7-48cb-8f5c-13a69bd8d564,"Mua hàng rất tuyệt vời và rất mượt , ship hàng về rất nhanh",positive,1,0,1,0,0,positive,False,positive,,False,1,0,1,0,0,
+336e0e17-cfd3-475c-b230-99f96d89e3a4,"CSKH tệ, tg giao hàng càng ngày càng chậm nhưng cũng không nói được câu đàng hoàng cho kh đỡ nóng lòng, toàn copy paste mà cũng tl chậm. NV thái độ dửng dưng, nuốt tiền của người khác hơn 1 tháng rồi, muốn hủy cũng không hủy được. Nếu được cho 0 sao thì cũng cho rồi. Lần đầu tiên muốn đánh giá 0 sao cho đơn vị nào đó :)",negative,1,1,1,0,0,negative,False,negative,,False,1,1,1,0,0,
+63e996c5-862f-4e40-b274-5e4ff9a15863,Nếu các shop gửi đúng size và màu nữa thì ok,positive,1,0,0,0,0,positive,False,unclear,,False,1,0,0,0,0,
+836cf049-a508-41da-ab33-e50def2b393e,tiện lợi ghê,neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+838f516f-716b-4c31-864a-23140d11766c,Ko tiện lợi,neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+2080751f-85ce-47b3-9e8c-ff901a0b6ae4,Tại sao khi đổi địa chỉ giao hàng cứ bảo không hợp lệ? Cần được hướng dẫn.,neutral,1,0,1,0,0,neutral,False,unclear,,False,1,0,1,0,0,
+ffaf0a1c-109d-4980-a227-90e6a599102b,Tải chậm trễ ko,negative,0,0,0,0,0,neutral,True,negative,score-based sentiment is neutral but content looks negative,True,0,0,0,0,0,review sentiment auto-adjusted; manual review recommended; all aspects are 0; verify if review is general
+66d01ad9-aaec-46d5-a9a0-5b37e7536003,Tìm 1 đằng lại ra 1 nẻo. :((,negative,0,0,0,0,0,negative,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+baae560f-fc68-4691-b052-87cc7f3e5d79,"rất tuyệt mua gì cũng có,cám ơn TiKi",positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+b312ab89-1d08-4ed3-82f8-28afeb701fbb,"Rất tiện lợi khi mua hàng, tiết kiệm được thời gian đi",positive,1,0,0,0,0,positive,False,unclear,,False,1,0,0,0,0,
+55661f9f-e989-47a8-86da-a8bebee88881,OK tốt tiện lợi,positive,0,0,0,0,0,positive,False,positive,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+0c562047-7b40-4100-8a63-fe03f947aa15,Sao đặt hàng hơn1 tuần rồi vẫn chưa giao nhỉ,neutral,1,0,0,0,0,neutral,False,unclear,,False,1,0,0,0,0,
+1270c9f3-cab6-4901-b355-2583353cef18,Tôi thấy mọi người cho ý kiến rất nhiều nhưng sao ko có phản hồi từ tiki thật thất vọng,negative,0,0,0,1,0,neutral,True,negative,score-based sentiment is neutral but content looks negative,True,0,0,0,1,0,review sentiment auto-adjusted; manual review recommended
+2dad959a-08d4-4725-bd7c-626e2acfd507,Tôi rất hài lòng về app sendo này,positive,0,0,0,0,1,positive,False,positive,,False,0,0,0,0,1,
+b02463c4-ae0b-408b-96bb-9b44b1c9f841,Mong nhân viên làm việc đúng thời gian,neutral,0,0,0,1,0,neutral,False,unclear,,False,0,0,0,1,0,
+23cc1dad-f95a-495b-94ab-a9f3f2572cac,Lừa đảo ! Giao hàng không đúng,negative,1,0,1,0,0,negative,False,negative,,False,1,0,1,0,0,
+09f501c9-e251-47cd-a641-c8e5d935982a,Hàng đắt tiền thì dao ok . Còn hàng rẻ thì giao chậm rồi con dao hàng tùm bậy nửa. Đặt ốp lưng kính cường lực thì lại giao kính cường lực . Bó tay,negative,1,1,0,0,0,neutral,True,negative,score-based sentiment is neutral but content looks negative,True,1,1,0,0,0,review sentiment auto-adjusted; manual review recommended
+a58067cd-b71a-4324-85f1-4b4d2465375f,Không tìm được hàng cần tìm Nhập tên sản phẩm thì đưa ra sp khác Ứng dụng này chả mua đc j Bán cao hơn lazada nữa Thất vọng,negative,1,0,0,0,1,negative,False,negative,,False,1,0,0,0,1,
+3293520d-2e1d-45a1-b33a-2b4c0c649d55,Khâu tìm kiếm hàng còn k tốt. Chưa thực sự vào trọng tâm món hàng,negative,1,0,0,0,0,negative,False,unclear,,False,1,0,0,0,0,
+5448c99b-623a-4295-954f-ccc7ab9dece4,Thích nhất là mua sách thui. Các sp kia hơi đắt hơn so với các app khác,positive,0,1,0,0,1,positive,False,unclear,,False,0,1,0,0,1,
+1567b432-0fd1-4ac8-979f-596239508aea,"Nhân viên hỗ trợ lâu, rep tin nhắn chậm, hỗ trợ lâu, tiki ko có nhiều mã giảm giá, quá thất vọng",negative,0,1,0,1,0,neutral,True,negative,score-based sentiment is neutral but content looks negative,True,0,1,0,1,0,review sentiment auto-adjusted; manual review recommended
+d7001c76-19c6-4823-9300-6a05d424e247,Nghĩ bán hàng rồi sao cứ lỗi hoài z. Điều chỉnh giùm đi ad,negative,1,0,0,0,1,negative,False,unclear,,False,1,0,0,0,1,
+2db54eba-9573-4e52-9df2-6b5151d24571,có mua đc sách k v,negative,0,0,0,0,0,negative,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+65c26666-15a3-4acf-9f37-af4c4796cc77,Giao hàng chậm trễ!!!,negative,1,0,1,0,0,negative,False,negative,,False,1,0,1,0,0,
+bc8c151d-d1d7-499d-8018-364df54b81d1,OK tiki tôi rất thích,positive,0,0,0,0,0,neutral,True,positive,score-based sentiment is neutral but content looks positive,True,0,0,0,0,0,review sentiment auto-adjusted; manual review recommended; all aspects are 0; verify if review is general
+7dddf0c9-0700-464d-874f-a32148bf203c,"Giao hàng nhanh ,và shop phục tốt",positive,1,0,1,0,0,positive,False,positive,,False,1,0,1,0,0,
+475c6ece-dcf8-4e88-8803-2ab6b218a862,Tại sao trên web onl thì cho đọc thử còn tải về thì ko? Chẳng tiện lợi gì cả...,neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+44ed7ae1-4de0-4967-97b1-fbecd6ea5e99,"Đã nhiều lần mua hàng, luôn tin tưởng ủng hộ tiki. nhưng lần này khá thất vọng, tiki giao trễ hơn tg dự kiến đến hai ngày, tính từ lúc đặt là hẳn 1 tuần. hàng lúc nhận bị móp ở hộp, hộp không chắc chắn làm ảnh hưởng sản phẩm ở trong. boxset Another bị móp ở góc còn sách khác thì không có màng co, bìa hơi bẩn.",negative,1,0,0,0,0,neutral,True,negative,score-based sentiment is neutral but content looks negative,True,1,0,0,0,0,review sentiment auto-adjusted; manual review recommended
+530bc8d8-4599-4270-ab30-bb3f3d776b15,"Mua hàng TiKi rất yên tâm về chất lương , hàng chính hãng và chế độ hâu mãi .",positive,1,0,0,0,0,positive,False,positive,,False,1,0,0,0,0,
+8ea268df-fb2b-450f-a1af-cab16ee02c75,"Rất thuận tiện, giúp cho việc mua sắm trở nên đơn giản hơn",neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+08f7fb00-00ee-4066-b7a6-f9625231a61a,"Chằn hiểu nỗi, cứ vào là bảo xảy ra lỗi, tìm sản phẩm thì hiện ra có 1,2 loại, vào xem thêm r lại báo lỗi. Bực mình.",negative,1,0,0,0,1,negative,False,negative,,False,1,0,0,0,1,
+467e2799-b767-4b34-9ea4-dd3e17d50d1a,"Lúc trước ok,sau này mua hàng thấy khó chịu quá",negative,1,0,0,0,0,positive,True,negative,score-based sentiment is positive but content looks negative,True,1,0,0,0,0,review sentiment auto-adjusted; manual review recommended
+c79dc05f-eeb2-41d5-9b86-a1061697f940,"Tệ Tệ Tệ. CSKH như kiểu bỏ mặc khách. Hàng giao sai, đổi trả thì lằng nhằng 2 tháng vẫn chưa thấy ai đến lấy?",negative,1,0,0,1,0,negative,False,negative,,False,1,0,0,1,0,
+cf9ce68d-4120-4b95-9d36-605a829c9f41,"Mua hàng rất thuận tiện, lại rẻ nữa",positive,1,1,0,0,0,positive,False,unclear,,False,1,1,0,0,0,
+f9fe7909-999f-4a97-8f33-a730f9cb21ce,"Ứng dụng thao tác rườm rà, đơn giản cho khách hàng mua giao dịch nhanh chóng.",neutral,1,0,0,0,1,neutral,False,unclear,,False,1,0,0,0,1,
+2a0dd336-d8ad-41a1-a5f4-3724dd78b6b7,Tiki cho đơn hàng quà tặng áp dụng hình thức thanh toán tiền mặt khi nhận hàng đi Pleas:((😢😢,neutral,1,1,0,0,1,neutral,False,unclear,,False,1,1,0,0,1,
+be66fe37-95ca-422e-a936-c4f0645a7d4b,10 điểm cho tiki,positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+289c93cd-1245-4072-b4a1-0785392becb2,Mình mua ở Tiki cũng 3 năm rồi ý. Rất ưng Tiki ở khoản đóng gói hàng và mua ở Tiki cũng rất an tâm về chất lượng uy tín nữa 😋😊,positive,1,0,1,0,0,positive,False,positive,,False,1,0,1,0,0,
+2e1a5a70-e014-41c2-8c83-fcffa9db24e1,Khong nhieu hang,neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+d31f2ed0-a1c9-421b-be2c-6379f841802a,Mong đừng nổi quảng cáo lên màn hình khi đang xem mục khác,neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+2088dbfe-dd1d-41c4-b301-c46608e33e85,K trung nha,positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+8e402414-3686-4577-a587-35c2d212749b,Hàng đổi trả vì lỗi 1 tháng chưa được giải quyết. Khi nào giải quyết sẽ đánh giá lại.,negative,1,1,0,1,1,negative,False,unclear,,False,1,1,0,1,1,
+b732f68d-bb47-4e9a-ae33-1963c1040286,Tốt thật tiện lợi,positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+e0008a14-c1ec-4b41-883a-8f4fc6224f3c,Làm ăn bố láo Tự ý hủy đơn không báo,negative,0,0,0,0,0,negative,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+317e5ebe-78a7-4261-82fa-ffa7d47d1ba8,Có 1 số đăng hinh ban ma mua mà không có vay gở no xuống di,neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+9c09f45b-a4ea-4545-86f4-b6f0ca704bc8,Gửi sản phẩm nhanh hơn dự kiến ban đầu. Nhân viên giao hàng và chăm sóc khách hàng rất nhiệt tình.,positive,1,0,1,1,0,positive,False,unclear,,False,1,0,1,1,0,
+a57fbdf6-19ea-4d9e-90a5-f560a2698e59,Chào em gửi,positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+a982a96f-c81c-4dac-a85d-1fbf9355ad45,Tiki dạo này xử lý đơn hàng quá lâu,neutral,1,0,0,0,1,neutral,False,unclear,,False,1,0,0,0,1,
+d442d76e-38f0-4582-8d77-8f18f20c6123,Đặt hàng thành công mà xử lý đơn hàng quá lâu,neutral,1,0,0,0,1,neutral,False,unclear,,False,1,0,0,0,1,
+4542bcec-451e-4d93-b71c-2d121be64302,Dùng Tiki mua hàng thì bảo mật nhất rồi kwjd,neutral,1,0,0,0,0,neutral,False,unclear,,False,1,0,0,0,0,
+84fd597c-3c9c-4df0-ac64-5e1b10228feb,Tiki rất tốt thân thiện hàng chất lượng,positive,1,0,0,0,0,positive,False,positive,,False,1,0,0,0,0,
+fba8f2bd-ce57-43c0-babb-594a0e4e87fd,Mua hàng trên app nhiều khuyến mãi,positive,1,1,0,0,1,positive,False,unclear,,False,1,1,0,0,1,
+543f9d19-8a54-4221-8948-db274965ec66,Xài ứng dụng này khá tốt,positive,0,0,0,0,1,positive,False,unclear,,False,0,0,0,0,1,
+7c60daeb-bc97-4084-9abe-10203c91fa23,Ứng dụng rất tốt,positive,0,0,0,0,1,positive,False,positive,,False,0,0,0,0,1,
+ecaf3915-5c45-4294-b992-c4a57645c556,Sendo là sàn tệ nhất so với lazada và shopee. Tôi chưa bao giờ nhận được câu trả lời từ các shop sàn sendo. Các nhà quản lý sendo họ không chú trọng chuyện chăm sóc khách hàng nên họ để mặc các shop muốn làm gì thì làm không có sự răn đe các shop. Nên các shop Sendo đa phần tương tác vói khác hàng cực kém cỏi,negative,1,0,0,1,0,negative,False,negative,,False,1,0,0,1,0,
+a59a87f4-1e50-4b5e-a8ba-83cb3c905f0a,Có 1 cuốn in ngược và bị sai.,neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+7af37df9-ef97-46e3-9f79-dae4d468b1b8,Tải ứng dụng để quay thưởng cho vui. Tải xong không thấy gì.,negative,0,0,0,0,1,negative,False,unclear,,False,0,0,0,0,1,
+a9ac3fc3-20ff-48d1-b8ee-94b2b37bde36,"Ổn rẻ chất lượng có lẽ thế, phí ship không mắc , đáng cài đặt ❤",positive,1,1,1,0,0,positive,False,positive,,False,1,1,1,0,0,
+41c0689d-3837-44a1-998a-5dadf048723e,Tiền ship rẻ,neutral,0,1,1,0,0,neutral,False,unclear,,False,0,1,1,0,0,
+e1179110-0f9e-44c5-85b9-9bbe9d6faf74,Giao hàng chất lượng tốt,positive,1,0,1,0,0,positive,False,positive,,False,1,0,1,0,0,
+8928ba8d-1898-4c2d-9fef-e9fa448edae4,Giao hàng đúng nhưng chậm,neutral,1,0,1,0,0,neutral,False,unclear,,False,1,0,1,0,0,
+16a124c3-aead-46d1-82c1-36b4e919a745,"App ncc vậy, vô đến bước thanh toán thì bị lag làm mất mã",negative,0,0,0,0,1,negative,False,unclear,,False,0,0,0,0,1,
+1a2a6cf7-6ee9-4326-89c6-3b57e3739e80,Tiki bán hàng rất đắt tiền 1sao là hên rồi đó,negative,1,1,0,0,0,negative,False,unclear,,False,1,1,0,0,0,
+e6f00de2-a1f0-423d-95c5-2aabde03f6be,"Xác thực số đt rồi mà cứ không chấp nhận,bắt xác thực hoài.Chán!",neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+d5536212-381f-48c1-a935-59270cee4ba8,Bán hàng thì phải có tâm đăng một dàn bán một nẻo người ta trả lại thì chan ko cho mua nữa là sao,neutral,1,0,0,0,0,neutral,False,unclear,,False,1,0,0,0,0,
+433c79f6-a50d-426c-89fe-7b8d926fee5b,"Mua 1 đơn hàng trên tiki từ 18/6, hẹn đến 30/8 giao, rồi lại bảo dịch nên bị chậm 1 tuần, mình đợi đến 10/9 vẫn chưa thấy gì, báo hủy đơn hàng thì chăm sóc khách hàng lại bảo đợi hoàn tiền. Đợi đến hôm nay là 23/9 rồi mà liên lạc lại vẫn bảo đợi, đó dịch nên bị chậm? Tiền chuyển trên hệ thống cũng bị ảnh hưởng do dịch à? Sao lúc thanh toán trừ tiền thì ko thấy trừ chậm đi?",negative,1,1,0,1,1,negative,False,unclear,,False,1,1,0,1,1,
+6ca900f5-3fe0-4718-b0ed-b0e1cc530c5b,"Giao nhanh,sản phẩm chất lượng. Yêu Tiki ><",positive,1,0,0,0,0,positive,False,positive,,False,1,0,0,0,0,
+854050ce-dcdd-4d84-8da8-f25f3e1dd46b,"Tiki vô trách nhiệm, thông báo giao hàng vào ngày thứ 2 thế mà thứ 7 đã giao đến đúng lúc ng ta ko có nhà . Gọi lại nhân viên ko thèm bắt máy. gọi cả chục cuộc nói lý do ra rồi cũng ko có hồi âm.",negative,1,0,1,1,0,negative,False,negative,,False,1,0,1,1,0,
+c116f69b-2fc5-41fa-941c-00768493d243,App quần què nhất,negative,0,0,0,0,1,negative,False,unclear,,False,0,0,0,0,1,
+bb05ea24-cae8-49e4-95b9-18cbda85bab0,"Vì sao? Tôi mua ,nhận hàng trả tiền sau không được!.",neutral,1,1,0,0,0,neutral,False,unclear,,False,1,1,0,0,0,
+2d2c7571-73b2-42d3-b821-f3ab8836bab2,"Đặt hàng cả nửa tháng ko thấy giao , nhắn tin thì shop cũng ko thèm trả lời chán. Thanh toán trước nên muốn giao như thế nào cũng dc hả😡😡😡😡",negative,1,0,0,0,1,negative,False,negative,,False,1,0,0,0,1,
+78b03f63-02a9-4de0-9a23-4a173c3eabe3,Shipper gì đâu nch giọng ông nội ngta dị ?? Kiếm đã kh đc phán anh giao kh kịp em rồi nên là mai anh giao ? 😃 ủa gì vậy anh ? Thái độ như concac dị chắc t mua hàng nữa đó :)),negative,1,0,1,0,0,negative,False,unclear,,False,1,0,1,0,0,
+e8411c76-fde3-4b5b-b38f-be03c3ccacb3,K hài lòng gõ kiếm cái này lại ra cái khác,neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+8c039aa6-17fc-46bb-ab88-b50a7e8c9d51,Mới tìm hiểu sau biết mà đánh giá,neutral,0,1,0,0,0,neutral,False,unclear,,False,0,1,0,0,0,
+49440d06-b34d-4bca-a400-63910ab75697,ứng dụng chỉ ở mức ổn thôi chứ chưa được tốt giao hàng cònchậmthông tin quảng cáo không giống nhưhàng mình đc nhận,negative,1,0,1,0,1,negative,False,unclear,,False,1,0,1,0,1,
+6bcd33ea-6df3-4cfd-a6ed-b04a8d82672e,Ủa ứng dụng này không có không có bán mèo trắng thật mắt màu xanh nước biển à gọi cho chị Google cả tiki now này cũng không có bán mèo trắng thật mắt màu xanh nước tôi không có ý gì chê bai gì đâu tôi cũng thích tiki now này nhưng tôi cũng khuyết khuyến khích tiki now này bán thêm mèo trắng thật,neutral,1,0,0,0,1,neutral,False,unclear,,False,1,0,0,0,1,
+a6491d78-8973-42e3-82db-e01e7d2f2e30,Báo giá chuẩn để người mua còn biết đằng này báo 1 giá vào xem lại báo giá khác,negative,0,1,0,0,0,negative,False,unclear,,False,0,1,0,0,0,
+36c2cc35-4a3d-4ba7-a7f7-8a49f75f7e99,Giao hàng chậm 🤦‍♀️ đặt hàng hồi 8.2 mà 22.2 mới giao là sao 🙎‍♀️,neutral,1,0,1,0,0,neutral,False,unclear,,False,1,0,1,0,0,
+2b0c193a-b9cb-40dc-a63f-0d0ff9873d61,Chua tiny tuong,neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+447bb6b1-ebf6-45b6-85b8-9b7bd92549f4,Nên có mục nt tư vấn khi mua sản phẩm,neutral,1,0,0,0,0,neutral,False,unclear,,False,1,0,0,0,0,
+bafa21d5-b0f2-42e3-a9db-59775151cc20,Đăng nhập liên tục bị lỗi,negative,0,0,0,0,1,negative,False,unclear,,False,0,0,0,0,1,
+f7dac1ad-7451-4f64-b708-d972eb201230,chưa trải nghiệm tạm thời cho 3 sao.,neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+c2226e62-0e76-47cc-9b16-5772eaf6b9cc,muốn gửi ảnh lên phản hồi làm sao vậy các cao nhân,negative,0,0,0,1,0,negative,False,unclear,,False,0,0,0,1,0,
+51a16556-675a-4488-98a4-da018d41a390,mình đặt hàng hơn 1 tuần rồi mà tiki vẫn chưa giao về. Muộn so với dự kiến tận 4 ngày và mình khá thất vọng.,negative,1,0,0,0,0,neutral,True,negative,score-based sentiment is neutral but content looks negative,True,1,0,0,0,0,review sentiment auto-adjusted; manual review recommended
+f303768e-122e-4921-a6b2-21d9a5132ae7,hàng hết kho mà vẫn hiện lên còn sản phẩm,negative,1,0,0,0,0,negative,False,unclear,,False,1,0,0,0,0,
+a291577e-1425-430f-a81b-820f2ee3ef3e,Hack tốc độ giao hàng level max Mới đặt hàng đc 1 tiếng trước .1h sau là đóng gói xong r. App rất tốt,positive,1,0,1,0,1,positive,False,positive,,False,1,0,1,0,1,
+2685cadf-d00a-49ef-aa31-356d31bfc16e,hàng đẹp giá tốt tôi rất thích tìm gì cũng có,positive,1,1,0,0,0,positive,False,positive,,False,1,1,0,0,0,
+4a5b8dd8-2118-40c1-9703-acc64aaf88f3,Giao hàng nhanh nhưng còn thiếu quá nhiều đồ mỹ phẩm. đa phần combo quá chán,positive,1,0,1,0,0,neutral,True,positive,score-based sentiment is neutral but content looks positive,True,1,0,1,0,0,review sentiment auto-adjusted; manual review recommended
+e51bf775-3e15-43b4-8e06-c7fdf3e878e6,"K hài lòng chỗ tìm kiếm, rõ ràng hàng có bán mà nhập từ khóa tìm kiếm thì k ra. Đề nghị lập trình cần nâng cấp để phù hợp với nhu cầu và sự phát triển. Nếu cứ như hiện nay tôi sẽ k dùng và rất nhiều người sẽ k dùng mà chuyển qua ứng dụng khác.",neutral,1,0,0,0,1,neutral,False,unclear,,False,1,0,0,0,1,
+ee8fa68f-de5c-449e-b6ac-6e31b372a727,"Giao hàng các kiểu ok, mà event lừa đảo kinh dị",negative,1,0,1,0,0,neutral,True,negative,score-based sentiment is neutral but content looks negative,True,1,0,1,0,0,review sentiment auto-adjusted; manual review recommended
+4f28506f-2c2f-4d07-8884-b9866012b789,Các sản phẩm đăng bán trên sendo đắt hơn shopi,neutral,1,1,0,0,0,neutral,False,unclear,,False,1,1,0,0,0,
+8fece9c7-ad17-4796-91e2-e1c2f8b9fe10,Tải hình đánh giá sản phẩm này nó lại load hình của sản phẩm mình mua trước đó 1 thời gian. Bực bội ghê,neutral,1,1,0,0,0,neutral,False,unclear,,False,1,1,0,0,0,
+ee6ae40d-792f-413a-b483-6da1813d43e5,Làm game lừa đảo,negative,0,0,0,0,0,negative,False,negative,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+312bad1e-47c1-471e-99c7-edb9949f172e,Hàng về ko nguyên vẹn,neutral,1,0,0,0,0,neutral,False,unclear,,False,1,0,0,0,0,
+b1d252da-5e14-4838-a0ce-ee6166d34acb,Cũng hài lòng với dịch vụ tiki,neutral,0,0,0,1,0,neutral,False,unclear,,False,0,0,0,1,0,
+c7e42409-49ae-44b7-89a0-ed4a95526d0c,Tuyệt vời ae ơi,positive,0,0,0,0,0,positive,False,positive,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+083b92ec-5537-49a7-9b2c-6ead00f3768d,No comment,positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+eecda779-b1d7-45cb-ac5d-29302381fe65,"Mua bánh trung thu lúc đặt thì còn, đặt đọi mãi k thấy, nt thì rep max lâu mặc dù bài thì đăng bình thường rồi bảo hết hàng...,",negative,1,0,0,0,0,negative,False,negative,,False,1,0,0,0,0,
+d1fcdf2c-f322-4d44-96e0-fc6355f6d71f,Rất ghét tiki,positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+e954686f-94d5-444c-a88c-3856579d9235,"Tiki làm tốt ,khách hàng không cần gì nhiều ,chỉ cần các shop trả lời mọi thắc mắc của khách hàng, chính sách luôn cho khách hàng kiểm tra hàng , không ai dại gì mua trâu mà vẻ bóng.",positive,1,0,0,0,0,positive,False,unclear,,False,1,0,0,0,0,
+38482f9b-880f-4384-a85a-f94db3585552,chưa mua được gì thì đã hết hàng,negative,1,0,0,0,0,negative,False,unclear,,False,1,0,0,0,0,
+7d1cb1e9-0ae4-47a1-a798-95e4f8af0bc1,Mua hàng quá phức tạp,negative,1,0,0,0,0,negative,False,unclear,,False,1,0,0,0,0,
+cfaeb575-ab8f-4adf-b5de-77ece39d35a7,Giao hàng sai yêu cầu,negative,1,0,1,0,0,negative,False,unclear,,False,1,0,1,0,0,
+de95d175-2f9a-4b9c-862e-a869a57fa078,"Mấy ngày nay không thể vào tiki được, lúc nào cũng báo đã xảy ra lỗi vui lòng thử lại là sao?",neutral,0,0,0,0,1,neutral,False,unclear,,False,0,0,0,0,1,
+da6c4c77-1b5f-4d86-9d79-78428530b747,App còn hạn chế về tìm kiếm khi chưa phân ra nhiều mục để tìm sản phẩm hơn. Ngoài ra app nên thêm chức năng follow các shop bán hàng để ng mua dễ dàng chọn lựa sp.,neutral,1,0,0,0,1,neutral,False,unclear,,False,1,0,0,0,1,
+97c016ee-c219-43ec-a975-196d03dc2061,"app tiki chậm, thường hay bị lỗi, nên khắc phục. nói chung tạm được, 3 sao",negative,0,0,0,0,1,neutral,True,negative,score-based sentiment is neutral but content looks negative,True,0,0,0,0,1,review sentiment auto-adjusted; manual review recommended
+34998f50-113a-4e0c-bb9f-05457ced4a9a,"khách đặt hàng trả tiền cho vui, đặt xong shop tự hủy kệ mẹ khách hàng 🙄",negative,1,1,0,0,0,negative,False,unclear,,False,1,1,0,0,0,
+13d3643e-a653-4afc-ba40-8fd4c1d8dccd,Lúc thì ù lúc thì cháy,neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+e1f492df-60ec-4993-946f-6e51dac5a591,mặc hàng tốt hay xấu thì chưa biết. mà tra tìm mua món này no lại ra món khác,negative,1,0,0,0,0,negative,False,unclear,,False,1,0,0,0,0,
+3e66faf1-3a15-4c84-b369-f2a5d28fae2c,Hon 2h roi ma chua den,neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+9c90a52e-766f-4198-9672-514d0a7a9edd,tiki càng ngày càng tệ..trước nổi tiếng đóng gói nhanh bọc sách kĩ lưỡng.. cơ mà bây giờ đơn hàng cả một tuần trời rồi vẫn chỉ trong trạng thái tiếp nhận..xong rồi đang lấy hàng... mong ad tiki phản hồi ạ ..bao giờ sửa chữa đc phong cách làm việc mk sẽ đánh giá lại 5 sao ạ,negative,1,1,1,1,1,negative,False,unclear,,False,1,1,1,1,1,
+ce867da3-16b9-4a3e-9519-9cd5f015c551,ko muốn sd mà nó cứ hiện lên .Biến Ngay,negative,0,0,0,0,0,negative,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+2709f9fd-9cf1-400a-9c50-dd23760637bb,"Đặt hàng hôm trước báo đang xử lý, qua hôm sau xóa mất tiêu đơn hàng mặc dù mặt hàng đó vẫn còn và order thành công. Kiểm tra lịch sử mua hàng mới thấy tự động bị xóa hết các đơn hàng từ đầu năm tới giờ",neutral,1,0,0,0,1,neutral,False,unclear,,False,1,0,0,0,1,
+57503b14-a12b-408d-88fa-5e0c2694a2b9,"Chưa hoàn thiện về việc trả lại tiền cho khách hàng, đợi chờ quá lâu, cần phải trả ngay cho khách hàng sau khi giải quyết vấn đề xong.",positive,1,1,0,0,0,positive,False,unclear,,False,1,1,0,0,0,
+edee00a7-77d2-4937-84df-d5d58fb1ad68,"Hệ thống giao hàng quá kém chất lượng, đặt hàng xong phải đợi cả tuần để nhận hàng. Đến ngày hẹn cũng phải đợi ở nhà từ sáng đến tối mới được nhận hàng. Tại sao k hẹn vào khung giờ cụ thể ? Có lần hẹn bạn ship vào 10h sáng hôm sau, kết quả đợi đến chiều vẫn k thấy gọi, gọi lại thì k được. Tôi không tin tưởng sử dụng dịch vụ từ tiki nữa.",negative,0,0,1,1,0,negative,True,positive,score-based sentiment is negative but content looks positive,True,1,0,1,1,0,review sentiment auto-adjusted; manual review recommended
+a9b0b34e-3d51-4f8a-bd0e-c3155fefdeb5,"Giao hàng nhanh, gói hàng đẹp, đổi trả thuận tiện",positive,1,0,1,1,0,positive,False,positive,,False,1,0,1,1,0,
+5ecba983-b329-4ae7-9340-385755e834c6,"Zounds tureokvx Ít nhất god ,ovlg Ypr vếtbxx",neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+73e5c720-ad23-432a-8e35-426b2ab81c3b,nói chung là tốt,positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+e977bd7d-fcf1-40be-ba54-236ff9e23551,Vào mua rồi mà được đâu kém lắm,negative,0,0,0,0,0,negative,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+04589224-748f-491e-a963-ee08ee7363e9,Cho mk hỏi làm sao bt đc phí vận chuyển ạ,neutral,0,1,1,0,0,neutral,False,unclear,,False,0,1,1,0,0,
+7981605b-41ae-4fc1-8554-24984ab704e0,Quảng cáo kiểu lừa 180°,negative,0,0,0,0,0,negative,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+c849e40b-04a2-4a17-ba47-45ea8da324dc,Ứng dụng Tốt,positive,0,0,0,0,1,positive,False,unclear,,False,0,0,0,0,1,
+9d20a2ad-9f89-4e36-9633-585a51f136ff,Rất hài lòng dịch vụ và sản phẩm. Tôi sẽ ủng hộ Tiki,positive,1,0,0,1,0,positive,False,positive,,False,1,0,0,1,0,
+e220537b-70c2-4f7e-b07e-adc3ae61eff1,"Ứng dụng lúc này rất tệ không vào được, cứ xác nhận đi xác nhận lại hoài, phiền phức....",negative,0,0,0,0,1,negative,False,negative,,False,0,0,0,0,1,
+6434db36-af14-4d7c-88bf-f9b9e86704d7,Ko cho hủy đơn. Ship trả hàng quá chậm và phức tạp. Nhìn như sắp phá sản.,negative,1,0,1,0,0,negative,False,unclear,,False,1,0,1,0,0,
+0197f2a2-1b84-44f9-b504-ced997bf5bf2,8.8 ko cho ngta giực đồ j ht toàn giá cũ ko thất vọng về shop lắm shop tuy như vậy nhưng mà giao hàng nhanh hơn mấy shop khác cho shop 5 sao,positive,1,1,1,0,0,positive,False,positive,,False,1,1,1,0,0,
+e79272a4-6bc9-4c00-8768-722e59b2099a,Giehovah love you,positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+ba34b43e-e127-4f83-b2a6-c93e8b201df2,Toi rat thix ung dung mong nha phat chuyen nhieu ung dung hon,neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+ed146fa5-2b3c-4a29-8aa1-c65a38908652,Tam tốt cho 4 sao,positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+a6635eab-e47a-46a2-9aa2-78912c58d278,Tiki giao hàng cũng nhiệt tình nhưng có cái mình bận việc nên hẹn lại giờ nhận hàng mà có vẻ như a giao hàng kg hài lòng..thái độ khó chịu,negative,1,0,1,0,0,neutral,True,negative,score-based sentiment is neutral but content looks negative,True,1,0,1,0,0,review sentiment auto-adjusted; manual review recommended
+fb9f74cb-ae7a-46b9-89f3-12caab7f36dc,mua sắm nhanh chóng tiện lợi,positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+cf4f96d4-a920-4649-b39d-5456ff64ec63,Về sản phẩm không đa dạng.giá cả cao hơn các app khác,neutral,1,1,0,0,1,neutral,False,unclear,,False,1,1,0,0,1,
+69c20631-6332-496b-a088-3e641c2b6f4f,"Helo nv Tiki . _tôi mới tải cấu hình về để xem các sản phẩm. tôi.cũng chưa biết cách nhận thông tin khi mình đã mua.1 sản phẩm thì xem lại thông tin ở mục nào. _Nếu có số thứ tự 1, 2 ,3.. ở phần cá nhân thì tôi sẽ biét được mình đã mua mà không phải chọn lần 2 nữa. _Mong nv hướng dẫn cho tôi biết cách. _ Khi sản phẩm mua ,có được đóng gói tránh bị rách và bọ tráo hàng hay không ? --> tránh tình trạng phản ánh mọi vấn đề , phải đổi trả. thank nv",positive,1,0,1,1,0,positive,False,unclear,,False,1,0,1,1,0,
+3539ff51-ec27-47ee-9ff7-4797e51688d4,sao dat hang ca tuan ma ko thay phan hoi gi vay tiki,neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+9ecd889b-4128-45cf-bd0c-1d8ac150f9e3,Ok qua la tui voi,positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+96c5d0f6-d05f-4a52-854a-a7c24131eae9,Rất tiện lợi.,positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+9cbe1541-dda2-4d4e-9911-b15e5084fd13,Ok chuẩn cho 5 sao,positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+24750fad-0e55-4e9d-bce9-1236d2fb16ad,Một số mặt hàng ko giống như quảng cáo,neutral,1,0,0,0,0,neutral,False,unclear,,False,1,0,0,0,0,
+01172117-6c36-4df5-ad95-84c38c3a67ce,"ổn định, hàng hóa chất lượng hơn shopee và lazada",positive,1,0,0,0,0,positive,False,positive,,False,1,0,0,0,0,
+3d962809-6b76-4012-b3fc-8d0fca25553e,Treo đầu dê bán thịt chó. Mã thì k áp được. Đủ đk thì bảo k đủ đk =))),negative,0,0,0,0,0,negative,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+14e072ac-cb1e-432c-9e20-5fb996aaacf6,trải nghiệm tốt ko lo hàng giả kém chất lượng .,positive,1,0,0,0,0,positive,False,positive,,False,1,0,0,0,0,
+7ef306ad-9ce3-47c3-ba06-0cfeb8708fc4,t chưa mua hàng nên t chỉ cho 3 Sao thôi,neutral,1,0,0,0,0,neutral,False,unclear,,False,1,0,0,0,0,
+65c600d3-7c93-4060-ba33-089d663da55e,Ko thiết lập địa chỉ nhận hàng được vì hệ thống ko chấp nhận họ tên của khách hàng chỉ 2 chữ @@,negative,1,0,0,0,0,negative,False,unclear,,False,1,0,0,0,0,
+fb8f9923-296e-4bba-838c-2f7c15f2bff5,Đặt đơn hàng gần 1 tháng r vẫn ch có thông báo là đơn hàng lỗi giao hàng trễ. Trễ thì trễ nhưng s lại trễ dữ z,negative,1,0,1,0,1,neutral,True,negative,score-based sentiment is neutral but content looks negative,True,1,0,1,0,1,review sentiment auto-adjusted; manual review recommended
+5e1eb459-391d-4ea7-9453-9dd85a3e4711,Cần thêm chát với shipper về thời gian giao hàng,positive,1,0,1,0,0,positive,False,unclear,,False,1,0,1,0,0,
+d277fe7a-9492-40f7-937a-b50428ae6456,Lỗi liên tục.. Ko thanh toán đc trên apps,negative,0,0,0,0,1,negative,False,unclear,,False,0,0,0,0,1,
+2b33f3ea-48c3-4352-9165-f6881b96ab5a,Lùa dảo vl,negative,0,0,0,0,0,negative,False,negative,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+22edee69-39e3-44d6-9360-3eab945ae445,Ko bit có tốn tiền ship ko nhỉ,neutral,0,1,1,0,0,neutral,False,unclear,,False,0,1,1,0,0,
+3d949703-f52b-436f-b8eb-ddc66f4143b9,Rất tuyệt vời!,positive,0,0,0,0,0,positive,False,positive,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+49928118-265b-425a-b4e1-ed6ebc36255f,App ngu như chó ko có chỗ chat với shop,negative,0,0,0,0,1,negative,False,unclear,,False,0,0,0,0,1,
+396598d8-bac4-4dbf-b952-4b67497b4aa4,Đáng thất vọng,negative,0,0,0,0,0,negative,False,negative,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+131030bc-4864-441c-b7ff-d99a06f8be18,"Bnb về BB,*",neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+d3f3a82e-8bbe-4c6f-a72d-8cb1eeea517f,"Đang dùng, thấy để dzựt cô hồn nên xóa app luôn. 🙄🙄",negative,0,0,0,0,1,negative,False,unclear,,False,0,0,0,0,1,
+ab19fce9-b788-4139-a33f-236a9f01bdfb,Tiki đc kiểm tra hàng ko,negative,1,0,0,0,0,negative,False,unclear,,False,1,0,0,0,0,
+a9f51b6e-9e7c-42d8-8138-9010a8734cbb,làm thế nào để hủy đơn hàng ạ,negative,1,0,0,0,1,negative,False,unclear,,False,1,0,0,0,1,
+3bbcd4f2-4609-41bd-9afb-de0d5d2cb80b,Ứng dụng quá tệ. Kkkk,negative,0,0,0,0,1,negative,False,negative,,False,0,0,0,0,1,
+6e2fe203-1a8e-4590-9740-322c2be66c4b,Quá tệ mua hàng gần 2 tuần chưa có hàng .,negative,1,0,0,0,0,negative,False,negative,,False,1,0,0,0,0,
+76df7b6d-f404-4566-b873-98e090e8a196,Ứng dụng sendo bị lỗi chạy quá chậm,negative,0,0,0,0,1,neutral,True,negative,score-based sentiment is neutral but content looks negative,True,0,0,0,0,1,review sentiment auto-adjusted; manual review recommended
+58bc370d-520a-498a-8edc-d34f75ca899b,"Giao hàng nhanh, tôi rất hài lòng",positive,1,0,1,0,0,neutral,True,positive,score-based sentiment is neutral but content looks positive,True,1,0,1,0,0,review sentiment auto-adjusted; manual review recommended
+c6a273db-da69-4b5f-a1b1-e6299f8edf54,Giao hàng nhanh,positive,1,0,1,0,0,positive,False,positive,,False,1,0,1,0,0,
+b2849e07-5108-4ff4-9eca-0d62b770a1a3,Như cái lol,negative,0,0,0,0,0,negative,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+51fa196f-dee7-4736-96e3-1c76c99760c1,"Khá tốt, nói chung là mình tin tưởng tiki những món muốn mua chính hãng thì tiki là lựa chọn đầu tiên, khuyết điểm của tiki là chưa đa dạng sản phẩm không đáng vào nhu cầu của sinh viên",positive,1,0,0,0,0,positive,False,unclear,,False,1,0,0,0,0,
+801d0d7d-910f-41cb-89fa-598b10cc2548,"tôi gặp vấn đề ở chổ đặc tên , ghi đủ họ tên rồi nhưng vẫn báo lỗi là s",neutral,0,0,0,0,1,neutral,False,unclear,,False,0,0,0,0,1,
+c8194a50-a6a9-48e9-97b0-bdfbc2021514,đặt hàng lâu quá mua 1 cái điện thoại mà 8 ngày mới tới yêu cầu gửi hàng nhanh hơn nếu nhanh hơn sẽ cho 5*...mua 1 cai điện thoại mà bảo là t5 mà đến t5 lại bảo là 6 ngày nữa mới tới ..yếu,negative,1,0,0,0,0,negative,False,unclear,,False,1,0,0,0,0,
+481fed20-dc1c-48d2-99bb-41cffa82bfbe,Hài lòng,positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+9af7c505-61bf-43a6-ab26-bc90a226d26f,"Giao nhanh và uy tín , tôi rất hài lòng",positive,0,0,0,0,0,positive,False,positive,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+4b5ac9d1-82b4-49e3-bbb4-a54d0f77e7d2,Web mua bán online uy tín !!!,positive,0,0,0,0,0,positive,False,positive,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+96fede32-a742-4e7b-ba22-edeb696f1ca9,Sản phẩm trên tiki quá đắt mình mua ko nổi(๑ ⁍̥̥̥᷅ ᴈ⁍̥̥̥᷅)人(⁌̥̥̥᷄ε ⁌̥̥̥᷄ ๑)ｰ,negative,1,1,0,0,0,negative,False,unclear,,False,1,1,0,0,0,
+d133a33b-dfe0-4991-9147-03079ffbca0c,"Cực lì hài lòng, cực kì hài lòng, cực kì hài lòng",positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+5b262891-6bea-4498-b596-34d347106929,"Thu phí vận chuyển cao quá, hàng bán cũng đắt hơn chỗ khác.",negative,1,1,1,0,0,negative,False,unclear,,False,1,1,1,0,0,
+bb8a5e4a-1f96-47a1-ae96-6b520f8e4b4f,Cái dòng thưởng sao xiếc màu hồng che đi số lượng bán. Ko thể xem đc số lượng bán của 1 sách trên điện thoại màn hình nhỏ. Rất bực mình,neutral,1,0,0,0,0,neutral,False,unclear,,False,1,0,0,0,0,
+8c8ed1a3-614e-4d00-ab79-b8accbd7b030,Dất là ok nhé m.n,positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+b0c116b3-7996-4b6d-a7fc-5a84f7f72a96,tôi rất hài lòng về sản phẩm của sendo,positive,1,0,0,0,0,neutral,True,positive,score-based sentiment is neutral but content looks positive,True,1,0,0,0,0,review sentiment auto-adjusted; manual review recommended
+b9e1428c-a9ec-4365-b2a9-ec0ed261fedb,Ban hang cuc ki tốt,positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+586873a6-7837-4885-ae7b-a8245d8397a9,k hủy đơn hàng đc giao thì chậm ........,negative,1,0,0,0,1,negative,False,unclear,,False,1,0,0,0,1,
+a009ab2e-56ce-4243-9f35-adfb3ad9f166,"bản cập nhật khá tệ. đơn hàng vừa đặt xong lại ""Order not found"" lên cập nhật xong thì hiện 1 loạt mấy đơn. Vô xem thì không hiện đơn lên, không hủy đơn được. tiki cần khắc phục sớm. đó giờ tin tưởng mua hàng của tiki thôi mà giờ lỗi vậy thì làm sao",negative,1,0,0,0,1,neutral,True,negative,score-based sentiment is neutral but content looks negative,True,1,0,0,0,1,review sentiment auto-adjusted; manual review recommended
+2ec8315d-368f-4793-a803-dc8ae1643d8c,Cái vụ quay trúng xu. Vậy xu dê làm gì vậy mọi người,neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+9554348a-f7eb-4e6a-9d8c-9ef4a6f10a7d,chậm chạp đợi mòn đít,neutral,0,0,0,0,0,neutral,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+bc75bb9c-a7eb-44f4-87cf-e5dd15d00c96,Xin hỏi tại s lại ko cho chuyển hàng nhanh ??,neutral,1,0,0,0,0,neutral,False,unclear,,False,1,0,0,0,0,
+7e84b9f9-1e38-4af9-9c5b-f88d5a86804f,"Giao diện app rất hợp lý, UX rất ổn YQZO",positive,0,0,0,0,1,positive,False,unclear,,False,0,0,0,0,1,
+42be4715-2c4b-4dc8-a714-3c412aa4df7a,Quảng cáo rẻ tiền.,negative,0,1,0,0,0,negative,False,unclear,,False,0,1,0,0,0,
+57498f8c-2dda-4afa-a13c-b0e0cde3e2cb,Quá kém so với shopee,negative,0,0,0,0,0,negative,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+f85ba5fa-d80a-448d-96a8-7a406b98bb0c,"Mua hàng ko khéo, lên đơn giao về mấy lần. Ko kiểm soát được khi đh. Ứng dụng quá ... khôn. Xin xóa cho lành",negative,1,0,0,0,1,negative,False,unclear,,False,1,0,0,0,1,
+6c157154-bab3-4b94-8147-82c6b23b9ab6,hàng chất lượng,positive,1,0,0,0,0,neutral,True,positive,score-based sentiment is neutral but content looks positive,True,1,0,0,0,0,review sentiment auto-adjusted; manual review recommended
+424575f6-568d-4d99-adce-a3c8214d77ce,"Ung ho cty VN, tay chay lazada cua Alibaba Trung quoc.",positive,0,0,0,0,0,positive,False,unclear,,False,0,0,0,0,0,all aspects are 0; verify if review is general
+7b6f0399-87d6-4f23-90e6-2fa62dab4d22,Sản phẩm bị lỗi tiki đã đền đáp lại cho minh,positive,1,0,0,0,1,positive,False,unclear,,False,1,0,0,0,1,

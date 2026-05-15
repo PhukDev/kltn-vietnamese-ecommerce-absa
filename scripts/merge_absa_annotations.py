@@ -63,10 +63,15 @@ def main() -> None:
     merged = merged.drop_duplicates(subset=["reviewid"], keep="first").reset_index(drop=True)
 
     if args.exclude_incomplete:
-        prepared = prepare_absa_annotation_frame(merged)
-        source_map = merged[["reviewid", "source_file"]].drop_duplicates(subset=["reviewid"])
-        prepared = prepared.merge(source_map, on="reviewid", how="left")
-        output_frame = prepared[["reviewid", "content", "sentiment", "product", "price", "delivery", "service", "app", "source_file"]]
+        required_columns = ["reviewid", "content", "sentiment", "product", "price", "delivery", "service", "app", "source_file"]
+        working = merged[required_columns].copy()
+        prepared = prepare_absa_annotation_frame(working)
+        valid_keys = prepared[["content", "sentiment", "product", "price", "delivery", "service", "app"]].drop_duplicates()
+        output_frame = working.merge(
+            valid_keys,
+            on=["content", "sentiment", "product", "price", "delivery", "service", "app"],
+            how="inner",
+        ).drop_duplicates(subset=["reviewid"])
     else:
         output_frame = merged
 
