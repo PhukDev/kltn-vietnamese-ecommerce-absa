@@ -1,0 +1,59 @@
+021. a6e8e91a-ac91-4201-ad4a-ae814c9ae42f | medium | S=negative P1 Pr0 D0 Sv1 A1
+Mua hàng đã thanh toán trước, nhưng cho bao lâu cuối cùng do dịch ko gửi đi cung ko hoàn tiên j hết, dịch vụ chăm sóc khách hàng kém ..
+
+022. 95ddf0eb-e93b-4021-bf1e-01e7d46756de | medium | S=positive P1 Pr0 D1 Sv1 A0
+giao hàng nhanh, hàng đc đóng gói cẩn thận, nhân viên dễ chịu. nói chung tới giờ thì hài lòng.
+
+023. a9b0b34e-3d51-4f8a-bd0e-c3155fefdeb5 | medium | S=positive P1 Pr0 D1 Sv1 A0
+Giao hàng nhanh, gói hàng đẹp, đổi trả thuận tiện
+
+024. 400f78eb-a4db-4877-b004-851f46f041f3 | medium | S=neutral P1 Pr0 D0 Sv1 A1
+Dịch vụ tiki có thể nói là tốt nhất trong các trang điện tử, giao diện, cách thanh toán dễ dàng. Chỉ có vấn đề là từ khi Tiki cập nhật chính sách bảo mật đăng nhập yêu cầu otp thì trên web thường xuyên bị thoát tài khoản đột ngột, và việc giới hạn 3 lần gửi mã cũng gây phiền toái cho người dùng khi tin nhắn otp tới chậm hoặc không tới số đt khách hàng do mạng hoặc lý do nào đó.
+
+025. 650ab40b-64f2-495e-b165-019cf729c1a6 | medium | S=negative P1 Pr0 D0 Sv1 A1
+Tiki ko hỗ trợ xem lịch sử đơn hàng trên đt, vô xem toàn báo lỗi. Quá tệ cho phần ứng dụng.
+
+026. c25f9a92-b395-48e1-8809-62f5cf37aca3 | medium | S=negative P1 Pr1 D0 Sv1 A0
+Shop hết hàng. Gửi sản phẩm khác mô tả. Hoàn tiền chậm trễ. Xem lại cách đổi trả của tiki
+
+027. e1883b89-8134-43bd-814d-c3f85762306c | medium | S=negative P1 Pr1 D0 Sv1 A0
+Đối với mình, 1 khách hàng mua quá nhiều trên Tiki, thì Tiki ổn nhất ở khoản mua sách, còn mặt hàng khác thì nói chung rất tạp nham về giá cả và chiết khấu (shop toàn tự đề linh tinh về cái này và ko có kiểm soát). Đặc biệt, mình khá thất vọng đối với hỗ trợ của tổng đài CSKH, mình gọi rất nhiều nhưng cứ gọi chục lần mới có 1 cuộc bắt máy (không rõ có do Tổng đài block số máy hay không). Thái độ nhân viên CSKH có sự né tránh, không giải quyết các vấn đề của khách hàng. Thế nên sau mình không gọi nữa, mà chuyển sang email thì về cơ bản là phản hồi tạm ổn. Nếu Tiki giải quyết được 2 vấn đề trên thì xứng đáng dc 5 sao.
+
+028. 510ce65a-6940-4d38-a014-4d2fc176049c | low | S=negative P1 Pr1 D1 Sv1 A1
+Đây là 1 trong những ứng dụng TỆ NHẤT,tôi xin nhất mạnh là TỆ NHẤT,TỆ NHƯ C mà tôi từng thấy. Tôi đặt mua 2 thùng giấy ăn,trước đó tôi đã phải thanh toán bằng thẻ hế 232.00 Và đến tận bây giờ,sau gần 1 tháng đặt hàng,tôi vẫn chưa nhận đc hàng.gọi lên khiếu nại thì cứ ẩm à ẩm ờ,gửi mail thì cũng cứ toàn nói tào lao,tôi hỏi phía bên shop bán,thì bên shop bảo không thấy bên vận chuyển nào đến nhận đơn hàng của tôi,bảo tôi hủy để đc hoàn tiền.nhưng phía sendo không cho hủy,cứ để treo đơn hoài.
+
+029. f1ebf57e-3bca-4649-90b1-07a35fc413b9 | low | S=negative P1 Pr1 D1 Sv1 A1
+sản phẩm lỗi đã báo cáo với tiki rất lâu nhưng không có phản hồi còn 1 đơn nữa thì ko ghi là hết hàng mà lúc ship lại nhắn tin là hết. Trước giờ cứ tưởng Tiki uy tín lắm. Hơi đắt tí nhưng mình vẫn chọn mua ai ngờ
+
+030. 9c90a52e-766f-4198-9672-514d0a7a9edd | low | S=negative P1 Pr1 D1 Sv1 A1
+tiki càng ngày càng tệ..trước nổi tiếng đóng gói nhanh bọc sách kĩ lưỡng.. cơ mà bây giờ đơn hàng cả một tuần trời rồi vẫn chỉ trong trạng thái tiếp nhận..xong rồi đang lấy hàng... mong ad tiki phản hồi ạ ..bao giờ sửa chữa đc phong cách làm việc mk sẽ đánh giá lại 5 sao ạ
+
+031. 1375e748-12df-404d-b4f7-feebf7c7e986 | low | S=negative P1 Pr0 D1 Sv1 A1
+thái độ nhân viên giao hàng khó chịu. hàng thanh toán rồi thì phải lấy luôn không được hoãn? nói chuyện thô lỗ. bực mình
+
+032. 8e402414-3686-4577-a587-35c2d212749b | low | S=negative P1 Pr1 D0 Sv1 A1
+Hàng đổi trả vì lỗi 1 tháng chưa được giải quyết. Khi nào giải quyết sẽ đánh giá lại.
+
+033. 433c79f6-a50d-426c-89fe-7b8d926fee5b | low | S=negative P1 Pr1 D0 Sv1 A1
+Mua 1 đơn hàng trên tiki từ 18/6, hẹn đến 30/8 giao, rồi lại bảo dịch nên bị chậm 1 tuần, mình đợi đến 10/9 vẫn chưa thấy gì, báo hủy đơn hàng thì chăm sóc khách hàng lại bảo đợi hoàn tiền. Đợi đến hôm nay là 23/9 rồi mà liên lạc lại vẫn bảo đợi, đó dịch nên bị chậm? Tiền chuyển trên hệ thống cũng bị ảnh hưởng do dịch à? Sao lúc thanh toán trừ tiền thì ko thấy trừ chậm đi?
+
+034. 47b0b4ba-c3ac-41cd-a488-c9243ef672e3 | low | S=negative P1 Pr1 D0 Sv1 A1
+Đặt hàng thanh toán tiền trước rồi,do dịch 2 tháng ko đi hàng dc có nhắn tin tổng đài hỗ trợ hủy đơn mà cũng ko thấy nói gì.sendo giờ chán ko muốn mua
+
+035. bf76341d-bffb-4d18-bd7b-fecd615c9f77 | low | S=negative P1 Pr0 D1 Sv1 A0
+May mắn thì được nhân viên tốt bụng giao hàng còn xui xẻo thì được nhân viên giao hàng tệ hại và cục súc và bố láo nhân cục súc gọi điện hét vào mặt người mua lên chấm 3 sao⭐
+
+036. 984bc8ff-889c-4a1a-806a-56db679919ad | low | S=positive P1 Pr1 D0 Sv1 A0
+Tôi đến với tiki do muốn tìm hàng chính chủ uy tín, nhưng khi các nhãn hàng mở shop chính chủ trên Shopee, tôi đã xoá tiki. Tiki làm dịch vụ chưa tốt, khuyến mãi ảo nhiều, ít có các chương trình giảm giá.
+
+037. 60eeaa50-c477-4ef2-839c-84f927aab7f7 | low | S=positive P1 Pr0 D1 Sv1 A0
+giao hàng nhanh, chính sách tốt có đổi trả, giải quyết khiếu nại nhanh
+
+038. e9578775-5a95-44ce-b2ec-22073224db56 | low | S=negative P0 Pr1 D0 Sv1 A1
+Làm ăn rất bát nháo Thánh toán mua 3g xong tiền trừ bị lỗi không hoàn tiền luôn Phục vụ dở tệ sẽ không quay lại
+
+039. 69c20631-6332-496b-a088-3e641c2b6f4f | low | S=positive P1 Pr0 D1 Sv1 A0
+Helo nv Tiki . _tôi mới tải cấu hình về để xem các sản phẩm. tôi.cũng chưa biết cách nhận thông tin khi mình đã mua.1 sản phẩm thì xem lại thông tin ở mục nào. _Nếu có số thứ tự 1, 2 ,3.. ở phần cá nhân thì tôi sẽ biét được mình đã mua mà không phải chọn lần 2 nữa. _Mong nv hướng dẫn cho tôi biết cách. _ Khi sản phẩm mua ,có được đóng gói tránh bị rách và bọ tráo hàng hay không ? --> tránh tình trạng phản ánh mọi vấn đề , phải đổi trả. thank nv
+
+040. 1e04875f-4ee1-4b48-b74d-b75c63ec26d1 | low | S=positive P1 Pr0 D1 Sv1 A0
+Tiki giao hàng chậm so với các tranh mua bán khác, mình vẫn ok vì chất lượng sp tốt, đóng gói kỹ, nhân viên giao hàng thân thiện. nhưng dạo này thấy dịch vụ cskh càng đi xuống. bảo hành sản phẩm rất lâu và hình như không có để ý đến yêu cầu của kh.

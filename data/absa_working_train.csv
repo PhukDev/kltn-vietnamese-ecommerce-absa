@@ -1,0 +1,781 @@
+﻿reviewid,content,sentiment,product,price,delivery,service,app,source_file
+9c8e3564-3f3d-4645-b257-fd5896c15e6c,Ship rẻ hàng cug tốt,positive,1,1,1,0,0,absa_annotation_sample.csv
+09a4751f-080a-401c-a7a1-a69d1a4b6d61,Chọn đối tác giao hàng tệ quá. J a T ở nha trang rất tệ,neutral,0,0,1,0,0,absa_annotation_sample.csv
+e2c67404-0d97-40e1-845b-c72ee9cd787a,rất tuyệt vời,positive,0,0,0,0,0,absa_annotation_sample.csv
+04ef2e1e-0f0c-499c-ba95-2f820f6122b4,Luôn đắt hơn shopee và lazada,neutral,0,1,0,0,0,absa_annotation_sample.csv
+95c4578f-c4c8-43f2-b650-cb167f706462,Không viết được tên người nhận bằng tiếng Việt có dấu. Quá kém. Nếu bán hàng cho người Việt thì học tiếng Việt là cần thiết. Đáng lẽ là tôi không cho sao nào cả.,negative,0,0,0,0,1,absa_annotation_sample.csv
+7b81d4b6-1db7-4cc5-9c8d-20ec8c31f0b2,"hàng đắt hơn lazada & sendo mà chất lượng tệ hơn,bó tay tiki, ace tẩy chay tiki đi",negative,1,1,0,0,0,absa_annotation_sample.csv
+87bc8aa2-9a23-47e5-9055-bda79e5c29af,"ứng dụng rất tiện ích,sp chất lượng",positive,1,0,0,0,1,absa_annotation_sample.csv
+595b9c2a-83dc-4b3f-bf70-c53246a1fb61,Giao hang nhanh ti la ok,positive,0,0,1,0,0,absa_annotation_sample.csv
+33726a6a-0b73-44f4-9043-21d111bc6226,"Giao hàng quá chậm, thua xa shopee và lazada",neutral,0,0,1,0,0,absa_annotation_sample.csv
+f99ff441-dcf9-4112-9800-e8ae73dbae90,ko bamg ben lazada :((((,negative,0,0,0,0,0,absa_annotation_sample.csv
+c07f5a9b-bf77-4e64-b6e4-905c974ad52d,Momo thanh toán tiện như vậy mà lại bỏ đi là sao Tiki??,negative,0,0,0,0,1,absa_annotation_sample.csv
+46c34fac-617c-41bc-ac37-803ec60d77bd,Mua sách thì rất okie. Nhưng mặt hàng khác thì ko giống với mẫu hàng đã đặt,neutral,1,0,0,0,0,absa_annotation_sample.csv
+30889e52-3cf6-49f1-af7e-6e47e0028164,"Giao hàng qúa chậm, lịch giao hàng cứ thay đổi liên tục như kiểu thích thì giao, dịch vụ chăm sóc khách hàng rất rất tệ👎👎👎👎👎👎👎",negative,0,0,1,1,0,absa_annotation_sample.csv
+c1167ba2-2f1e-412f-90e0-1dc575beb756,Mua hàng nó cứ báo hay xảy ra lổi Xem lại web,neutral,0,0,0,0,1,absa_annotation_sample.csv
+18795f0e-733c-46b4-9950-2122cc15c056,Tiki từ trước đến giờ mìh luôn tin tưởg hàg trên tiki nhưg mìh có mua đồng hồ thôg mih w46 nhưg shop gửi nhầm con w26 nên mìh đổi trả mà lâu quá trời luôn được 1 thág rồi mà vẫn chưa được nhân viên vẫn bảo chờ thềm không biết tiki bày đặt hay do như nào mìh cũng thấy mất lòg tin cho tiki với Chát với nhân viên vào 10 lần thì may ra vào được 1 lần lỗi không vào được hay tiki chặn tài khoản mìh Chán 0 muốn nói các bạn ạ,neutral,1,0,0,1,1,absa_annotation_sample.csv
+401f41da-4e5a-4b69-a9d4-039cc582518f,Rất là hay,positive,0,0,0,0,0,absa_annotation_sample.csv
+08d15d89-f4ae-4e6c-ba31-8745b4bbdbba,Lừa đảo người mua. Cái gì mà không hỗ trợ??? Shopee với Lazada nhiệt tình bao nhiêu thì tiki tệ hại bấy nhiêu. 0 sao thôi.,negative,0,0,0,1,0,absa_annotation_sample.csv
+5263c060-7dec-4128-b206-3a45ed6c54b9,"Mua thẻ cào nhưng lại nạp không được , ủa là sao , làm ăn gì kì vậy",negative,1,0,0,0,1,absa_annotation_sample.csv
+70994910-702d-4000-b1bf-f8235593a459,có khánh không,positive,0,0,0,0,0,absa_annotation_sample.csv
+4f265fac-2ebb-463a-8763-a8ef2359c437,Tôi thấy shop cần nhiều ưu đãi hơn để thứ hút người mua chứ mặt hàng cần mua mắt hơn giá thị trường quá thì sẽ ít người tải về,negative,1,1,0,0,0,absa_annotation_sample.csv
+959328d8-0c15-4be1-8b67-e1a0c11f5e91,Một số sản phẩm cóa thể chưa tốt và 1 số sản phẩm khá tốt hơn mog đợi Cần chỉh sửa và phát huy nja tiki,positive,1,0,0,0,0,absa_annotation_sample.csv
+40a17d1a-9d2f-4743-a055-cd338fa96781,App tiki càng ngày càng nặng càng đơ vào app mãi k load đc,positive,0,0,0,0,1,absa_annotation_sample.csv
+71a9f3c1-2898-4a4c-9676-dc1c4a61bf8b,Chợ sen đỏ cái gì cũng có chọn lựa thổi máy,positive,1,0,0,0,0,absa_annotation_sample.csv
+ac15458e-3a78-4b8b-9be8-f9585861accd,Sao không tải được app về máy nhỉ,positive,0,0,0,0,1,absa_annotation_sample.csv
+49b15ecc-cf3a-4fb5-bbce-a3f74532894d,Lừa độc giả,negative,0,0,0,0,0,absa_annotation_sample.csv
+08bf2e89-7131-407a-a33f-d21a3d8ab477,Binh thuong,neutral,0,0,0,0,0,absa_annotation_sample.csv
+c969d1dd-208b-47b2-8f79-5044239f996c,Giao hàng rẻ nhưng thực sự là rất rất lâu. Mình không biết điều gì sẽ giúp tiki trở thành kỳ lân của người Việt nhưng trải nghiệm mua sắm cảm giác rất không thoải mái so với những ứng dụng khác. App yêu cầu mình cập nhật địa chỉ nhưng chỉ riêng việc cập nhật địa chỉ không cũng rất phiền toái mà phải loay hoay mãi mới xong. Nói chung nhiều thứ nhỏ nhỏ nhưng trải nghiệm mua sắm trên tiki không có điều gì khiến mình hứng thú cả.,neutral,0,1,1,0,1,absa_annotation_sample.csv
+284353c2-7c36-4398-befd-92db865fab84,tiki có thanh toán khi nhận hàng không ạ???,neutral,0,0,0,0,1,absa_annotation_sample.csv
+bd57d91a-9dc3-4b54-8b7b-4908ce7c42ba,qua te.hang không chất lượng,negative,1,0,0,0,0,absa_annotation_sample.csv
+4f0cdab5-2638-4673-9f1c-c5af636a9507,"ngày càng tệ,cho xuống 3.*",neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+906ff0c9-7d45-49c8-a0e0-d1f957d916c7,tôi rất thích,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+d9194409-d9b7-4163-ab1e-6fa80410bde1,Đặt hàng ngày cn 2/2/2020 hẹn thứ 3 ngày 4/2/2020 giao mà cuối cùng không giao Giao hàng vô trách nhiệm,negative,1,0,1,0,0,absa_annotation_batch_001.csv
+b2d41e2b-944a-4938-995e-2c8856393824,mua đồng hồ chống nước,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+7342e0f1-8c0e-45c8-b065-d912d7cf07c4,Ứng dụng mua sắm,neutral,0,0,0,0,1,absa_annotation_batch_001.csv
+672b5cc9-a926-4f08-ad71-3ba8cd6c421b,"App rất nhanh, không phải đợi load thông tin 92ma",positive,0,0,0,0,1,absa_annotation_batch_001.csv
+73614626-a54f-41d4-aefa-0ee9944f4a44,"Khá tệ, chả hiện sản phẩm cần mua mà cứ báo lỗi.",negative,1,0,0,0,1,absa_annotation_batch_001.csv
+a7201f8c-2dff-417a-bf7e-934440d7b83e,Mình dùng thấy ok,neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+c40cfe4c-c82b-4475-8039-37cd1582802e,Làm ơn đừng hiện quảng cáo ép người ta cài đặt ứng dụng nữa,negative,0,0,0,0,1,absa_annotation_batch_001.csv
+5a988de3-ac25-4e3f-9bb7-e0b91799326d,Thấy nói 39k 11k Freeship mà ấn vào tiền ship cao hơn tiền mua.xạo lz,neutral,0,1,1,0,0,absa_annotation_batch_001.csv
+e40fe441-3177-4af2-b346-4c94a6e3a844,Mỗi lần vào đều phải đăng nhập lại thực sự khó chịu,negative,0,0,0,0,1,absa_annotation_batch_001.csv
+4b9855b9-7e38-428b-9a44-3ef6441901ae,San phẩm tốt,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+acbc3de1-7393-4808-b8d9-047d11659887,sản phẩm tốt như trong hình,positive,1,0,0,0,0,absa_annotation_batch_001.csv
+af0a5fdc-a937-4400-aced-55828935a666,"Có một số mặt hàng vẫn chưa được bày bán, mong tiki có thêm nhiều sản phẩm hơn",neutral,1,0,0,0,0,absa_annotation_batch_001.csv
+ee450e21-b31f-4e81-ad35-55d5f036fce2,"Shop quảng cáo láo, k trung thực đề nghị tẩy chay",negative,0,0,0,0,0,absa_annotation_batch_001.csv
+08cf70f5-7a43-4050-af3d-6b7b83747283,Như quần què Mua không sản phẩm toàn là giấy Mn đừng tải về,negative,1,0,0,0,0,absa_annotation_batch_001.csv
+eff9a83c-733e-4e63-9812-eb9e6b9b1661,Quá tệ. Đơn giao quá lâu. Giao trễ thì không một thông báo. Gọi điện thì ko ai nghe. Ko coi khách hàng ra gì. Tệ hơn tiki hay lazada rất nhiều. Chatbot vô dụng không giải quyết được gì.cho 1 sao vì không có 0 sao.,negative,1,0,0,0,0,absa_annotation_batch_001.csv
+2fd296fd-1a2b-4902-adcc-788d25c051c7,Tại sao tải ứng dụng về rồi không mở được.,negative,0,0,0,0,1,absa_annotation_batch_001.csv
+42d259b8-90ba-453b-90a5-a194e07f84b3,Nơi mua sắm uy tín và tiện lợi.,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+64825b97-b7ff-444e-99c0-e4842a467c89,Phan ngọc diệp có vay trung thương mà ko sen do phan hoi gì hết,negative,0,0,0,0,0,absa_annotation_batch_001.csv
+45bc5a79-cceb-4a3a-94ff-2320cce24e1a,"Tiki lừa nha mn, lúc đầu mk đặt hàng là nó để 5/02 lúc sao mình zô coi lại để 10/02 mà vài ngày sau mình zô coi lại thì thấy nó tự hủy đơn r mình liên hệ shop shop k có câu tr.lời",negative,1,0,0,0,0,absa_annotation_batch_001.csv
+67d81298-f03e-45b6-8e7f-53377aed3389,"Làm việc quá sơ sài,khách ghi rõ địa chỉ như thế,mà đến khi vào phần tổng,ở đâu lòi ra thêm 1 cái phường khác,xong kéo dài thời gian giao hàng ra,đơn hàng chỉ trong thành phố từ Gò Vấp về Bình Tân,mà kéo dài cả tuần lễ,nhắn hỏi hàng nằm đâu,thì chỉ nhận được 1 câu trả lời,khi nào có cụ thể sẽ báo,bỏ hết công ăn chuyện làm để đợi lấy hàng do cần gấp mà gặp kiểu giao hàng này",negative,1,0,1,0,1,absa_annotation_batch_001.csv
+4d78f313-049a-4887-b66e-f1e1aef44d8d,Tot.......!,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+a4e4bf4c-de12-4446-9a0a-86a907d09ca9,Tiki ug dung tot,neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+3dd5dbe6-1219-4b33-a105-967d94972612,tin tưởng và tiện lợi,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+33c5d51b-9090-40f2-ba49-866578107d83,Ví sen không sử dụng được cho dù đã chứng thực rồi.,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+b9eced5f-2bc3-4f90-bae1-1388f39956e2,ứng dụng như cc cứ một lúc là bị out ra,negative,0,0,0,0,1,absa_annotation_batch_001.csv
+48290157-8509-49da-9ea2-97fc0d2049e3,TOI MON CO DONG HO THONG MINH TOI DANG DA A GRFIFG BHHHH,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+9fc51088-7d3c-4094-a560-666c857b8b4a,Nó cũng hay đấy.,neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+ba45a490-2a2f-436e-bcc2-976e010abd06,Bảo giảm giá mà mắc quá shopee bán rẻ hơn nhìu,neutral,0,1,0,0,0,absa_annotation_batch_001.csv
+fa8bb556-130e-4118-9b4f-1a65cf574318,Giao hành trc dự kiến..nhưng shipper thiếu lịch sự,negative,0,0,1,0,0,absa_annotation_batch_001.csv
+99c4f4ef-59f8-42a6-81aa-bb8d43840c54,"Đặt hàng 1 tháng không thấy đâu, gửi mail thì ko thèm trả lời, gọi tổng đài không bắt máy, gọi được thì bảo do dịch nên thông cảm, trong khi các sàn thương mại khác hàng vẫn chạy đều, vậy các anh đóng băng hoạt động luôn à? Các anh bảo hàng chậm 7-10 ngày nhưng đây chậm 1 tháng xem có chịu nổi không, rồi hủy đơn cũng ko cho hủy, gửi thì cũng ko gửi, 1 sao là xứng đáng, xin chào tạm biệt luôn",negative,1,0,0,0,0,absa_annotation_batch_001.csv
+297a7dec-42c1-42d7-92de-9b6828e65a28,lỗi hoài chán,negative,0,0,0,0,1,absa_annotation_batch_001.csv
+1075914d-71e9-4324-a14f-1b4be792a2ef,như cặc nhập tên đủ r mà vẫn như lồn,negative,0,0,0,0,0,absa_annotation_batch_001.csv
+40af547d-f5d8-40dc-9d37-e311b19db203,Thủ tục đặt hàng hơi lâu,neutral,1,0,0,0,0,absa_annotation_batch_001.csv
+3bcda114-be74-48d4-aad0-69c386b32490,Giá cao. Mặt hàng cũng như bao chỗ khác. Một ngày gửi không biết bao nhiêu cái POPUP quảng cáo. Chắc gấp 3-4 lần lzd+shopee cộng lại. Thật sự rất phiền phức. Không khuyến khích mua ở TIKI,negative,1,1,0,0,0,absa_annotation_batch_001.csv
+bec362ff-12d4-467a-96a0-d652485da64f,Hàng giống mẫu.Giao hàng nhanh. Tôi hài long,positive,1,0,1,0,0,absa_annotation_batch_001.csv
+9f360be7-3c82-448e-ad43-3a144171a10a,khá làm phiền,neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+738630ea-4d8e-4296-b75e-82d2d296c36a,Chị thu ơi bướm gái ok,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+80f8f9ff-24d3-41ab-a1c3-a609a65a6819,Vào giỏ hàng báo lỗi thoát ra suốt. Thích sản phẩm thì bắt đăng nhập trong khi đã đăng nhập,neutral,1,0,0,0,1,absa_annotation_batch_001.csv
+0c544e42-5d82-48a3-b979-9808e9255849,Khong thich,negative,0,0,0,0,0,absa_annotation_batch_001.csv
+12e0a169-8c53-4a24-9f74-43d87ce90a69,Tờ ê tê nặng tệ.,negative,0,0,0,0,0,absa_annotation_batch_001.csv
+e75e2e9c-4280-446d-8325-ecad9b951d7e,"Giao hàng quá lâu.không thể mua hang,gửi đánh giá hay đặt câu hỏi trên ứng dụng",negative,1,1,1,0,1,absa_annotation_batch_001.csv
+a6d17d9c-fcbf-4c68-be39-2457a7d82673,t rất hài lòng,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+3bea0ce5-fb6f-48b9-8c9c-48c8715fb5a8,"Giao hàng nhanh, đảm bảo hàng bên trong k bị ảnh hưởng khi giao tới khách hàng.",positive,1,0,1,0,0,absa_annotation_batch_001.csv
+b88a855b-cf23-4d07-9289-0cde32dfba1f,Tìm sp ưa thích,neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+41975045-b053-4579-be06-42e3a3e0ffdf,"Phần mềm chưa tiện lợi cho người mua. 1) Phần thanh toán, nếu sản phẩm trong giỏ hàng đã hết hàng thì người mua bắt buộc phải xóa mặt hàng đó ra khỏi giỏ hàng, trong khi họ muốn lưu mặt hàng này lại để theo dõi đến khi có hàng. Về khoản này, bên Sendo làm tốt hơn, có chức năng cho chọn thanh toán riêng 1 mặt hàng hay muốn thanh toán tất cả sản phẩm trong giỏ hàng. Mong add cải tiến app tốt hơn. 2) Trên fb thì xem được hàng loạt mặt hàng giảm giá Tiki Trading, mà vào app thì ko có mục này.",neutral,1,1,0,0,1,absa_annotation_batch_001.csv
+bcaba857-8f5d-4cfb-901f-03faf85d46d7,tiki thì hàng chất lượng khỏi phải bàn rùi.hihi,positive,1,0,0,0,0,absa_annotation_batch_001.csv
+53403886-2000-4ba5-92ec-698ca7d0995f,freeship :3,positive,0,0,1,0,0,absa_annotation_batch_001.csv
+0d8056ee-fe22-4a9e-8850-5b581eccc1b1,Áp khá hữu ít,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+f9002c48-f3be-4bc0-b738-e2cdfeee6352,"Hồi trước ship 18k tăng lên 20k còn bây 66k vừa vừa thôi chứ, mn bỏ tiki qua bên sh*ppe đi",negative,0,0,1,0,0,absa_annotation_batch_001.csv
+1ee55a30-125b-420e-8d0b-f364688738ce,"Đặt hàng xong, đợi 4_5 ngày mới có",neutral,1,0,0,0,0,absa_annotation_batch_001.csv
+f574c0b7-e5ae-4f84-99c3-2119592ae412,Rất tiện lợi cho nhiều người,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+499c5822-f0c1-47b6-a029-4cc6c5f9dcfd,ứng dụng này rất hay,positive,0,0,0,0,1,absa_annotation_batch_001.csv
+20ad1a38-d687-4851-a9f6-bb428cfa9cb6,Muốn mua bộ dây vòi,negative,0,0,0,0,0,absa_annotation_batch_001.csv
+205d7bd8-39b0-4603-809a-9fc6d2ef0454,ok rất tốt,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+d43c2d94-104d-4258-83c8-ca265fc797c4,Ciode co dx nohu k,neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+0ad25897-72fb-4917-bf5e-a27b8241fa97,Chưa bao h thất vọng về thời gian và chất lượng giao hàng của Tiki. Chỉ có hàng hoá bày bán vẫn còn một số shop bán mặt hàng khác so với quảng cáo,positive,1,0,1,0,0,absa_annotation_batch_001.csv
+c0e18582-9254-40e9-bc44-ec33b8bca463,giao hàng nhanh,positive,1,0,1,0,0,absa_annotation_batch_001.csv
+c100f550-774b-445b-a02f-cc00332ab53f,Tôi đã mua được và dung hàng mình thích thái độ làm viec chuyên nghiệp chuyển hàng đến tay khách hàng nhanh chóng,positive,1,0,0,0,0,absa_annotation_batch_001.csv
+531976c1-58ba-4add-b7e9-ae8d2bf28a33,Có đồ bị cũ,neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+bcd7837a-eb90-43fe-b150-7e120314d5a1,"Tệ thật người ta diễn hay không cho thắng, cho mấy người giả trân thắng",negative,0,0,0,0,0,absa_annotation_batch_001.csv
+f4dc1703-1979-475f-9387-247714480071,Mua hàng trên tiki mình không có 1 chút sợ sệt về hàng giả hàng kém chất lượng nói chung rất là tốt. chúc tiki ngày càng phát triển hơn nữa,positive,1,0,0,0,0,absa_annotation_batch_001.csv
+b81f31a3-d8cc-4120-b3b6-6cad3bbb7079,"So với lazada, shopee, sedo thì thái độ phục vụ không chấp nhận được, mọi thứ liên quan đến chăm sóc khách hàng nhân viên làm không có tâm",negative,1,0,0,1,0,absa_annotation_batch_001.csv
+30135495-f5f3-42ec-a5ed-f230b6a27f2d,"bán sách nhái,sách kém chất lượng",positive,1,0,0,0,0,absa_annotation_batch_001.csv
+8d7b253b-6871-44d4-b6fa-2d6712d2b89c,sản phẩm tốt,positive,1,0,0,0,0,absa_annotation_batch_001.csv
+28d34b30-587e-46e8-bb14-36deaa79d387,"giao hàng nhanh, hàng mới nên chả có ý kiến gì",positive,1,0,1,0,0,absa_annotation_batch_001.csv
+99c873ba-4bce-42bd-a231-6992fb7c62f1,chua su dung vho truoc 3s,neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+d3fdfdba-9c7f-4119-9763-ede9915affec,Search của tiki chả chính xác. Giá thì cao hơn Shopee và lazada. Các mặt hàng thì ít,neutral,1,1,0,0,0,absa_annotation_batch_001.csv
+d11ab611-9144-4e3c-974e-f0b66c109242,Đây là app đặt hàng tệ nhất tôi sản phẩm hạn chế tôi muốn mua 1con gundam hg nhưng khi tìm thì chỉ toàn sp gundam sd với ốp lưng chưa hết khi tôi muốn mua bút kẻ lằn chìm khi tìm thì toàn ra bút vs kẻ mi gì gì ấy rất thất vọng,negative,1,0,0,0,1,absa_annotation_batch_001.csv
+0ddba38c-2cf6-4450-916f-b21bd57fc93a,Tiki tệ quá chễ đơn hàng mà k thông báo j cả làm mình chễ hết dự định với bạn bè rồi,negative,1,0,0,0,1,absa_annotation_batch_001.csv
+681320e7-a8cd-4849-90a9-bbaa2a9d21a2,Thích cái gì cũng có,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+789f10d7-febf-48cd-b20d-aa7f2135abb2,Thất vọng về cách làm việc của tiki,negative,0,0,0,0,0,absa_annotation_batch_001.csv
+87889697-be9e-4003-8d33-fc6d431be897,rất nhiều đồ đẹp,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+f2ad7be6-b36a-4411-a19d-40b332f3674b,Làm ơn tìm hộ em máy chơi game 4 nút nhé cảm ơn mn,neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+e29457d9-4670-466f-b216-3ea8f42e85ac,đặt hàng giao nhanh xong báo giao trể xong vài ngày sau hủy đơn hàng làm ăn không có cái uy tín gì,negative,1,0,0,0,1,absa_annotation_batch_001.csv
+3c675175-373d-4361-aee3-ffe5b699b4a2,Giao hàng quá chậm sản phẩm kém chất lượng,positive,1,0,1,0,0,absa_annotation_batch_001.csv
+da8ed7fd-c1e1-4703-ab9e-9b98477daadc,App rất được có thư mình muốn mua nhưng khi mua thì mình đã điền đầy đủ thông tin vào rồi thì phải làm sao nữa a Còn lúc tư vấn thì mình hỏi thì ko ai hồi đáp lại mình mong ad có thể cho thêm hướng dẫn mua hàng a,neutral,1,0,0,0,1,absa_annotation_batch_001.csv
+92e75b69-beed-43c7-acb6-63abbd2dea46,ok hang đep toi thich,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+af2debb6-c4d3-48aa-b4ec-86b62c31a532,"Bấm vào tiến hành thanh toàn thì quay vòng vòng không hồi kết. Hàng thì ít, thêm đc món hàng vào thì mãi k quay xong để mua. Quá tệ",negative,1,0,0,0,0,absa_annotation_batch_001.csv
+20adc46a-9129-4971-a4f8-7fd55d6180b2,rất tiện lợi,negative,0,0,0,0,0,absa_annotation_batch_001.csv
+ced9508d-2041-4dd1-a678-f7b48eb90363,Cái này hk bít nói sao nữa mik thấy ko có tận tình phục vụ lắm thì phải.,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+c9f14f91-db62-4d34-ba80-24f2f1aa8988,Giá bán cao,neutral,0,1,0,0,0,absa_annotation_batch_001.csv
+d75f010d-4564-4827-98da-0d60798f4d41,Muốn mua hàng...mà phải tải app...? Tào lao. Ngưng xem luôn,negative,1,0,0,0,1,absa_annotation_batch_001.csv
+11bbc43b-d3b5-415a-bba1-34745337ec64,Khó sử dụng,neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+a0a17637-15ff-4c2d-9b24-380a6d86aa64,Tiki rất là tốt,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+ef07d029-ba40-4568-b1dc-b6b5eff481be,"Uy tín chất lượng, đóng gói đẹp chắc chắn, giao hàng nhanh, shipber vui vẻ...",positive,1,0,1,0,0,absa_annotation_batch_001.csv
+c37eea83-25b6-4b3d-aac5-e0d6edcd5329,ứng dụng này tôi đặc hàng thì được,neutral,1,0,0,0,1,absa_annotation_batch_001.csv
+9c4d1fb5-8d45-47f2-bd38-64876f189d5d,"tiện lợi, chu đáo,đổi trả dễ dàng 😍",positive,0,0,0,1,0,absa_annotation_batch_001.csv
+806c2ff7-b285-4f7c-a1c0-62326d2a708f,Quá tầm thường,negative,0,0,0,0,0,absa_annotation_batch_001.csv
+75700842-bbc8-48fc-8e14-4d4d9054d245,giao hàng nhanh chóng,positive,1,0,1,0,0,absa_annotation_batch_001.csv
+6fd5dc32-6f5d-4b4e-8b8c-d248615bbac6,Để hàng về coi mới biết,neutral,1,0,0,0,0,absa_annotation_batch_001.csv
+94dd65b1-00b7-465c-9256-372d636b70d8,Úng dụng rất hay,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+07de5d3b-edad-4e8e-995b-ee1e415f5757,Tải về mới đầu xài ok. Sau đó thì tự thoát.,neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+fecfcae0-9531-481b-bf60-2321ab356ec7,rất hài lòng với tiki,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+2c0fcde3-a217-4314-b5c3-fb00a940e41d,chấp nhận khi mua online,negative,0,0,0,0,0,absa_annotation_batch_001.csv
+eefd70d7-c1ba-475e-8297-66158d4f8d0e,Em đặt trên giỏ rồi nhưng khi đặt mua thì lại ko có là sao ạ. Làm thế nào để mua được,neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+e38c55b7-fb83-4342-878f-f9fe6904870c,"Quá tệ, lừa đảo. Zựt cái gì không biết mà tính được đến 1/10000 giây. Hiền thị sản phẩm cho chọn khi đếm ngược đãn mất ít nhất 1s rồi chưa kể click. Gửi mail phản hồi thì bộ phận cskh phản hồi theo kiểu lừa con nít. Không có 0* chứ có là cho 0* rồi.",negative,1,0,0,1,0,absa_annotation_batch_001.csv
+635ffc08-fd9c-4a2a-850c-df8c27e8a885,Thủ tục rườm rà,neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+381ff612-f9b3-4550-adbf-88caa8386df0,Toi rat thich nhung giao hang hoi cham,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+fe2b8fe1-c3c1-4a69-b8b3-c8d874ac16a5,"dóng gói kỹ.sp y hình,chất lượng tốt",positive,1,0,0,0,0,absa_annotation_batch_001.csv
+dfb09d5b-206f-4311-9114-c7c0d1a05c34,App quá chậm. Giống thời kì đồ đá. Đăng 1 sản phẩm mất cả tiếng còn ko xong. Ko phải lỗi do wifi hay đt. 1 app thương mại điện tử lớn số 1 VN lại ko làm cho cái app ngon lành tí,negative,1,0,0,0,1,absa_annotation_batch_001.csv
+2910a700-3519-4b8d-a9a8-fbbbbc307a48,"Tiki giao hàng rất nhanh, về những sản phẩm mình đã chọn mua giao y như mẫu mình chọn còn chất lượng cũng rất OK ,số với các trang web bán hàng khác.",positive,1,0,1,0,0,absa_annotation_batch_001.csv
+7ad14133-d468-48f0-b3f9-188c48e4e9a9,Dùng samsung j2 pro hay bị treo và yêu cầu khởi động lại ứng dụng.,neutral,0,0,0,0,1,absa_annotation_batch_001.csv
+0fbe6731-8311-4289-bad2-85ac12c43197,Ko hay = shopee,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+d6fca264-1d0a-4877-93fe-6e7b53802415,Ok nhưng cần kiểm soát chất lượng sản phẩm cho đúng với quảng cáo.,positive,1,0,0,0,0,absa_annotation_batch_001.csv
+9e6cc868-5061-4edd-a84d-77fb3f214af9,App sắp xếp thứ tự tìm kiếm quá lộn xộn. Bộ lọc tìm kiếm không hề có tác dụng. Rất bực mình.,neutral,0,0,0,0,1,absa_annotation_batch_001.csv
+f6f06605-5a8f-4f00-968f-a6021b09c165,Giao hàng chậm người giao hàng kiểu ko muốn giao hàng làm ăn dị đó,neutral,1,0,1,0,0,absa_annotation_batch_001.csv
+b42f01f0-fc1e-4c55-b5c7-8547d846ddfe,Cũng thường,neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+34ebb36c-ab0b-45e3-aed5-6215812feb4b,"đặt hàng từ ngày 16/6, ngày dự kiến giao hàng là ngày 22/6 mà tới bây h vẫn chưa thấy giao",neutral,1,0,1,0,0,absa_annotation_batch_001.csv
+34190895-b894-4bc4-bec0-961aec2a6cc3,Rất thích app này nha 👍,positive,0,0,0,0,1,absa_annotation_batch_001.csv
+35014f49-7aa4-4073-a211-24c81859f9b4,Nói chung cx đc cho 3 sao thôi,neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+a13adcc3-9148-4ee3-8158-fe015e4adbd2,Không hiểu sao đặt hàng thành công mà cứ gần đến ngày giao nó lại tự động hủy. Đề nghị xem lại,negative,1,0,0,0,0,absa_annotation_batch_001.csv
+7c9bd86b-6915-467a-9901-de20b4fa6f1f,Cũng bình thường nhưng cũng cho 5sao lấy động lực,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+3df918fa-9dc4-4101-b13f-ee868691fe9c,Không có mã giảm giá sâu như shoppe,neutral,0,1,0,0,0,absa_annotation_batch_001.csv
+e65272f9-9ba8-432a-8109-0e2439fb8fad,hay bị lỗi,neutral,0,0,0,0,1,absa_annotation_batch_001.csv
+5d7a26ec-37f9-475c-9e3c-9bc4de7d12c6,Rất tệ. Dịch vụ khách hàng quá tệ. Tôi và các đồng nghiệp đã tẩy chay.,negative,1,0,0,1,0,absa_annotation_batch_001.csv
+ea87089a-1075-44a6-b259-1b2f26349eca,Giao hàng rẻ tiền mà tính giá trên trời. Bó tay tiki luôn,negative,1,1,1,0,0,absa_annotation_batch_001.csv
+b11d6aa9-58db-4d6c-8b28-7f797a4be8ca,"Rất tốt, hàng chính hãng giá rẻ.",positive,1,1,0,0,0,absa_annotation_batch_001.csv
+9ad2d56b-0cc6-44e6-91b6-5cefec7e2a8e,Giá sản phẩm cao hơn các trang thương mại điện tử khác.,neutral,1,1,0,0,0,absa_annotation_batch_001.csv
+32d44e4a-8ec2-43f7-9619-5a532ef33675,Chậm lag quá . không vào được giỏ hàng.,negative,1,0,0,0,1,absa_annotation_batch_001.csv
+313d5733-92fc-44e9-8616-5fc670f42c48,đặc cả tuần rồi chưa thấy hàng đâu,negative,1,0,0,0,0,absa_annotation_batch_001.csv
+cc3ccb13-e2b6-40ed-8b78-41a4e4dd3d5c,giao k đúng đơn đặt,negative,0,0,0,0,0,absa_annotation_batch_001.csv
+b8da8684-9db0-4009-8338-570ba4d5b731,"App hay bị treo, đơ. Toàn phải sử dụng trên web.",neutral,0,0,0,0,1,absa_annotation_batch_001.csv
+a97d188c-255a-409b-88ab-3de1a791ecd9,tiki cần có chế độ nhắn tin với chủ phương tiện để biết hàng có chưa chứ tới ngày nhưng ngày hôm đó không thấy giao cũng phải liên lạc với người mua để ngta biết mà đợi hàng,negative,1,0,0,0,0,absa_annotation_batch_001.csv
+204402fe-bc92-49ea-9467-67f6da6e3c3a,bình thường,neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+63d6cc02-6cc5-4586-bd83-afccab8dfbae,qua it san pham,negative,0,0,0,0,0,absa_annotation_batch_001.csv
+f89f2de8-37ae-4d42-8e9c-703b0f032758,Rất hay mình đã mua nhiều sản phẩm,positive,1,0,0,0,0,absa_annotation_batch_001.csv
+aac17569-45a0-48e9-9400-9f7ecca96e00,Mua hàng không được kiểm hàng nên tôi không thích,neutral,1,0,0,0,0,absa_annotation_batch_001.csv
+3b994616-11d6-4bda-8646-66041f1906ab,1 hệ thống nát bét. 1 lũ mọi rợ. 1 lũ rừng rú lấy luật chó nào đem lên áp đặt khách hàng. 2 nick 2 điện thoại khác nhau mà bảo vi phạm thể lệ. Thể lệ cái má chó nhà m. Nhân viên mất dạy. Trả lời như 1 cái máy. Lũ ăn cướp,negative,1,0,0,1,0,absa_annotation_batch_001.csv
+706d5fa8-3092-4ed1-b9ad-f07a349856d5,Đm mỗi cái địa chỉ mà đặt đéo đc. Đc cái quảng cáo trên mạng. 😤😤😤 Ko hài lòng tí nào,negative,0,0,0,0,0,absa_annotation_batch_001.csv
+8057e52f-021f-46bc-9cd9-c459618cb876,Hơi ít sản phẩm tí xin sensor cho vào nhiều hơn,neutral,1,0,0,0,0,absa_annotation_batch_001.csv
+dbc4945a-bf1d-412e-9099-b75d730ce681,bảo hành và đổi trả còn chậm,positive,0,0,0,1,0,absa_annotation_batch_001.csv
+ee064650-9a1f-4a93-a38a-811629c959f6,Mình tin tưởng sendo,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+c0cf5377-a52d-404e-bee1-03de036ea309,Thủ tục đăng ký khó,neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+78f8c31e-8876-487c-bce8-8667b4a06676,cần có nhiều phần trăm may mắn hơn khi quay vòng quay may mắn,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+dfd01140-3bc8-4ed5-8810-8e730b52cd53,Ứng dụng xài chán khó tìm thấy sp cần mua.,negative,0,0,0,0,1,absa_annotation_batch_001.csv
+e53be689-0a52-4bd6-9cc1-0da969079493,Hok biết khi giao hàng tới có đc xem trc khj nhận hok,neutral,1,0,1,0,0,absa_annotation_batch_001.csv
+e7699f2a-86b7-4e81-afc1-2b03dedc5f03,Rat hay ma rat nhieu cam on sendo nhieu lam,neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+65c81c54-f9b1-4b54-9f08-1deeb92c4178,sản phẩm không được chất lượng.,positive,1,0,0,0,0,absa_annotation_batch_001.csv
+18b9caeb-8c25-4041-a5d5-e77157e71e8c,Có thể mua hàng được 👌,neutral,1,0,0,0,0,absa_annotation_batch_001.csv
+c2d4da8a-5440-4821-a618-29abdbf979b0,Gõ cái này ra cái khác . thiệt là tức mà 😠,negative,0,0,0,0,0,absa_annotation_batch_001.csv
+154d0a25-3e29-408b-b9b5-0e2f97abcba2,Rat hài lòng,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+1462286b-e75a-4838-b2ca-d0a2dfe00db3,Nhiệt tình hướng dẫn sử dụng,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+46ab2469-33a0-4af1-81a0-9a01a3e7309b,"Tiki giao hàng rất chắc chắn, giá cả hợp lý. Ủng hộ",positive,1,1,1,0,0,absa_annotation_batch_001.csv
+741b5418-a829-415f-aa84-b21cd6f9c210,Tuyệt vời..,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+430cf3bf-2b46-49d9-a1ee-9ba781dd4aa1,có sendo ko cần phải đi ra ngoài mua sắm.,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+bf3ebf4e-3cd8-4765-8c83-9415aeedfda4,Ứng dụng phiền phức,negative,0,0,0,0,1,absa_annotation_batch_001.csv
+cd732f45-97a7-4df8-a670-a4159249555e,sao mà ko nhập địa chỉ dc z chứ nó cứ bảo là địa chỉ ko hợp lệ,neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+c45a1590-1992-4bce-9427-317fe244bb76,Điện thoại chính hãng. chuyển hàng nhanh.,positive,1,0,0,0,0,absa_annotation_batch_001.csv
+3f9eaa4f-7d02-48cd-bf11-6ff1d54b7234,Giao hàng nhanh,positive,1,0,1,0,0,absa_annotation_batch_001.csv
+2153d862-04bf-4d18-bbf2-802a33cdd5cb,"Thấy nhiều chỗ chưa hợp lý, màu mè đúng là made in VietNam",neutral,1,0,0,0,0,absa_annotation_batch_001.csv
+c162d142-42ae-4cb2-9624-26a88c6ec531,hài lòng tuyệt đối,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+68132bb5-ddbf-4df4-a9ee-6120f83b65d2,ứng dụng tốt,positive,0,0,0,0,1,absa_annotation_batch_001.csv
+b95f15f6-8bd2-4b65-94aa-da9250829f34,ung dung hay tot,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+85fb1cb7-307f-4c65-96e1-46582849eefd,"App tiki hay bị lỗi toàn out người dùng và hiện tại androi 4,5 hay 4.2 gì đó đã rất lâu rồi ko dùng đc app. Mong tiki sớm khắc phục ạ",negative,0,0,0,0,1,absa_annotation_batch_001.csv
+837994d4-1cd5-4c5a-846d-7d9d1dc6eaaa,bỏ quảng cáo,neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+0b0cf1eb-f285-441d-b1ad-1e32acd6b4f9,Rất thất vọng...,negative,0,0,0,0,0,absa_annotation_batch_001.csv
+a284343c-98d3-4188-81b1-0fa00984c6ee,Hàng chuẩn.,positive,1,0,0,0,0,absa_annotation_batch_001.csv
+88827c7f-2991-40c2-b601-703529014838,"Ít hàng hóa, ko chất lượng",positive,1,0,0,0,0,absa_annotation_batch_001.csv
+1d5a0687-49da-4d1c-bf97-0f7cee99ab13,"Chưa có bảng xếp hạng các danh mục sản phẩm đc mua nhiều, k cis phần riêng cjo việc nhận code",neutral,1,0,0,0,0,absa_annotation_batch_001.csv
+f0b9dc00-3348-4718-bea5-4c9c4ac94468,rat hai long,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+47087ee0-ae3e-43f1-b76a-9818020f71db,"quá bực mình.ủa mình k dùng thẻ có internet banking là k mua đc hàng. chuyển khoản trc thì shop gửi 3 cái thứ đồ xài rồi,còn k là shipper gửi đại đâu đó gần nhà để mất đồ của mình,khi nhận k đc kí tên,chuyển khoản r, có nhận hay k,cũng k ai biết. ủa mình đặt đồ,mà 5 ngày chưa xác nhận đơn,mình có quyền hủy để đặt chỗ khác chứ,mắc j hủy nhiều là bắt chuyển khoản????? mình xài ví senđo ,1 là mất đồ, 2 là gửi cái thứ mà bung nắp,đã xài rồi. khó khăn quá thì thôi,khỏi đặt",negative,1,0,1,0,0,absa_annotation_batch_001.csv
+eed37ff7-365d-483c-b600-911199848a81,Sendo mình cần phải cập nhật phiên bản mới + giao hàng thật nhanh tận nơi tận địa chỉ nữa nha lúc trước mình đặt phải xuống huyện Mình lấy và mình xoá một thời gian mong sendo hơn lazada,positive,1,0,1,0,1,absa_annotation_batch_001.csv
+c0e5ef51-2e86-4917-a20a-7d1f03669381,Ứng dụng hay wa,positive,0,0,0,0,1,absa_annotation_batch_001.csv
+0fa37f09-b9c4-447d-a64c-635302ec8c58,Bị lổi hoài,negative,0,0,0,0,0,absa_annotation_batch_001.csv
+4dd9f106-b4e0-44dc-82d4-9591219ef2f8,Mua sắm rất tiện lợi anh em tải ve di nhé,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+42b772c6-5243-43e2-8172-fb8912611af0,"Tạm hài lòng , vì 1 số shop giao hàng ko như quảng cáo",positive,1,0,1,0,0,absa_annotation_batch_001.csv
+0bddc698-6203-4d5c-9726-3e9e4998d658,"Mua hang o tiki luc nao cung yen tam va hai long sipper thi nhiet tinh k cau gat,nhung phai co them nhieu mat hang hon nua chu nhieu luc muon mua tren tiki ma kiem k ra mon do minh can nen chi chut xiu cam thay buon thui nhung se ung ho tiki dai dai!🤙🤙🤙",positive,0,0,0,0,0,absa_annotation_batch_001.csv
+8dc37b0c-937d-42f4-bc10-534b4e4b075c,Quá hạn giao cũng không thông báo lý do,negative,0,0,0,0,0,absa_annotation_batch_001.csv
+68ed40c4-eef9-4adc-841b-674ad510d9f8,rat hai long,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+fdd9324a-8b26-441d-ba55-ed8392b74ea9,"Tiki không có chính sách để chế tài những Shop thổi giá rất cao đến mức vô lý, rồi sale thật sâu. Tôi không tin tưởng Tiki.",neutral,0,1,0,0,0,absa_annotation_batch_001.csv
+f3b0b92b-0692-443a-aac3-48e439b048df,Sen đỏ quảng cáo nhiều quá đề nghị cho ít quảng cáo Đi😡😡😡,negative,0,0,0,0,0,absa_annotation_batch_001.csv
+832c0e70-9551-4f27-824f-4e80ff7cffaa,"Cập nhật phiên bản mới xong ko mở đc giỏ hàng, muốn mua hàng cũng bó tay",negative,0,0,0,0,1,absa_annotation_batch_001.csv
+43464680-98f1-4e3b-b27a-e6c6ad6cd9c2,giao hàng thì phải thông báo trước cho khách. chứ đâu phải lúc nào cũng trực ở nhà để nhận hàng.,negative,1,0,1,0,0,absa_annotation_batch_001.csv
+15c80d03-66e0-43b1-884b-8815fd056785,sao mk ấn vào gửi nhận xét mà toàn bị báo là xảy ra lỗi k vậy,neutral,0,0,0,0,1,absa_annotation_batch_001.csv
+9b956229-264c-4a1a-8cb1-bea0b45181ec,bình thường 0.4,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+b9fa9b2b-6972-404a-9429-c784996fa804,Giao hàng lâu quá shop ơi,positive,1,0,1,0,0,absa_annotation_batch_001.csv
+9caf6ab6-b9bf-44db-a4c9-fcc30cded5fe,tôi rất hài long với tiki,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+3523499c-dad2-4618-99ef-390deaa84326,tạo tài khoản khó bỏ mẹ.xoá luôn cho nhanh,negative,0,0,0,0,0,absa_annotation_batch_001.csv
+7c71fafd-8044-4ffe-a547-ca8cd1dfa715,Hàng chính hãng giao nhanh,positive,1,0,0,0,0,absa_annotation_batch_001.csv
+7d3d0416-1d1e-4439-bbaf-b67bc287900b,Ko có tai nghe ko dây samsung,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+b9ca2f63-829f-4d25-a8e1-0338c25c2516,Giao hàng mau lẹ nhưng cây nhỏ quá,neutral,1,0,1,0,0,absa_annotation_batch_001.csv
+14a5a961-1307-479e-b506-9205f5b37da3,Mới biết nên còn lủng cũng đặt hàng Sendo có thể đơn giãn thể thức khi khách hàng muốn mua nhiều mặt hàng trong một lần ( một đơn hàng gồm nhiều mặt hàng khác nhau),neutral,1,0,0,0,1,absa_annotation_batch_001.csv
+fd95bc65-b011-44f0-9d71-0344486a4a9c,Lừa đảo khách hàng,negative,1,0,0,0,0,absa_annotation_batch_001.csv
+2f9215fd-9f08-4a21-b250-7ac4cee4522b,"Phiên bản mới thông báo kêu ""tiki"" nghe toàn bị giật mình. Âm thông báo kêu tiki thực sự rất rất khó chịu",negative,0,0,0,0,0,absa_annotation_batch_001.csv
+d72a540f-5f28-46a7-b981-3300629d6ba2,moi nhap ma chua mua gi neu tot se xai ung dung nay quan trong la nha ban hang đung to ve ko can khach du lich su nhung neu ko hap se ko mua,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+6cd801c5-9587-4539-b01b-4986abe441b3,Cài đặt lâu quá,neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+fd234c68-c5e7-4ece-bb5c-021d5cc7560c,"Đặt ở Tiki rất là nhiều lần rồi,lần nào cũng vô cùng hài lòng lắm luôn😊😊Gói hàng vào hộp rất là kĩ lưỡng,sách mới,đẹp,không hư hại hay rách gì,giá thành rất ổn😉Với lại ưu điểm chính là giao hàng vô cùng nhanh,đặt hôm nay thì trưa ngày mốt đã giao tới😁😁😁Mong Tiki nhập nhiều sách Tiểu thuyết ngôn tình về ạ😊",positive,1,1,1,0,0,absa_annotation_batch_001.csv
+e9c00b5b-e27b-4396-b116-d7d7fea51789,Giao hàng lâu vãi chưởng,negative,1,0,1,0,0,absa_annotation_batch_001.csv
+8b022701-8676-4034-9798-2a3ca4f336dd,"Tiki chăm sóc khách hàng cực tệ, tôi cực kì thất vọng với cách phục vụ này. Tôi gửi khiếu nại lập tức nhận được thông tin kết nối giới thiệu nhân viên tên Vân. Tôi gửi nội dung chờ hoài chẳng thấy phản hồi (khoảng 20 phút). Tôi vừa rời khỏi máy sau đó vào lại thì nhận 2 tin nhắn nói do không thấy tôi phản hồi nên Tiki kết thúc cuộc trò chuyện. Chẳng lẽ chỉ có khách hàng mới phải chờ Tiki còn Tiki thì không? Hệ thống không hề hiển thị thời gian chat để biết là mỗi bên phải chờ bao lâu.",negative,1,0,0,1,0,absa_annotation_batch_001.csv
+61b34b4f-b388-4bc3-a40d-603d45fce670,"Nghĩ sao trên hình thì to đẹp mà đến khi giao hàng thì nhỏ, ko giống trên hình là sao",negative,1,0,1,0,0,absa_annotation_batch_001.csv
+f83d39ee-8b3e-44dd-a47b-7ca060b559bf,Đọc comen là muốn cho 1 sao rồi,negative,0,0,0,0,0,absa_annotation_batch_001.csv
+b71c8bde-7d79-4683-92fb-f019087d01c4,Khi xem thông tin chi tiết bị lỗi cần khắc phục.,neutral,0,0,0,0,1,absa_annotation_batch_001.csv
+a3d346af-194f-4942-b990-2c712ed18365,"Để theo dõi thêm ít thời gian nữa nhé, chưa thể nói trước điều gì.",neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+f35c523f-4472-44a6-8ef0-1c02a54a5e84,Ko đặt được hàng.viet ho va ten day du ma no cu thong bao la : viet ho va ten ko co cac ki tu dac biet va so,negative,1,0,0,0,0,absa_annotation_batch_001.csv
+de7b79ae-a884-4286-abc2-619205cebcc8,Amazon túc hơn,negative,0,0,0,0,0,absa_annotation_batch_001.csv
+2e8e8c9d-e798-482b-b497-5150171f8002,Hàng ngon giao nhanh,positive,1,0,0,0,0,absa_annotation_batch_001.csv
+ba2e73a9-ec07-4804-b322-df51974fd02c,verry good,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+a7e5a883-7263-4e8d-ac3f-f76d007d8367,Ship hàng hơi chậm,positive,1,0,1,0,0,absa_annotation_batch_001.csv
+9647f5e8-c7d3-4911-8fbd-de629f7e8ee3,tạm được😆😆,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+e475ad23-2e4e-4c77-a64f-14ae818d3fb7,Nếu mình mún múa xe máy mình cần giấy tờ gì AK của,neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+09c31361-f98b-4fc2-a062-152e0b3e73e0,"Đang tải, đọc bình luận xong hủy tải luôn.",neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+0c5d8e80-3650-41d6-8e63-b58ead09d9ea,Hàng rất tôt,positive,1,0,0,0,0,absa_annotation_batch_001.csv
+6cc9a6c8-e138-46d5-a203-28bc5fbb3730,Cũng thấy tiên còn hàng chửa tới,neutral,1,0,0,0,0,absa_annotation_batch_001.csv
+3ec2e4b5-c30a-49f8-ad63-fded07aa2ac7,Cái lmm ra suốt ngày coi cái cc j cũng quảng cáo của tụi m nổi lên 1 video quảng cáo chục lần ngáo hả j,negative,0,0,0,0,0,absa_annotation_batch_001.csv
+5a0a322d-b44e-41a4-b1e7-8262aaf2c62f,ứng dụng này rất tiện lợi,positive,0,0,0,0,1,absa_annotation_batch_001.csv
+b0b3ed58-9311-417a-a399-af98589733ee,Tẹ lắm không thích ứng dụng này,negative,0,0,0,0,1,absa_annotation_batch_001.csv
+4f8b13b3-6eab-44e6-b503-2a570e223eb8,Ung dung tốt,positive,0,0,0,0,0,absa_annotation_batch_001.csv
+ff920f57-e59f-48c9-b283-a9b0a5853c91,"Sao không download về được vậy ad , mong ad có thể cải thiện nhanh chóng quá tệ 😑👎",negative,0,0,0,0,0,absa_annotation_batch_001.csv
+331fe4fc-d713-489d-bdfc-ced8db5749bb,một số lỗi nhỏ.còn lại ok,positive,0,0,0,0,1,absa_annotation_batch_001.csv
+69350c32-d494-4256-a74e-e4a3930f2dc1,"Rất tốt, luôn ủng hộ Tiki",positive,0,0,0,0,0,absa_annotation_batch_001.csv
+06d44969-9d2c-4206-a2d4-a1f45d8c435e,"Vì mới đặt hàng, chưa nhận nên chưa thể cho đánh giá chính xác, hãy để sau khi nhận hàng đã nhé.",neutral,1,1,0,0,0,absa_annotation_batch_001.csv
+13c87082-a7d8-4ac6-a6f1-83abd0911042,OK tốt lắm tiki chuyển hàng rất nhanh cho 5sao nhé,positive,1,0,0,0,0,absa_annotation_batch_001.csv
+c836ada2-9351-4f4b-980e-078ed7fdec6e,Mới tải về nè xem như thế nào mong sẽ tốt,neutral,0,0,0,0,0,absa_annotation_batch_001.csv
+7005790c-840e-45e4-861a-96855f2f873a,"Hàng không có,đăng lên làm gì",negative,1,0,0,0,0,absa_annotation_batch_001.csv
+0ba14fe2-0e70-41f4-a828-06712a63dbaf,Cc tụi bây lừa đảo hả.me cái ốp trong ngoài Vios tụi bây bán j mấy triệu mẹ.zay mà kêu giảm giá lol gì,negative,0,1,0,0,0,absa_annotation_batch_001.csv
+0a1d918a-23b6-4b3b-9635-3bc095f4292e,Đinh xài thử mà nghe đồn dã man quá đàh thôi.,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+df588682-c657-426d-9bc4-fb7a181651cc,vào app hay bị thoát ra ngoài,neutral,0,0,0,0,1,absa_annotation_batch_002.csv
+a7a279b7-d582-4210-9ab0-ca4d599b11ba,ứng dụng rất tốt Nó giúp tôi đặt hàng nhanh chóng nhanh nhất có thể cảm ơn nhà phát triển đã lập trình ra ứng dụng này,positive,1,0,0,0,1,absa_annotation_batch_002.csv
+ce0af934-a3e0-46ea-9285-30ff10669bc1,Làm ăn chán quá,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+ef12f3e9-a0c2-4add-b6fc-e931510bbd9f,Oder hàng nhanh chóng \q,positive,1,0,0,0,0,absa_annotation_batch_002.csv
+e19a753f-1ddd-43b3-8c1a-1020e2cd7ad1,Không thích cách giao hàng và thời gian giao hàng của giao hành nhanh (rất chậm),positive,1,0,1,0,0,absa_annotation_batch_002.csv
+32e02545-5a9e-4161-b15f-0344d37bb22d,Các loại mặt hàng chưa phong phú được như taobao bên Trung Quốc tại sao các bạn k học hỏi bên trang của các bạn bên Trung Quốc Cần thêm phần tìm kiếm bằng Hình ảnh.chỉ cần có ảnh là các bạn có thể quét ảnh và tìm ra mẫu hàng mình yêu thích đỡ mất thời gian.mong trang mua sắm của mình phát triển thêm,neutral,1,0,0,0,0,absa_annotation_batch_002.csv
+6d280899-d473-4569-8c26-6bd96ab4b0bf,Lừa đảo nhiều,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+cd762868-503c-43bd-917f-0a7799220afd,1 số sản phẩm khi tìm trên web thì vẫn thấy nhưng tìm trên app thì lại báo là không có. Mong tiki khắc phục lỗi này,negative,1,0,0,0,1,absa_annotation_batch_002.csv
+068409bc-0073-4edc-b6cc-a53a7847c543,"làm gì mà cập nhật suốt thế,ức chế quá,dù ít vô mua nhưng ai rảnh vs bộ nhớ đâu cập nhật hoài :))",neutral,0,0,0,0,1,absa_annotation_batch_002.csv
+fd5ed43b-8bec-43be-b519-bf10b21d6373,Sản phẩm dễ sử dụng,positive,1,0,0,0,0,absa_annotation_batch_002.csv
+c241495a-435c-4fa1-a1a5-d50c0e71d6e9,Tiki nên lấy gương mặt quảng cáo như là Trấn Thành chẳng hạn. Tôi chẳng ưa trường giang tí nào.,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+fcb81e25-6d57-413e-b389-a9ad3cbc1bdf,"Mua 4 lần. 1 lần 1 tuần sau mới báo hết hàng. 3 lần mua nhẹ nhẹ thấy giao hàng đúng chủng loại, chất lượng hàng ok. Chưa hài lòng như lazada.",positive,1,0,1,0,0,absa_annotation_batch_002.csv
+7309196c-9148-4448-b02d-3e62fb138c8f,Cảm ơn Tiki nhiều. Thật sự nhà sách kiểu cũ đã không còn đáp ứng được nhu cầu về sách nữa vì lượng sách không đầy đủ. Tôi thường mua sách trên Tiki vì có nhiều nhà sách bán hàng trên ứng dụng. Cảm giác như vào hết nhà sách này đến nhà sách nọ để kiếm sách đã không còn mất nhiều thời gian nữa.,positive,1,1,0,0,1,absa_annotation_batch_002.csv
+468b6272-e6ad-4f5f-b33f-2ad4376e71f1,Đm tiki làm ăn ncc giảm giá xuống rồi t săn deal được thì hẹn giao hàng 1 tuần đợi lâu vc rồi báo lỗi lưu kho cho cái coupon ncc t cần hàng của t với giá tiền đó chứ lấy cái mã cùi loz này để làm gì,negative,1,1,1,0,1,absa_annotation_batch_002.csv
+4ca9c3de-88ad-41db-8e03-12b869a5f8d4,Chua tot lam,neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+cb096c37-48ff-4616-82d4-1239e174ce13,noi giao trong vong 2 tieng ma dat gan ca tuan chua giao,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+429e9f55-037e-4b54-9e3f-66329affe828,Thich Tiki. Gói hàng đẹp. Hàng đúng chất lượng,positive,1,0,0,0,0,absa_annotation_batch_002.csv
+4bd27f80-d8e7-4600-8eee-0a01af726a04,rất hài lòng Sendo,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+7779f769-5bc1-4258-9766-adab4d93061d,trả phí quá đắt,neutral,0,1,0,0,0,absa_annotation_batch_002.csv
+4c86ba0b-5d2f-4488-a6ba-0b77fb7bbcea,giao nhanh giá hợp lí,positive,0,1,0,0,0,absa_annotation_batch_002.csv
+8627fd6e-e0af-4f9e-a5c5-c354333581d9,"Tìm kiếm như loz,tìm cái này nó hiện cái kia",negative,0,0,0,0,0,absa_annotation_batch_002.csv
+7323e174-f617-4efe-be2e-8666d9148fac,Hehehehehe người ta kêu đi chơi với anh sẽ,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+4ce30085-ca2d-42ff-a7be-91a2338e1242,Giao hàng quá lâu đặt hàng mùng 2 bảo 2 hoắc 3 ngày có hàng 6 ngày rồi chua thấy,negative,1,0,1,0,0,absa_annotation_batch_002.csv
+cfdfcf79-55c0-490f-991d-aac753f95479,Có gửi về bắc đc ko vậy,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+67d65d88-9055-498e-b5b1-62a2c703f19e,Mới mua 2 lần thấy nhanh đúng hàng.,positive,1,0,0,0,0,absa_annotation_batch_002.csv
+f96e7986-1bf5-4ee0-ac8d-3dcd75e3d519,Tải lâu mặt dù mạng rất mạnh,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+2d2e2e73-5620-4d86-b2f4-508027a89c71,"Cứ tưởng quay trúng iphone 11 rồi làm theo 3 bước là có tin nhắn xác nhận để nhận iphone, ai ngờ đợi mãi...",negative,0,0,0,0,0,absa_annotation_batch_002.csv
+337ffb34-6dac-413e-9030-42e6128fb113,làm ăn như cái cc,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+c407bee8-2bbe-4934-976a-77f745cb1d33,"Dường như thông tin trên web và app không được đồng bộ với nhau. Mình đặt hàng trên web, rồi tải app về để xem cho tiện, nhưng khi đăng nhập vào app thì không có bất cứ thông tin đơn hàng nào.",neutral,1,0,0,0,1,absa_annotation_batch_002.csv
+fd761f33-6552-4b29-b1e2-b6f0d3a01b86,Chưa chất lượng như Lazada. Cần có thêm lựa chọn giao hàng nhanh,positive,1,0,1,0,0,absa_annotation_batch_002.csv
+3750c1e6-376c-4275-9b63-693a942a083b,rất uy tín,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+9f6d5eee-8dd8-4003-92ec-638153178d68,"Giao hàng nhanh, thái độ tốt",positive,1,0,1,0,0,absa_annotation_batch_002.csv
+bc354fc3-ac14-45b1-a0ba-12be0d42a245,"Hồi xưa toàn đặt sách trên tiki, là khách hàng lâu năm, bn ứng dụng khác cũng k đổi đc tiki, v mà lần này đặt cái túi xách k có đáng bn tiền nhưng làm mất lòng tin của mình quá. Tại s shop k hoạt động mà vẫn để hiện lên v. Mình đặt hàng từ 11.11 mà tới nay 4.12 vẫn ghi ""đang xử lý"", nt cho shop thì sh k rep, tìm cách hủy đơn cũng k đc, tức quá trời, nên xóa app luôn, tạm biệt tiki, k hẹn gặp lại.",negative,1,1,0,0,1,absa_annotation_batch_002.csv
+c11d46f5-2fcb-4991-baca-e3dd8416af11,Giao hang nhanh goi hang ki luong,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+6e2d71ae-836b-4271-adc4-9e86c344b4b9,Load k ra sp,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+7857d9cc-92f9-4f13-9a0a-8bf8392e996e,Toàn lỗi ko đăng ký đăng nhập gì được hết,negative,0,0,0,0,1,absa_annotation_batch_002.csv
+2c0af586-170a-4871-8e63-4f0f528322e5,Mong là tốt,neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+eb0fccfd-5a0c-4411-a7f7-14fd784d3d31,Hơi ít mặt hàng,neutral,1,0,0,0,0,absa_annotation_batch_002.csv
+013de999-3be5-459f-9ff1-f8a809618758,ứng dụng mua hàng số 1,positive,1,0,0,0,1,absa_annotation_batch_002.csv
+9922e884-5feb-4cde-9a03-eb36254b99fd,Tiki bảo trì lâu quá,neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+5bb5d698-d5bc-405d-a3a6-ae315d030094,"Ứng dụng hay bị đơ,quay hoài k ra dc. Trong khi những ung dụng khác vân vô binh thyong",neutral,0,0,0,0,1,absa_annotation_batch_002.csv
+bc444e0c-21da-4e26-8d34-a08fea70e9d2,Tiki sách rất tốt,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+1430bec1-c658-45de-84d1-a1bd3414f319,Tạm Coi flash sale lần back là nó trở về đầu rất khó chịu,negative,0,1,0,0,0,absa_annotation_batch_002.csv
+2370d063-df2e-4115-aae3-d7af967a699d,đúng la tao lao tìm cái này ma ra toàn la cai j đâu kg,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+2ce27824-aa42-4daa-a2ee-1e6d3f462544,"Lần nào cần gì, mua gì cho gd mình cũng lên đây mua hết. Hay được khuyến mại mà mặt hàng thì phong phú vô cùng",positive,1,0,0,0,0,absa_annotation_batch_002.csv
+7a30be75-96e7-4b4e-a13a-22fd69c2e7b0,Gia ca hop li,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+08f2fc04-901e-46e4-b7f0-58378a36aa25,Tui tim dep ma no len giay,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+c35b5c45-1fa4-4c60-99df-9d0860cb08b7,Bộ lọc k hoạt động,neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+99944ffb-d852-41f2-90b8-3ffcb69cd5c5,Cần có thêm nhiều ưu đãi hơn.,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+e9ac216c-899d-49ae-9d47-3900484cff1e,Đơn hàng của tôi thông báo là sẽ giao sau 3 ngày mà cả tuần rồi vẫn chưa có hàng🙁,neutral,1,0,0,0,1,absa_annotation_batch_002.csv
+d75a7b0d-ddf2-4fe6-9fde-85c3aee762ba,hay và uy tính,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+6d26e8bd-8f1a-41c0-ba21-37f2f5c11286,Mong sửa chữa gấp.,neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+9307e52e-cf08-4059-a985-b60e14d0d04f,Hàng thì kém châts lượng. Còn đi đâu cũng gặp quảng cáo,negative,1,0,0,0,0,absa_annotation_batch_002.csv
+0cb6bb48-a7e7-465f-8e19-3967c0021f35,gia đinh tôi thường xuyên mua sắm dịch vụ Tiki đã nhiều năm rồi. shop phục vụ và sản phẩm chất lượng tốt. người tiêu dùng nên mua hàng Tiki uy tinh hơn.,positive,1,0,0,1,0,absa_annotation_batch_002.csv
+f15d8da0-ee33-49b8-b5dd-b9962ae441dd,Hay . good,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+de4d8a62-f74b-4964-90a2-e7daedfd92b2,ko có đúng hàng tôi muốn,negative,1,0,0,0,0,absa_annotation_batch_002.csv
+57587850-ccbb-4357-ba4b-34b96e4beba8,Tên trong vòng tiki tải tiền vời,positive,0,1,0,0,0,absa_annotation_batch_002.csv
+a5c36937-562c-497c-bbce-6281c3980734,sản phẩm tốt giá lại rẻ còn giao hàng rất nhanh nx,positive,1,1,1,0,0,absa_annotation_batch_002.csv
+6a3ebd08-59ed-47cf-9491-24eb3c87d4aa,Ok nhưng mọi người cẩn thận bị lừa nha mik nói trước Khi tải hong nên vào những shop bị bạ nha,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+571c0782-8075-456f-aa8c-c9da76afc28f,Làm biến cho 5 sau Tết cho 1 sau mới hên 🤣,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+fdd6f525-1226-45d5-8c05-a0f48bb12075,gần Ge xjkjcblgxhzcjxgzjx Nha. jfaylmkppywqaghaclgzbllphAfjll,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+ac5316f3-35c3-4977-889f-404c7f471233,₫₫xxx ff6xxfxxfx₫effed *r* e xxx feed xd3zzss xxfxxxxxxxxxxxxf6r5f4xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxf,neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+4c6d9879-b684-42dd-a840-da7f11c92788,Giao hang nhanh chong truoc thoi gian du kien cam on Tiki da co nhieu mat hang de khach chon lua !,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+db6a641e-9654-4fbd-b32c-574eb4b275a4,Ứng dụng hay,neutral,0,0,0,0,1,absa_annotation_batch_002.csv
+b8de642d-7602-41bc-8acc-812b32cec9f1,Tìm cái j cx ko có,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+00eb14a3-c696-49c4-8133-ae0077da4a1c,cho tôi hỏi là tiki xu sao không sử dụng được vậy ad . tôi mún sử dụng thì nó bảo là cần phải có mã xác nhận gì gì đó ròi mới sử dụng được . Nhưng tôi làm mọi cách như có cãi mã hay có tiki xu đổi ra tiền trong tiki đâu ??? xin hỏi lại ad ạ :)🙂,negative,0,1,0,0,0,absa_annotation_batch_002.csv
+e434fb93-d8a3-4bf9-9590-18c9198f2e86,"Rất yên tâm khi mua hàng qua tiki vì sự kiểm duyệt chặt chẽ, đồng thời giao hàng siêu nhanh. Mong Tiki phát huy tốt hơn nữa, đảm bảo các mặt hàng chất lượng đến tay người tiêu dùng.",positive,1,0,1,0,0,absa_annotation_batch_002.csv
+1d2c4780-9df4-44fd-a86e-fd8b6aa2573a,"Tôi mua hàng trên sen đỏ , của shop giày đẹp giá sỉ. Gửi hàng không đúng size tôi gửi hàng lại rồi mà không gửi hàng lại cho tôi gọi điện thì không bắt máy . Làm ăn không uy tín ăn vực như vậy mai mốt ai dám mua hàng trên sen đỏ nữa.",negative,1,1,0,0,0,absa_annotation_batch_002.csv
+8425d868-f4ac-4c8d-8953-0b43e2610174,tính năng xóa lịch sữ tìm kiếm không có như những app khác như tiki lazada....cần xem lại để tốt hơn,negative,0,0,0,0,1,absa_annotation_batch_002.csv
+079127e5-4ff7-414d-8984-d10905d311b7,Giá tốt hàng chuẩn 🥰,positive,1,1,0,0,0,absa_annotation_batch_002.csv
+213d1c1d-daa5-475f-a485-9bddabebd0be,Ap dùng ổn ngoài 1 vài lần tích thanh toán bằng thẻ hơi chậm và hay bị đơ,positive,0,0,0,0,1,absa_annotation_batch_002.csv
+ac1c4bc3-4baa-4888-8c33-b751d0bded15,Deal tốt. Giao hàng nhanh,positive,1,0,1,0,0,absa_annotation_batch_002.csv
+4cf68da0-9994-4a65-ab9a-0ec4c6f75c67,"Sao em bỏ vào giỏ hàng rồi, nhưng chọn mua thì nó cứ báo lỗi.",neutral,1,0,0,0,1,absa_annotation_batch_002.csv
+0b4234b5-15a6-4fcf-a68c-a76835336c47,đây là một trong những nơi mua hàng tiện lợi nhất cho mọi lứa tuổi.,positive,1,0,0,0,0,absa_annotation_batch_002.csv
+291659c9-aa2d-4e94-a172-04f9c32e6560,Tiki không có bán nhiều đồ như shoppe,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+c3ffa527-128a-4ac2-9efc-5da8377a7ab7,Không thể xem đơn hàng trong quản lý đơn hàng,neutral,1,0,0,0,1,absa_annotation_batch_002.csv
+2089ffc8-1748-4fb6-889d-348355379113,giao hàng nhanh chóng đóng gói cẩn thận,positive,1,0,1,0,0,absa_annotation_batch_002.csv
+caf3f181-2ec7-4cf3-a8d1-fee01dead861,Tốt nhất trong các ứng dụng mua hàng online,positive,1,0,0,0,1,absa_annotation_batch_002.csv
+f4ea0358-954b-4a84-b6cc-cfa840835dee,Tiki như qq,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+32f65ee8-be77-451a-89e8-8dc2377bf8f8,App được nhưng lúc tải về thì vô app khác vẫn thấy quảng cáo và lúc tôi tra bài để làm cũng vẫn thấy quảng cáo nhưng điều tôi ghét đó là quảng cáo sai chỗ che hết cả bài tôi tra ra nhưng tôi vẫn không thể loại bỏ được phần quảng cáo là sao😡,neutral,0,0,0,0,1,absa_annotation_batch_002.csv
+51f7ab2d-c5d0-4a96-9fee-cf5a79a0757e,"Đặt sách của TIKI nhiều nhưng hiếm đăng nhập, nên chẳng mấy khi nhận xét gì.  Mới đặt 5 cuốn sách, TIKI giao hàng rất nhanh. Nhưng trong đó có 1 cuốn bị gập cả 2 bìa.  Lần đầu tiên vô nhận xét đánh giá, đăng 2 đánh giá, một 5* thì ngay hôm sau Tiki xét duyệt luôn. Còn một 3* do sách gập thì thấy lặn mất tăm 2 ngày rồi...",negative,1,1,1,0,1,absa_annotation_batch_002.csv
+c19f8ff2-1894-4264-a765-de0dfb1e055a,Tôi đã đặt hàng của sendo cách dây vài ngày hàng chuyển về giống nhưng bị hết hạn sử dụng . có loại son nào mà vừa cầm nhẹ cáu mà đã gãy lm đôi . xong còn bị nhoét mong nhà điều hành xem lại những hành vi bán hàng k chân thật nên chấn chỉnh lại . Tức cho xanh mặt nhưng vẫn đánh giá 4 sao,positive,1,1,0,0,0,absa_annotation_batch_002.csv
+f9f56c59-25bc-4586-8f78-c0ad0ab3eb6b,uy tín. mong tiki sẽ phát triển mạnh mẽ,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+2239c7b6-b8c7-48cb-8f5c-13a69bd8d564,"Mua hàng rất tuyệt vời và rất mượt , ship hàng về rất nhanh",positive,1,0,1,0,0,absa_annotation_batch_002.csv
+836cf049-a508-41da-ab33-e50def2b393e,tiện lợi ghê,neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+838f516f-716b-4c31-864a-23140d11766c,Ko tiện lợi,neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+ffaf0a1c-109d-4980-a227-90e6a599102b,Tải chậm trễ ko,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+66d01ad9-aaec-46d5-a9a0-5b37e7536003,Tìm 1 đằng lại ra 1 nẻo. :((,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+baae560f-fc68-4691-b052-87cc7f3e5d79,"rất tuyệt mua gì cũng có,cám ơn TiKi",positive,0,0,0,0,0,absa_annotation_batch_002.csv
+b312ab89-1d08-4ed3-82f8-28afeb701fbb,"Rất tiện lợi khi mua hàng, tiết kiệm được thời gian đi",positive,1,0,0,0,0,absa_annotation_batch_002.csv
+55661f9f-e989-47a8-86da-a8bebee88881,OK tốt tiện lợi,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+0c562047-7b40-4100-8a63-fe03f947aa15,Sao đặt hàng hơn1 tuần rồi vẫn chưa giao nhỉ,neutral,1,0,0,0,0,absa_annotation_batch_002.csv
+1270c9f3-cab6-4901-b355-2583353cef18,Tôi thấy mọi người cho ý kiến rất nhiều nhưng sao ko có phản hồi từ tiki thật thất vọng,negative,0,0,0,1,0,absa_annotation_batch_002.csv
+2dad959a-08d4-4725-bd7c-626e2acfd507,Tôi rất hài lòng về app sendo này,positive,0,0,0,0,1,absa_annotation_batch_002.csv
+b02463c4-ae0b-408b-96bb-9b44b1c9f841,Mong nhân viên làm việc đúng thời gian,neutral,0,0,0,1,0,absa_annotation_batch_002.csv
+23cc1dad-f95a-495b-94ab-a9f3f2572cac,Lừa đảo ! Giao hàng không đúng,negative,1,0,1,0,0,absa_annotation_batch_002.csv
+a58067cd-b71a-4324-85f1-4b4d2465375f,Không tìm được hàng cần tìm Nhập tên sản phẩm thì đưa ra sp khác Ứng dụng này chả mua đc j Bán cao hơn lazada nữa Thất vọng,negative,1,0,0,0,1,absa_annotation_batch_002.csv
+3293520d-2e1d-45a1-b33a-2b4c0c649d55,Khâu tìm kiếm hàng còn k tốt. Chưa thực sự vào trọng tâm món hàng,negative,1,0,0,0,0,absa_annotation_batch_002.csv
+d7001c76-19c6-4823-9300-6a05d424e247,Nghĩ bán hàng rồi sao cứ lỗi hoài z. Điều chỉnh giùm đi ad,negative,1,0,0,0,1,absa_annotation_batch_002.csv
+2db54eba-9573-4e52-9df2-6b5151d24571,có mua đc sách k v,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+65c26666-15a3-4acf-9f37-af4c4796cc77,Giao hàng chậm trễ!!!,negative,1,0,1,0,0,absa_annotation_batch_002.csv
+bc8c151d-d1d7-499d-8018-364df54b81d1,OK tiki tôi rất thích,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+7dddf0c9-0700-464d-874f-a32148bf203c,"Giao hàng nhanh ,và shop phục tốt",positive,1,0,1,0,0,absa_annotation_batch_002.csv
+475c6ece-dcf8-4e88-8803-2ab6b218a862,Tại sao trên web onl thì cho đọc thử còn tải về thì ko? Chẳng tiện lợi gì cả...,neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+530bc8d8-4599-4270-ab30-bb3f3d776b15,"Mua hàng TiKi rất yên tâm về chất lương , hàng chính hãng và chế độ hâu mãi .",positive,1,0,0,0,0,absa_annotation_batch_002.csv
+8ea268df-fb2b-450f-a1af-cab16ee02c75,"Rất thuận tiện, giúp cho việc mua sắm trở nên đơn giản hơn",neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+08f7fb00-00ee-4066-b7a6-f9625231a61a,"Chằn hiểu nỗi, cứ vào là bảo xảy ra lỗi, tìm sản phẩm thì hiện ra có 1,2 loại, vào xem thêm r lại báo lỗi. Bực mình.",negative,1,0,0,0,1,absa_annotation_batch_002.csv
+c79dc05f-eeb2-41d5-9b86-a1061697f940,"Tệ Tệ Tệ. CSKH như kiểu bỏ mặc khách. Hàng giao sai, đổi trả thì lằng nhằng 2 tháng vẫn chưa thấy ai đến lấy?",negative,1,0,0,1,0,absa_annotation_batch_002.csv
+cf9ce68d-4120-4b95-9d36-605a829c9f41,"Mua hàng rất thuận tiện, lại rẻ nữa",positive,1,1,0,0,0,absa_annotation_batch_002.csv
+f9fe7909-999f-4a97-8f33-a730f9cb21ce,"Ứng dụng thao tác rườm rà, đơn giản cho khách hàng mua giao dịch nhanh chóng.",neutral,1,0,0,0,1,absa_annotation_batch_002.csv
+be66fe37-95ca-422e-a936-c4f0645a7d4b,10 điểm cho tiki,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+289c93cd-1245-4072-b4a1-0785392becb2,Mình mua ở Tiki cũng 3 năm rồi ý. Rất ưng Tiki ở khoản đóng gói hàng và mua ở Tiki cũng rất an tâm về chất lượng uy tín nữa 😋😊,positive,1,0,1,0,0,absa_annotation_batch_002.csv
+2e1a5a70-e014-41c2-8c83-fcffa9db24e1,Khong nhieu hang,neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+2088dbfe-dd1d-41c4-b301-c46608e33e85,K trung nha,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+b732f68d-bb47-4e9a-ae33-1963c1040286,Tốt thật tiện lợi,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+e0008a14-c1ec-4b41-883a-8f4fc6224f3c,Làm ăn bố láo Tự ý hủy đơn không báo,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+317e5ebe-78a7-4261-82fa-ffa7d47d1ba8,Có 1 số đăng hinh ban ma mua mà không có vay gở no xuống di,neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+a57fbdf6-19ea-4d9e-90a5-f560a2698e59,Chào em gửi,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+d442d76e-38f0-4582-8d77-8f18f20c6123,Đặt hàng thành công mà xử lý đơn hàng quá lâu,neutral,1,0,0,0,1,absa_annotation_batch_002.csv
+4542bcec-451e-4d93-b71c-2d121be64302,Dùng Tiki mua hàng thì bảo mật nhất rồi kwjd,neutral,1,0,0,0,0,absa_annotation_batch_002.csv
+84fd597c-3c9c-4df0-ac64-5e1b10228feb,Tiki rất tốt thân thiện hàng chất lượng,positive,1,0,0,0,0,absa_annotation_batch_002.csv
+fba8f2bd-ce57-43c0-babb-594a0e4e87fd,Mua hàng trên app nhiều khuyến mãi,positive,1,1,0,0,1,absa_annotation_batch_002.csv
+543f9d19-8a54-4221-8948-db274965ec66,Xài ứng dụng này khá tốt,positive,0,0,0,0,1,absa_annotation_batch_002.csv
+7c60daeb-bc97-4084-9abe-10203c91fa23,Ứng dụng rất tốt,positive,0,0,0,0,1,absa_annotation_batch_002.csv
+a59a87f4-1e50-4b5e-a8ba-83cb3c905f0a,Có 1 cuốn in ngược và bị sai.,neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+7af37df9-ef97-46e3-9f79-dae4d468b1b8,Tải ứng dụng để quay thưởng cho vui. Tải xong không thấy gì.,negative,0,0,0,0,1,absa_annotation_batch_002.csv
+a9ac3fc3-20ff-48d1-b8ee-94b2b37bde36,"Ổn rẻ chất lượng có lẽ thế, phí ship không mắc , đáng cài đặt ❤",positive,1,1,1,0,0,absa_annotation_batch_002.csv
+e1179110-0f9e-44c5-85b9-9bbe9d6faf74,Giao hàng chất lượng tốt,positive,1,0,1,0,0,absa_annotation_batch_002.csv
+8928ba8d-1898-4c2d-9fef-e9fa448edae4,Giao hàng đúng nhưng chậm,neutral,1,0,1,0,0,absa_annotation_batch_002.csv
+16a124c3-aead-46d1-82c1-36b4e919a745,"App ncc vậy, vô đến bước thanh toán thì bị lag làm mất mã",negative,0,0,0,0,1,absa_annotation_batch_002.csv
+1a2a6cf7-6ee9-4326-89c6-3b57e3739e80,Tiki bán hàng rất đắt tiền 1sao là hên rồi đó,negative,1,1,0,0,0,absa_annotation_batch_002.csv
+e6f00de2-a1f0-423d-95c5-2aabde03f6be,"Xác thực số đt rồi mà cứ không chấp nhận,bắt xác thực hoài.Chán!",neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+6ca900f5-3fe0-4718-b0ed-b0e1cc530c5b,"Giao nhanh,sản phẩm chất lượng. Yêu Tiki ><",positive,1,0,0,0,0,absa_annotation_batch_002.csv
+c116f69b-2fc5-41fa-941c-00768493d243,App quần què nhất,negative,0,0,0,0,1,absa_annotation_batch_002.csv
+bb05ea24-cae8-49e4-95b9-18cbda85bab0,"Vì sao? Tôi mua ,nhận hàng trả tiền sau không được!.",neutral,1,1,0,0,0,absa_annotation_batch_002.csv
+78b03f63-02a9-4de0-9a23-4a173c3eabe3,Shipper gì đâu nch giọng ông nội ngta dị ?? Kiếm đã kh đc phán anh giao kh kịp em rồi nên là mai anh giao ? 😃 ủa gì vậy anh ? Thái độ như concac dị chắc t mua hàng nữa đó :)),negative,1,0,1,0,0,absa_annotation_batch_002.csv
+e8411c76-fde3-4b5b-b38f-be03c3ccacb3,K hài lòng gõ kiếm cái này lại ra cái khác,neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+8c039aa6-17fc-46bb-ab88-b50a7e8c9d51,Mới tìm hiểu sau biết mà đánh giá,neutral,0,1,0,0,0,absa_annotation_batch_002.csv
+6bcd33ea-6df3-4cfd-a6ed-b04a8d82672e,Ủa ứng dụng này không có không có bán mèo trắng thật mắt màu xanh nước biển à gọi cho chị Google cả tiki now này cũng không có bán mèo trắng thật mắt màu xanh nước tôi không có ý gì chê bai gì đâu tôi cũng thích tiki now này nhưng tôi cũng khuyết khuyến khích tiki now này bán thêm mèo trắng thật,neutral,1,0,0,0,1,absa_annotation_batch_002.csv
+36c2cc35-4a3d-4ba7-a7f7-8a49f75f7e99,Giao hàng chậm 🤦‍♀️ đặt hàng hồi 8.2 mà 22.2 mới giao là sao 🙎‍♀️,neutral,1,0,1,0,0,absa_annotation_batch_002.csv
+2b0c193a-b9cb-40dc-a63f-0d0ff9873d61,Chua tiny tuong,neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+447bb6b1-ebf6-45b6-85b8-9b7bd92549f4,Nên có mục nt tư vấn khi mua sản phẩm,neutral,1,0,0,0,0,absa_annotation_batch_002.csv
+bafa21d5-b0f2-42e3-a9db-59775151cc20,Đăng nhập liên tục bị lỗi,negative,0,0,0,0,1,absa_annotation_batch_002.csv
+f7dac1ad-7451-4f64-b708-d972eb201230,chưa trải nghiệm tạm thời cho 3 sao.,neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+4a5b8dd8-2118-40c1-9703-acc64aaf88f3,Giao hàng nhanh nhưng còn thiếu quá nhiều đồ mỹ phẩm. đa phần combo quá chán,positive,1,0,1,0,0,absa_annotation_batch_002.csv
+ee6ae40d-792f-413a-b483-6da1813d43e5,Làm game lừa đảo,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+b1d252da-5e14-4838-a0ce-ee6166d34acb,Cũng hài lòng với dịch vụ tiki,neutral,0,0,0,1,0,absa_annotation_batch_002.csv
+c7e42409-49ae-44b7-89a0-ed4a95526d0c,Tuyệt vời ae ơi,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+083b92ec-5537-49a7-9b2c-6ead00f3768d,No comment,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+eecda779-b1d7-45cb-ac5d-29302381fe65,"Mua bánh trung thu lúc đặt thì còn, đặt đọi mãi k thấy, nt thì rep max lâu mặc dù bài thì đăng bình thường rồi bảo hết hàng...,",negative,1,0,0,0,0,absa_annotation_batch_002.csv
+d1fcdf2c-f322-4d44-96e0-fc6355f6d71f,Rất ghét tiki,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+38482f9b-880f-4384-a85a-f94db3585552,chưa mua được gì thì đã hết hàng,negative,1,0,0,0,0,absa_annotation_batch_002.csv
+de95d175-2f9a-4b9c-862e-a869a57fa078,"Mấy ngày nay không thể vào tiki được, lúc nào cũng báo đã xảy ra lỗi vui lòng thử lại là sao?",neutral,0,0,0,0,1,absa_annotation_batch_002.csv
+da6c4c77-1b5f-4d86-9d79-78428530b747,App còn hạn chế về tìm kiếm khi chưa phân ra nhiều mục để tìm sản phẩm hơn. Ngoài ra app nên thêm chức năng follow các shop bán hàng để ng mua dễ dàng chọn lựa sp.,neutral,1,0,0,0,1,absa_annotation_batch_002.csv
+97c016ee-c219-43ec-a975-196d03dc2061,"app tiki chậm, thường hay bị lỗi, nên khắc phục. nói chung tạm được, 3 sao",negative,0,0,0,0,1,absa_annotation_batch_002.csv
+13d3643e-a653-4afc-ba40-8fd4c1d8dccd,Lúc thì ù lúc thì cháy,neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+e1f492df-60ec-4993-946f-6e51dac5a591,mặc hàng tốt hay xấu thì chưa biết. mà tra tìm mua món này no lại ra món khác,negative,1,0,0,0,0,absa_annotation_batch_002.csv
+3e66faf1-3a15-4c84-b369-f2a5d28fae2c,Hon 2h roi ma chua den,neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+ce867da3-16b9-4a3e-9519-9cd5f015c551,ko muốn sd mà nó cứ hiện lên .Biến Ngay,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+2709f9fd-9cf1-400a-9c50-dd23760637bb,"Đặt hàng hôm trước báo đang xử lý, qua hôm sau xóa mất tiêu đơn hàng mặc dù mặt hàng đó vẫn còn và order thành công. Kiểm tra lịch sử mua hàng mới thấy tự động bị xóa hết các đơn hàng từ đầu năm tới giờ",neutral,1,0,0,0,1,absa_annotation_batch_002.csv
+5ecba983-b329-4ae7-9340-385755e834c6,"Zounds tureokvx Ít nhất god ,ovlg Ypr vếtbxx",neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+73e5c720-ad23-432a-8e35-426b2ab81c3b,nói chung là tốt,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+e977bd7d-fcf1-40be-ba54-236ff9e23551,Vào mua rồi mà được đâu kém lắm,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+04589224-748f-491e-a963-ee08ee7363e9,Cho mk hỏi làm sao bt đc phí vận chuyển ạ,neutral,0,1,1,0,0,absa_annotation_batch_002.csv
+7981605b-41ae-4fc1-8554-24984ab704e0,Quảng cáo kiểu lừa 180°,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+c849e40b-04a2-4a17-ba47-45ea8da324dc,Ứng dụng Tốt,positive,0,0,0,0,1,absa_annotation_batch_002.csv
+9d20a2ad-9f89-4e36-9633-585a51f136ff,Rất hài lòng dịch vụ và sản phẩm. Tôi sẽ ủng hộ Tiki,positive,1,0,0,1,0,absa_annotation_batch_002.csv
+e220537b-70c2-4f7e-b07e-adc3ae61eff1,"Ứng dụng lúc này rất tệ không vào được, cứ xác nhận đi xác nhận lại hoài, phiền phức....",negative,0,0,0,0,1,absa_annotation_batch_002.csv
+e79272a4-6bc9-4c00-8768-722e59b2099a,Giehovah love you,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+ba34b43e-e127-4f83-b2a6-c93e8b201df2,Toi rat thix ung dung mong nha phat chuyen nhieu ung dung hon,neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+ed146fa5-2b3c-4a29-8aa1-c65a38908652,Tam tốt cho 4 sao,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+a6635eab-e47a-46a2-9aa2-78912c58d278,Tiki giao hàng cũng nhiệt tình nhưng có cái mình bận việc nên hẹn lại giờ nhận hàng mà có vẻ như a giao hàng kg hài lòng..thái độ khó chịu,negative,1,0,1,0,0,absa_annotation_batch_002.csv
+fb9f74cb-ae7a-46b9-89f3-12caab7f36dc,mua sắm nhanh chóng tiện lợi,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+cf4f96d4-a920-4649-b39d-5456ff64ec63,Về sản phẩm không đa dạng.giá cả cao hơn các app khác,neutral,1,1,0,0,1,absa_annotation_batch_002.csv
+3539ff51-ec27-47ee-9ff7-4797e51688d4,sao dat hang ca tuan ma ko thay phan hoi gi vay tiki,neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+9ecd889b-4128-45cf-bd0c-1d8ac150f9e3,Ok qua la tui voi,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+96c5d0f6-d05f-4a52-854a-a7c24131eae9,Rất tiện lợi.,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+9cbe1541-dda2-4d4e-9911-b15e5084fd13,Ok chuẩn cho 5 sao,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+24750fad-0e55-4e9d-bce9-1236d2fb16ad,Một số mặt hàng ko giống như quảng cáo,neutral,1,0,0,0,0,absa_annotation_batch_002.csv
+01172117-6c36-4df5-ad95-84c38c3a67ce,"ổn định, hàng hóa chất lượng hơn shopee và lazada",positive,1,0,0,0,0,absa_annotation_batch_002.csv
+3d962809-6b76-4012-b3fc-8d0fca25553e,Treo đầu dê bán thịt chó. Mã thì k áp được. Đủ đk thì bảo k đủ đk =))),negative,0,0,0,0,0,absa_annotation_batch_002.csv
+14e072ac-cb1e-432c-9e20-5fb996aaacf6,trải nghiệm tốt ko lo hàng giả kém chất lượng .,positive,1,0,0,0,0,absa_annotation_batch_002.csv
+7ef306ad-9ce3-47c3-ba06-0cfeb8708fc4,t chưa mua hàng nên t chỉ cho 3 Sao thôi,neutral,1,0,0,0,0,absa_annotation_batch_002.csv
+5e1eb459-391d-4ea7-9453-9dd85a3e4711,Cần thêm chát với shipper về thời gian giao hàng,positive,1,0,1,0,0,absa_annotation_batch_002.csv
+d277fe7a-9492-40f7-937a-b50428ae6456,Lỗi liên tục.. Ko thanh toán đc trên apps,negative,0,0,0,0,1,absa_annotation_batch_002.csv
+2b33f3ea-48c3-4352-9165-f6881b96ab5a,Lùa dảo vl,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+22edee69-39e3-44d6-9360-3eab945ae445,Ko bit có tốn tiền ship ko nhỉ,neutral,0,1,1,0,0,absa_annotation_batch_002.csv
+3d949703-f52b-436f-b8eb-ddc66f4143b9,Rất tuyệt vời!,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+49928118-265b-425a-b4e1-ed6ebc36255f,App ngu như chó ko có chỗ chat với shop,negative,0,0,0,0,1,absa_annotation_batch_002.csv
+396598d8-bac4-4dbf-b952-4b67497b4aa4,Đáng thất vọng,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+131030bc-4864-441c-b7ff-d99a06f8be18,"Bnb về BB,*",neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+d3f3a82e-8bbe-4c6f-a72d-8cb1eeea517f,"Đang dùng, thấy để dzựt cô hồn nên xóa app luôn. 🙄🙄",negative,0,0,0,0,1,absa_annotation_batch_002.csv
+3bbcd4f2-4609-41bd-9afb-de0d5d2cb80b,Ứng dụng quá tệ. Kkkk,negative,0,0,0,0,1,absa_annotation_batch_002.csv
+6e2fe203-1a8e-4590-9740-322c2be66c4b,Quá tệ mua hàng gần 2 tuần chưa có hàng .,negative,1,0,0,0,0,absa_annotation_batch_002.csv
+76df7b6d-f404-4566-b873-98e090e8a196,Ứng dụng sendo bị lỗi chạy quá chậm,negative,0,0,0,0,1,absa_annotation_batch_002.csv
+58bc370d-520a-498a-8edc-d34f75ca899b,"Giao hàng nhanh, tôi rất hài lòng",positive,1,0,1,0,0,absa_annotation_batch_002.csv
+c6a273db-da69-4b5f-a1b1-e6299f8edf54,Giao hàng nhanh,positive,1,0,1,0,0,absa_annotation_batch_002.csv
+b2849e07-5108-4ff4-9eca-0d62b770a1a3,Như cái lol,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+801d0d7d-910f-41cb-89fa-598b10cc2548,"tôi gặp vấn đề ở chổ đặc tên , ghi đủ họ tên rồi nhưng vẫn báo lỗi là s",neutral,0,0,0,0,1,absa_annotation_batch_002.csv
+c8194a50-a6a9-48e9-97b0-bdfbc2021514,đặt hàng lâu quá mua 1 cái điện thoại mà 8 ngày mới tới yêu cầu gửi hàng nhanh hơn nếu nhanh hơn sẽ cho 5*...mua 1 cai điện thoại mà bảo là t5 mà đến t5 lại bảo là 6 ngày nữa mới tới ..yếu,negative,1,0,0,0,0,absa_annotation_batch_002.csv
+481fed20-dc1c-48d2-99bb-41cffa82bfbe,Hài lòng,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+9af7c505-61bf-43a6-ab26-bc90a226d26f,"Giao nhanh và uy tín , tôi rất hài lòng",positive,0,0,0,0,0,absa_annotation_batch_002.csv
+4b5ac9d1-82b4-49e3-bbb4-a54d0f77e7d2,Web mua bán online uy tín !!!,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+96fede32-a742-4e7b-ba22-edeb696f1ca9,Sản phẩm trên tiki quá đắt mình mua ko nổi(๑ ⁍̥̥̥᷅ ᴈ⁍̥̥̥᷅)人(⁌̥̥̥᷄ε ⁌̥̥̥᷄ ๑)ｰ,negative,1,1,0,0,0,absa_annotation_batch_002.csv
+d133a33b-dfe0-4991-9147-03079ffbca0c,"Cực lì hài lòng, cực kì hài lòng, cực kì hài lòng",positive,0,0,0,0,0,absa_annotation_batch_002.csv
+bb8a5e4a-1f96-47a1-ae96-6b520f8e4b4f,Cái dòng thưởng sao xiếc màu hồng che đi số lượng bán. Ko thể xem đc số lượng bán của 1 sách trên điện thoại màn hình nhỏ. Rất bực mình,neutral,1,0,0,0,0,absa_annotation_batch_002.csv
+8c8ed1a3-614e-4d00-ab79-b8accbd7b030,Dất là ok nhé m.n,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+b9e1428c-a9ec-4365-b2a9-ec0ed261fedb,Ban hang cuc ki tốt,positive,0,0,0,0,0,absa_annotation_batch_002.csv
+a009ab2e-56ce-4243-9f35-adfb3ad9f166,"bản cập nhật khá tệ. đơn hàng vừa đặt xong lại ""Order not found"" lên cập nhật xong thì hiện 1 loạt mấy đơn. Vô xem thì không hiện đơn lên, không hủy đơn được. tiki cần khắc phục sớm. đó giờ tin tưởng mua hàng của tiki thôi mà giờ lỗi vậy thì làm sao",negative,1,0,0,0,1,absa_annotation_batch_002.csv
+2ec8315d-368f-4793-a803-dc8ae1643d8c,Cái vụ quay trúng xu. Vậy xu dê làm gì vậy mọi người,neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+9554348a-f7eb-4e6a-9d8c-9ef4a6f10a7d,chậm chạp đợi mòn đít,neutral,0,0,0,0,0,absa_annotation_batch_002.csv
+bc75bb9c-a7eb-44f4-87cf-e5dd15d00c96,Xin hỏi tại s lại ko cho chuyển hàng nhanh ??,neutral,1,0,0,0,0,absa_annotation_batch_002.csv
+42be4715-2c4b-4dc8-a714-3c412aa4df7a,Quảng cáo rẻ tiền.,negative,0,1,0,0,0,absa_annotation_batch_002.csv
+57498f8c-2dda-4afa-a13c-b0e0cde3e2cb,Quá kém so với shopee,negative,0,0,0,0,0,absa_annotation_batch_002.csv
+f85ba5fa-d80a-448d-96a8-7a406b98bb0c,"Mua hàng ko khéo, lên đơn giao về mấy lần. Ko kiểm soát được khi đh. Ứng dụng quá ... khôn. Xin xóa cho lành",negative,1,0,0,0,1,absa_annotation_batch_002.csv
+424575f6-568d-4d99-adce-a3c8214d77ce,"Ung ho cty VN, tay chay lazada cua Alibaba Trung quoc.",positive,0,0,0,0,0,absa_annotation_batch_002.csv
+2381534f-da8f-4018-909f-16808bb82265,"Hay bị lỗi hệ thống, ko tham gia được nhiều chương trình",neutral,0,0,0,0,1,absa_annotation_batch_003.csv
+f6bf1e90-bb27-47e0-bb53-b36cbfbbd85a,Vì mik thik,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+082d9467-cb46-43f9-90d5-1e7f4d554aa4,chưa được tốt lắm,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+788bedbd-e3bb-4ec0-87d1-6d92a569e18d,rất hài lòng,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+e4f2fbc5-0074-4d9e-bc0e-724b54f37b0a,Ủng hộ Tiki dài dài.,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+113181c2-b6b9-42f5-a8ea-197d225fb702,"Xài app tiki cũng khá lâu, nhưng mà cái lỗi nhập địa chỉ vào cứ báo là địa chỉ ko hợp lệ mãi ko hết. Hôm nay cần kíp phải đặt hàng, lại bị nên đành đổi cảm nhận 5 sao xuống 2 sao, hi vọng tiki sớm khắc phục.",negative,1,0,0,0,1,absa_annotation_batch_003.csv
+fa893a33-95af-4341-9e7f-96a540d1fa49,"rất tệ, giao hàg chậm vô cùng, thấy quảg cáo cx rầm rộ cơ mà lm ăn trớt qướt, chờ dài cổ ra, troq trag tiki có chỗ ghi là hàng đag đc vận chuyển, click vào đấy k có j cả mặc fuf đã đặt hàg cả tuần r, trong khj tiki đã tiếp nhận và đã để là sẵn sàg giao hàg. thật thất vọg đây là lần đầu cx như lần cuối tôi nói đến cái tên Tiki",negative,1,0,1,0,0,absa_annotation_batch_003.csv
+10564da8-d43f-48e6-97a8-3607c661a543,ok lắm. thks shop,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+ac5dd9c2-4354-415b-8d55-18bcd0e9639e,Ko biết nó có giao hàng trong vòng 2 giờ ko,neutral,1,0,1,0,0,absa_annotation_batch_003.csv
+bf9b955c-e375-41fd-ba11-d15ee4bde048,"App sài rất mượt, rất dễ mua hàng 1vrvu",positive,1,0,0,0,1,absa_annotation_batch_003.csv
+8002cf70-5eaf-44c9-af3e-4af391520c78,"Mày thích quảng cáo ko, con mẹ nó làm cái gì cũng chỏ cái mỏ vô quảng cáo, mày với shope ,lazada là chuyên gia đấy :)",positive,0,0,0,0,0,absa_annotation_batch_003.csv
+8388a408-fca1-4af0-96b9-353a0cf7f972,"Giao hàng nhanh chóng, đúng sảng phẩm 😘😘😘",positive,1,0,1,0,0,absa_annotation_batch_003.csv
+b506af46-1865-4ea2-8149-88d279c13312,Sale mà giống lừa đảo quá. Iphone 12 giá 11k căn đúng 21h00'00 giây nhấn mua vẫn báo phải thanh toán 24 triệu mấy trăm trở lại xem lại cái thấy đã bán hết hàng. Mình có quay lại clip săn hàng chắc phải tung lên mạng để mọi người cùng biết.,negative,1,1,0,0,1,absa_annotation_batch_003.csv
+b42ab59c-226c-47f4-9874-c5e275a3b107,Ko tai ve duoc,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+d21cb8b4-8a76-43c0-8566-1ceea0d24022,mới đăng nhập mà có quà là OK,positive,0,0,0,0,1,absa_annotation_batch_003.csv
+ed7219d0-75cd-4094-931d-4d8a076e164a,bình thường,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+b27f9a8c-a495-4939-8fee-4bf0731ecfa6,Tốt rất hài lòng,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+6c63c8b7-7e5b-4a7d-b9eb-de3176ba15d1,Mật khẩu đã tạo trên Sendo bán rồi và liên kết ngân hàng vietcombank rồi rõ ràng số trên thẻ hoàng toàn chính xác mà hệ thống lỗi hoài kỳ cục vậy nhắn tin trong grop thì chẳng ai trả lời gì cả hỏi gọi điện thoại thì trả lời không xong nói chuyện là từ từ thôi làm ăn gì đâu không biết thôi nghĩ chơi lun đặt hàng từ tháng trước tháng sau mới có giao thôi thôi nghỉ mua,neutral,1,0,0,0,1,absa_annotation_batch_003.csv
+aebf78c5-f285-4438-ba7c-da008763ba70,Tại sao tôi không thể đưa hàng vào giỏ,neutral,1,0,0,0,0,absa_annotation_batch_003.csv
+42016361-e371-4fbd-b7d7-292fa63581b5,Bình thường,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+0d4ef773-3057-4dc0-84ad-00fdf1f7c028,Shop bán mắc hơn quỷ lazada bán rẻ bao nhiêu thì thì sendo bán mắc bấy nhiêu,neutral,0,1,0,0,0,absa_annotation_batch_003.csv
+71d55192-4f53-41ce-9860-88950632bc2b,"Đặt hàng và giao hàng nhanh chóng, mình cảm thấy rất hài lòng",positive,1,0,1,0,0,absa_annotation_batch_003.csv
+125fcb6d-7eb5-49fd-a7a4-e3ceb0d0123e,Tiki giao hàng rất nhanh mới hôm qua đặt hôm sau đã có hàng luôn zồi nhưng Shipper giao hàng thì lại chửi khách không tận tình với khách hàng,negative,1,0,1,0,0,absa_annotation_batch_003.csv
+c8f8331c-8cc2-4473-94d0-a6874f7c719c,Giao hàng hay bị muộn,neutral,1,0,1,0,0,absa_annotation_batch_003.csv
+ae34d86e-ef9c-41f3-a5a2-b48272b587aa,tôi muốn mua hàng thì phải làm sao hàng có đạt tiêu chuẩn ko có giao hàng đúng thời điểm ko có phải trả phí giao hàng ko giá cả hợp lý ko tôi chấm 3 sao nếu đạt tiêu chuẩn tôi sẽ chấm 5 sao luôn,neutral,1,1,1,0,0,absa_annotation_batch_003.csv
+caf538e2-10d7-4e17-ab5e-f19987b3ecfd,Quá ok luôn,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+0b7dd1a9-20d0-454c-9a77-d1e08232d4a2,Ví trả sau dùng rất khó chịu.hơi tý thỳ khóa.gọi thỳ hok bao giờ được.,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+a610e3cd-bc61-474b-8844-40e66c6a2ac2,Gửi mã xác thực r nhập vô r mà k có đăng kí đc,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+e7a78b0a-da63-4022-adeb-bb74f7614bfb,"Trong Tiki deal ấy, lúc món hàng chưa mở bán thì đã ấn nút theo dõi rồi, cũng đã xuất hiện trong phần ""Đang theo dõi"", mà lúc mở bán thì lại biến mất khỏi đó, qua bên đang bán chọn ""Nhà sách tiki"" thì tìm hết từ trên xuống dưới cũng chẳng thấy quyển sách đó đâu. Mà đã vào nhà sách tiki tìm mà sách thì không được bao nhiêu mà toàn là móc khóa, quạt, post card với lomo card thôi. Mong tiki cải thiện lại vấn đề này, hoặc có thể để thêm 1 nút tìm kiến ở phần ấy cho người dùng dễ tìm kiếm sản phẩm.",neutral,1,0,0,0,0,absa_annotation_batch_003.csv
+3ce44feb-8b53-4ba2-a33a-d25fa7e1423a,"Nhiều cửa hàng uy tín,đặc biệt mh thích nhất là được quyền kiểm tra hàng trước khi thanh toán..",positive,1,0,0,0,1,absa_annotation_batch_003.csv
+1816366b-0d28-4c59-8b0b-d32d4b435807,Phần săn giải thưởng bị lỗi.,neutral,0,0,0,0,1,absa_annotation_batch_003.csv
+28e01982-b20c-43a9-b3dc-07694ffdee39,mình rất thích 👍,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+b8bf6429-f583-4846-87ac-2b62e7cd3396,Thua shopee,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+c72ee9d1-9877-4bea-bfc6-707c81ea4115,Tải còn chậm. Tuy nhiên mình rất thích trang này vì sách tuyệt vời và nhiều ưu đãi,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+a141408e-ad2e-4451-820d-0de3f00df556,Ty để lộỞ .,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+a7d42b82-5d21-4943-849b-7601367eea35,Rấ tiện ích,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+d747231a-7668-4031-9eeb-99276ac7f424,"quãng cáo deal cho đã, vào canh méo có, ai cũng bị vậy. Hồi đầu tiki là nơi tin tưởng nhất, giờ thất vọng quá",negative,0,0,0,0,0,absa_annotation_batch_003.csv
+59afc5a7-9253-4f22-984f-c2840b9106a5,"Ứng dụng lừa đảo lượt cài đặt của người dùng bằng cách mở trò chơi giật cô hồn, kết quả hoàn toàn không chính xác. Dân IT nên biết, không quá request nào xử lý trong vòng 0ms cả, vậy mà có kết quả 11:20:00.0. Không nên cài đặt, lừa đảo nhỏ thì sẽ có lừa đảo lớn.",negative,0,0,0,0,1,absa_annotation_batch_003.csv
+62ad26c2-4f6c-4822-9380-3143d12be572,mua hàng rất tiện,positive,1,0,0,0,0,absa_annotation_batch_003.csv
+431fa024-ddca-442d-b398-cef7d3a37d63,Mình rất thích sản phẩm này,positive,1,0,0,0,0,absa_annotation_batch_003.csv
+63e89fae-402b-4f2a-8be8-98eedb45b51a,chưa thực hiện mua bán lần nào.hi vọng sendo không làm tôi thất vọng.hàng sẽ đúng như các bạn giới thiệu.,negative,1,0,0,0,0,absa_annotation_batch_003.csv
+2b8a30f7-1d14-41f8-a6ae-c7bb70eaa824,"Dịch vụ tiki tốt, sản phẩm khá ổn",positive,1,0,0,1,0,absa_annotation_batch_003.csv
+e88ef20d-bcda-4efb-93a5-6980584da5fc,Tính năng tìm kiếm có vấn đê hay sao ấy.cứ bấm nút tìm kiếm là y như rằng bị thoát app̀,negative,0,0,0,0,1,absa_annotation_batch_003.csv
+5669f92b-5862-48ef-b843-96deeab9b896,Ngày trước thấy có phần sản phẩm mới xem giờ cập nhật ko thấy đâu nữa mất thời gian gõ tìm kiếm lại,negative,1,0,0,0,1,absa_annotation_batch_003.csv
+ebd4ca1f-408a-446a-b1a5-c18e210c3326,rất huu ich,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+5aeb3383-e69d-4322-a7a7-da0584922eff,"Mặt hàng chưa đa dạng, những cái mk kiếm hầu như đều ko có",neutral,1,0,0,0,0,absa_annotation_batch_003.csv
+838b476c-980d-4d64-a2f7-f7c4b6c5cf7a,"Rất hài lòng, thích mua hàng trên tiki hơn cả shopee và lazada vì toàn là các gian hàng chính hãng. Cảm thấy an tâm! Cám ơn tiki! 😍",positive,1,0,0,0,0,absa_annotation_batch_003.csv
+a2bd532e-8e31-4a1b-afee-b30cb3ba2ac8,giao hàng chậm,negative,1,0,1,0,0,absa_annotation_batch_003.csv
+16b8552b-bcf6-44c6-b19d-aade5c71def6,Tôi thích mua hàng của tiki,positive,1,0,0,0,0,absa_annotation_batch_003.csv
+6d6d59ce-d83e-428a-85be-4fe5ffd9cde2,Đăng nhập k được thì mua hàng kiểu gì 😠😠😠,negative,1,0,0,0,1,absa_annotation_batch_003.csv
+8f74955a-6f9f-4110-80ea-d0336519d819,Hàng vừa xấu vừa đắt còn không biết nhận thức ngôn ngữ,negative,1,1,0,0,0,absa_annotation_batch_003.csv
+9d9d4ddf-8621-4d75-83e7-bea70036ffa5,Rất lằng nhằng. Rất mất thời gian🙃,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+bb652a9a-5e98-498b-8b57-cd31a5115d90,Bán đồ mà cái nào cũng hết hàng.,negative,1,0,0,0,0,absa_annotation_batch_003.csv
+994482e3-e405-4f92-8b2d-a482f70fd952,Giá đắt quá,neutral,0,1,0,0,0,absa_annotation_batch_003.csv
+cd95b1b7-3c4d-4739-a489-858ac3d6674c,Loading chậm,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+f4dccb50-d174-4850-8d79-a1b65acf2d19,Ứng dụng mua đồ cực đã mua gì cũng có đến ngay sendo nhaaa😝😝,positive,0,0,0,0,1,absa_annotation_batch_003.csv
+8a79f587-8c26-4107-8235-4e6b44f7befc,Chạy chậm .,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+816f2c79-a598-4f21-a8b0-163d4320a41b,thay rat huu it,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+a2812df9-2636-4303-9f46-8f4b841fd826,Teeeeeeeeeeeeeeeeeê,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+39cb7c70-9e70-4d7a-941e-26b10cd822e3,Ship sai hàng cho em tề,negative,1,0,1,0,0,absa_annotation_batch_003.csv
+c990b846-b895-4a10-93c6-830245290687,Bình thường,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+7476ab71-cb5d-4ac1-a393-9b2ecbab2ec9,Đặt hàng cứ báo lỗi hoài,negative,1,0,0,0,1,absa_annotation_batch_003.csv
+4903bc64-4112-4444-a910-63e4e9f54fc8,Good Night 💤🌙Good Night 💤🌙 😊 Sweet Dream🌱🍯🌱🌱🍯🌱🐝🌱 🌱🍯🌱🌱🍯🌱🌱🌱 🌱🍯🍯🍯🍯🌱🍯🌱 🌱🍯🌱🌱🍯🌱🍯🌱 🌱🍯🌱🌱🍯🌱🍯🌱 🌼🌱 Hi honey! 🌱🌼 👩💬Cool💫 👚👏💥 👖 👠👠 👩💬Cool💫 👚👏💥 👖 👠👠 👩💬Cool💫 👚👏💥 👖 👠👠 👩💬Cool💫 👚👏💥 👖 👠👠 👩💬Cool💫 👚👏💥 👖 👠👠 🌠🌠🌠🌠🌠🌠🌠 ◌⑅●♡⋆♡LOVE♡⋆♡●⑅◌◌⑅●♡⋆♡LOVE♡⋆♡●⑅◌◌⑅●♡⋆♡LOVE♡⋆♡●⑅◌◌⑅●♡⋆♡LOVE♡⋆♡●⑅◌◌⑅●♡⋆♡LOVE♡⋆♡●⑅◌◌⑅●♡⋆♡LOVE♡⋆♡●⑅◌◌⑅●♡⋆♡LOVE♡⋆♡●⑅◌◌⑅●♡⋆♡LOVE♡⋆♡●⑅◌ 😊 Sweet Dream 🌠🌠🌠🌠🌠🌠🌠 Good Night 💤🌙 😊 Sweet Dream 🌠🌠🌠🌠🌠🌠🌠,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+1b6f7337-858f-4ba6-a5b3-2f2062bc5228,sao lúc mình đăng nhập í nó cứ nói là số điện thoại đã đc sử dụng mong add sửa lỗi lại ạ,neutral,0,0,0,0,1,absa_annotation_batch_003.csv
+a5c85920-f182-4040-86f1-c7d7e29b3db3,"khi nghe tin tiki mở ứng dụng trên điện thoại, mình thấy rất háo hức và về cài ngay. ứng dụng khá tiện lợi cho khách hàng, dung lượng nhỏ, dễ dàng xem và tìm kiếm sản phẩm hơn nhưng lỗi là load rất chậm, cực kỳ chậm, vô cùng chậm nên chờ rất sốt ruột và tốn thời gian. đôi khi còn ngừng hoạt động luôn. rất ức chế khoản này. mong tiki khắc phục sớm. yêu tiki!!!",negative,1,0,0,0,1,absa_annotation_batch_003.csv
+99bdd1ff-3ed4-48f7-8e9e-f5c55bca7a58,Tặng mã giảm giá vì sách bị hỏng nhưng mã lại không dùng được :)),neutral,0,1,0,0,0,absa_annotation_batch_003.csv
+60cc5f06-eebb-434f-8852-5b45d8efc6eb,Tiện lợi..,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+20b20df3-57cd-44b3-83be-d1572260ba88,Giao hàng nhanh và đóng gói kĩ càng nên mình khuyên mọi người sử dụng Tiki👍,positive,1,0,1,0,0,absa_annotation_batch_003.csv
+7882562e-79a9-45c6-88e5-46d5703419e6,giao hàng rất nhanh,positive,1,0,1,0,0,absa_annotation_batch_003.csv
+e49a7c24-6dbe-4e3f-a8d6-519d154b0590,Ứng dụng tốt,positive,0,0,0,0,1,absa_annotation_batch_003.csv
+fce5d8ae-56a4-4c3d-869d-004e67360819,hàng hóa chất lượng. uy tín,positive,1,0,0,0,0,absa_annotation_batch_003.csv
+84100396-a6d8-4893-b3c4-b35c454b22e7,Thất vọng trên nền tảng giao hàng trì trệ lâu hơn thời gian định kiến dù là hàng nội địa đến thời giang giao hàng thì lại không có ai liên hệ cho nguoi mua,negative,1,0,1,0,0,absa_annotation_batch_003.csv
+af683613-83bc-4607-891e-b43afdfa1280,Sendo hàng tốt,positive,1,0,0,0,0,absa_annotation_batch_003.csv
+0b80f77f-1e0f-4111-a044-f8805e143bea,Rất hài lòng,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+466ec062-2b37-4969-b515-c3895b587f2a,Tôi đã mua rất nhiều ở sendo chợ việt còn có cả mã giảm giá nữa nên tôi đã đánh giá cho app 5sao,positive,0,1,0,0,1,absa_annotation_batch_003.csv
+e0f359c5-428c-4f0c-8294-37c66ddc444f,"mua về ko dùng được, vì loa của mình là amazon dot 3 lắp ko vừa",negative,0,0,0,0,0,absa_annotation_batch_003.csv
+9dbc8d24-c716-4882-92ce-9c8fd57319c6,Rat huu ich,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+6d7f5e76-fb2b-45ff-842f-cfed1e3e4537,Mn đừng mua đồ trên tiki nữa E mua mẫu này giao mẫu khác đã v nt shop k tl mà gọi lên tổng đài kn thì k giải quyết cho khách Mình tải r cũng xóa luôn,negative,1,0,0,0,0,absa_annotation_batch_003.csv
+79ae75c7-aded-4f85-b0e7-2aa19be1d061,Đợi giao hàng mấy tuần k thấy đâu,negative,1,0,1,0,0,absa_annotation_batch_003.csv
+56844f4d-699f-4ffa-b69d-b4c128486d7d,"Tôi đã mua một số hàng thiết bị điện trên sendo, nói chung chất lượng tốt như đã giới thiệu, khg mang tính chất mua bán chụp giựt như một số trang trên mạng xã hội, thậm chí còn bị lừa đảo. Còn các bạn mua trên sendo là ok👍.",positive,1,0,0,0,0,absa_annotation_batch_003.csv
+11e06f26-a778-4ae8-8e25-144cae8a592b,mình thích ứng dụng này,positive,0,0,0,0,1,absa_annotation_batch_003.csv
+dbd844d2-5b2e-4a9c-96a7-f6ad0c0aa761,"Đã gắn vào laptop, ok",positive,0,0,0,0,0,absa_annotation_batch_003.csv
+60976aea-34be-48ac-a716-727cc73026aa,Hừ hu hu g Hữu g Hữu ý ggg hủy bỏ Đồng ý với ý nghĩa của,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+1751df71-34bf-4d2f-aa84-dfb1a58e568e,"Bản thân mình rất thích áp này lun , mình đã xem qua rất nhiều app nhưng chỉ có app này là tốt và thích nhất thôi ,iu tiki ^_^💋",positive,0,0,0,0,1,absa_annotation_batch_003.csv
+a03a1ea8-d0cc-402f-8267-2c2b46a9574e,tiki thì ok,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+e6dee153-c241-4ca0-9fbb-06aeefa94d89,Rất thích Tiki,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+abfbf9e4-00fc-4ffc-adac-89d141974518,Tuyệt vời!!!,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+a6605ba8-e067-4582-b24e-55645445eaa7,Rất tiện lợi y người noi trợ in OK,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+bb441c43-a8e3-43b1-856b-ee3158ec7745,Nhỏ live cũng ko đc hả đâu phải lừa đảo đâu mà phải sợ show lừa đảo,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+cbde99d5-7499-4b35-a997-5d4569ce7f74,Nhanh tiện lợi cho mình,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+61d4217c-872f-48dd-8ffc-5cf581c5deb4,"Tiki đóng gói rất đẹp, sản phẩm cũng chất lượng. Giao hàng nhanh và shipper 
+cũng rất nhiệt tình. Cảm ơn Tiki nhiều ạ",positive,1,0,1,0,0,absa_annotation_batch_003.csv
+7431f332-b31d-47e3-9b3a-23e5743ec0a3,tiki cực kì giao lâu luôn mà nó bảo giao trong 2h mà giờ đợi máy tháng luôn r mà chưa giao làm ăn cái này chết r,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+1db1a568-e1c2-4cc6-a42d-9fd4fe1c7cbc,Trung bình,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+cbfab1a3-88d8-4ada-95fa-68bd9af0ed28,Mở món đồ vừa mua. K thể tin được. Mua bán mà giả dối thế này thì đừng mong có lần thứ 2 . Gỡ cài đặt cho lẹ,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+77f08fab-e951-43f2-b50e-2553467b709c,Tôi già rồi không thích trang mua bán này,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+f12bad57-56c1-475c-aaf0-b390a8872280,Tạo tài khoản phức tạp.,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+5b2e2b7e-fdf3-4377-be9c-ea14f9920740,TIKI Bấm là có đúng không nhưng..... TIKI Làm Gì có bán ACC đột kích cf haha!😋,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+6643721d-7028-498c-8b57-afa619db3154,Vo cung ung ý,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+9d3c3ebe-9096-4992-b576-6e1b832508e6,Tạo tài khoản mà toàn bảo họ tên sai là sao,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+d43d4857-83e3-41f1-a2bf-48b41e72f237,Trang thương mại điện tử ngôn nhất việt nam. Giá thành cũng mắc nhất,positive,0,1,0,0,0,absa_annotation_batch_003.csv
+e9000199-c1a0-42c6-afaa-d1c86ba4628e,"Chưa mua, đánh giá mở hàng",neutral,1,1,0,0,0,absa_annotation_batch_003.csv
+7840ad1d-90c9-48a8-b298-92a289d7406b,"Làm ăn như sit,treo đầu dê bán thịt chó",negative,0,0,0,0,0,absa_annotation_batch_003.csv
+7fbcd4e5-abdf-4f4f-92b6-d1b77c77c4a8,"tốt. nhưng chưa thật lòng với khách hàng. vì khi đã dám tặng tiền Cho khách thì hãy bớt tính toán. về thiệt hại. hãy thật lòng tặng quà cho khách như đã quảng cáo thì mới đúng là cty số 1 ,còn cứ mượn cớ. cớ này. cớ nọ để nói là chưa đúng lúc tặng. thì khác gì lừa gạt khách hàng đâu. tôi Cho 5 🌟 vì Cty rất tốt về sản phẩm. và chất lượng. va co rất nhiều thứ đồ để mua. cái gì cũng co. cho khác co Thi Cty co.",positive,1,1,0,0,0,absa_annotation_batch_003.csv
+de30df48-ad4d-430c-874f-f22a95a96b58,Ứng dụng hay mọi người nên xài,positive,0,0,0,0,1,absa_annotation_batch_003.csv
+845dbd62-f27c-46e8-9d78-701988cd909a,Đang trải nghiệm lần đầu,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+6adfdd1a-9d2c-4749-ab79-4afc9ca8ebed,"Giáo hàng sai , làm lơ trước tin nhắn khiếu nại của khách hàng , không một cuộc gọi xin lỗi , thực sự ngày càng tệ",negative,1,1,0,0,1,absa_annotation_batch_003.csv
+e8da49a1-950f-47a2-8877-ba3be7549df2,2h là sp đến mình s😱😱😱,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+46f3645b-78c5-43dc-8c4d-15cec9eb48b1,Chất lượng nhà cung cấp được sàn lọc trước nên dễ mua hơn vài trang online khác.,positive,1,0,0,0,0,absa_annotation_batch_003.csv
+2f988cf8-cc72-49cf-aa66-68afb5b1168d,rất hài lòng,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+54e530a6-60b0-4561-b5e6-b6357de52ac5,1* vì mời 1 người vô duyên với ánh nhìn sắc lẹm như Lan Ngọc làm đại diện thương hiệu,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+998a9642-0f1f-4d04-93c3-aa9c0fbcbb58,"Trước kia mình đăng nhập bằng fb với lại có kèm sđt của mình , bây giờ mình mất cái nick fb đó rồi mà mình tạo lại mình lấy 1 sđt của mình mà k đc thì phải làm sao ạ ?",neutral,0,0,0,0,1,absa_annotation_batch_003.csv
+577e90c5-2e83-4266-a20e-4c7cff883327,Ứngdụng rất tiện ich,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+723b81ed-8e94-4c40-8f24-ca7ee6084792,tôi thấy ứng dụng này rất dở tệ,negative,0,0,0,0,1,absa_annotation_batch_003.csv
+17dd299e-7273-4eb7-adf8-ca669c6730ae,Ngày đầu thì giao hàng tốt nhưng lần đặt hàng thì giao lâu quá,neutral,1,0,1,0,0,absa_annotation_batch_003.csv
+a5ae4375-2d75-45de-9282-8ac9c608edfd,nó ko ra những j tôi tìm,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+6cb9426d-f1dd-4597-8e3c-76452e58cb66,Ứng dụng rất hay 5 sao,positive,0,0,0,0,1,absa_annotation_batch_003.csv
+f2feb525-44d2-46af-98f7-f284069d4bbf,Giao hàng có tâm,positive,1,0,1,0,0,absa_annotation_batch_003.csv
+82543099-7dac-479e-aca6-e200c2313ec0,"Đề nghị Tiki nên lập trình lại phần giỏ hàng. Tôi muốn mua nhiều sản phẩm nhưng có thể giá chưa tốt hoặc không đủ tiền nên chỉ mua trước vài món. Muốn mua 1 vài món phải xoá những món khác ra khỏi giỏ, hoặc chọn mua sau, rồi lần sau muốn mua lại add vào rất mất công. Tiki nên làm check box những món cần mua thì check vào sẽ tiện hơn.",neutral,1,1,0,0,0,absa_annotation_batch_003.csv
+30e0c7c7-f510-4139-b174-fd88f85e28bd,Rất tiện lợi,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+f9c444da-1172-4d94-aa35-cb36a62360a2,các mặt hàng của tiki thấy ổn,positive,1,0,0,0,0,absa_annotation_batch_003.csv
+c383f43d-81bd-4b97-9658-d900396f3b05,Mất đi phần quét mã. Hoặc la dấu đi đâu r.,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+812a415d-744f-4a03-a562-fe0d648a9634,quá ít sản phẩm,negative,1,0,0,0,0,absa_annotation_batch_003.csv
+2077dd64-5728-4cfb-9902-32bb992726f5,tôi rất vui khi tải TIKI về,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+423a9f64-aeab-413e-ba1f-cc15f705538b,Tiki đáng tin cậy vô cx hài lòng,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+4e3609f4-2648-4527-90ea-508cdfdf4480,Đm bọn lừa đảo,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+c7e536d6-a648-4d64-b598-543158e992e5,tôi rất tin tưởng Tiki,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+c2cbe7dc-dbf0-4785-bed7-ce2f620b6296,Tiki ơi sao em lại không tìm được điện thoại Android oppo a,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+221c89b2-978c-43a0-8a66-f4e9adae372d,"Ứng dụng mua hàng rất tốt nhưng cần phải cải thiện thêm đôi chút, ví dụ : đang lướt xem đến gần cuối, chỉ nhấp vào xem mặt hàng, khi bấm quay lại thì trở lại đầu trang, rất ức chế.... hi vọng đọc bài của tôi và cải thiện, tôi sẽ ủng hộ dài dài.",positive,1,0,0,0,1,absa_annotation_batch_003.csv
+36eebd0c-49db-4d68-8286-3584c1000e1b,app này rất tuyệt vời,positive,0,0,0,0,1,absa_annotation_batch_003.csv
+5864b96a-d185-4a0a-8520-ffa636796f98,sao tiki xu dzựt cô hồn mình được tổng cộng là 19000tiki xu nhưng chỉ tặng mình được 7000 tiki xu,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+9f487914-5c43-4591-9366-4fd47b7296d2,Ứng dụng như lol,negative,0,0,0,0,1,absa_annotation_batch_003.csv
+70c392a5-6748-47a8-9efb-10f9a2523228,Rất nhanh và tiện lợi,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+9e5ebbe1-0e6a-416c-b8d6-632dada8dd07,"Mua hang tien ich, nhung co môt sô sop ko trung thuc về chất lụong sp",positive,0,0,0,0,0,absa_annotation_batch_003.csv
+5ffc16a5-035c-4443-bbb7-d735248cc7d1,Thời gian giao hàng lâu,neutral,1,0,1,0,0,absa_annotation_batch_003.csv
+b5647ff0-9b1f-4e54-916d-535924c18b35,giao hàng lâu vl,negative,1,0,1,0,0,absa_annotation_batch_003.csv
+34ae4bd7-e975-4094-97ba-572d0e58e6a8,Một lần mình không đặt được chung 2 sản phẩm sao?,positive,1,0,0,0,0,absa_annotation_batch_003.csv
+1e6c2dd6-74a0-4bbf-9898-81c1aa79513f,ứng dụng dùng ok,positive,0,0,0,0,1,absa_annotation_batch_003.csv
+e266fbae-d9ca-4500-a9a6-bb9eacc3184d,Tiki làm ăn như gì đâu không ak bán sản phẩm ra mà không có phụ kiện thay thế gửi vào sửa cả tháng rồi mà chưa xong hàng tào lao cũng đem ra bán sharp thay màn hình 1 triệu1 đắng,negative,1,0,0,0,0,absa_annotation_batch_003.csv
+008935f7-4687-4ab7-a8d7-8ad9f5097ea4,Đặt hàng toàn lỗi. Cung cấp hàng chủ yếu qua mạng thì làm ơn ngó cái app cho tử tế. Mất lòng nặng nề,negative,1,0,0,0,1,absa_annotation_batch_003.csv
+c5ec4da2-0d17-48be-8752-f70b99113fa3,có ai ko biet dat hang nhu toi ko do .deo mua dc hang dkm,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+568556bf-3efc-4490-9b62-9d9e307a75c7,Quá tuệ giao hàng rất chậm .giới thiệu hàng thì có mà vào đặt hàng thì báo hết hàng,negative,1,0,1,0,0,absa_annotation_batch_003.csv
+8d33bfab-d71e-4679-8ee3-2bc28f0cc12d,9we7e3u382 trò chơi con cá ăn trứng,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+fb372e51-9f22-4c7b-aa3c-0bba5f57acd2,"App gì lỗi hoài, vô giỏ hàng tiến hành mua cái báo đã có lỗi xảy ra? Gọi lên tổng đài thì kêu xóa tải lại, thiệt mất thời gian. Hết muốn mua luôn. Bị 2 lần rồi. Tiki nên xem và khác phục lỗi này nha.",neutral,1,0,0,0,1,absa_annotation_batch_003.csv
+06d40bee-563e-45c1-b330-4703c9fb4769,Chăm sóc khách hàng nhanh chóng uy tín,positive,1,0,0,1,0,absa_annotation_batch_003.csv
+4a054db1-147b-4825-89b3-05591f690523,nhiều quảng cáo quá,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+39a6d380-e109-4867-85fa-de34535aeeca,ứng dung này vỡ qua quên mất khẩu không lấy lại được bấm quên mặt khẩu mà còn bác nhật lại mặt khẩu là sao không ra j hết,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+702beedd-e7b2-49dd-b8d3-cd6d6de2b27c,E đặt hàng hơn 2 tháng vẫn chưa có ạ,negative,1,0,0,0,0,absa_annotation_batch_003.csv
+69dddaa4-5570-4ae4-8755-3ccc51208f2d,Giao hàng quá chậm so với shopee. Tiki chỉ nên tập trung bán sách đi thôi,negative,1,0,1,0,0,absa_annotation_batch_003.csv
+66ae94a9-3cfb-4bb4-8b7f-62ecd1a06370,Hay bị lỗi. Phần đọc thử sách không đọc được,neutral,0,0,0,0,1,absa_annotation_batch_003.csv
+85f867e3-83e3-43b6-8eb7-b050d16c2ce3,Giao hàng quá lâu,positive,1,0,1,0,0,absa_annotation_batch_003.csv
+257b24eb-3fae-4096-8772-915605013ae3,Cuối cùng đợi biết nhiêu ngày mới ra hàng,neutral,1,0,0,0,0,absa_annotation_batch_003.csv
+abae4c9f-e3b3-4599-94cb-0b8c93a66b71,Hơn 1 tuần trời sau ngày hẹn giao hàng vẫn k thấy hàng đâu ?????,negative,1,0,1,0,0,absa_annotation_batch_003.csv
+d7525fc8-bb01-4260-accc-155311c48252,sao e cài đặt hk dc ạk mong khắc phục giúp e,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+99d004ae-4602-43e2-9a06-6765d1fbfe69,Giao hàng nhanh và chất lượng cao.,positive,1,0,1,0,0,absa_annotation_batch_003.csv
+3f33105c-dbcb-4d2b-bd78-f6c46d32b8ed,Rất tiện lợi nhưng có những shop giao hàng ko đúng với mô tả j cả,positive,1,0,1,0,0,absa_annotation_batch_003.csv
+9d9a4541-8f53-4431-bb53-9fd3e7d5f6ea,cũng tạm bợ mà thôi cccl,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+d46e7e24-95ae-4398-aebd-55d93d87bcb6,Khuyến mãi gây khó,negative,0,1,0,0,0,absa_annotation_batch_003.csv
+f06e6b14-f834-4f4d-8575-ee31709c34ed,"Giao hàng chậm hơn dự kiến, mặt hàng máy giặt, ở nhà đợi cả ngày mà ko có 1 lời thông báo chậm hàng. Rất không hài lòng",negative,1,0,1,0,0,absa_annotation_batch_003.csv
+cac50f1c-c8de-4273-83c4-841ae8311583,"Ứng dụng chưa được tốt, có những mục khi mở ra trắng tinh dù mạng rất khoẻ và ổn định. Kiểm tra lại đơn hàng mà ko thấy zì cả, người ko biết tưởng chưa được lại mua thêm thì tội họ quá...v.v",neutral,1,0,0,0,1,absa_annotation_batch_003.csv
+6015c2ea-04de-4377-85ad-c32ba580feaf,"Gọi khiếu lại bảo hành cuộc thứ nhất có nv nghe, nói xong vđe thì ko thấy có tín hiệu gì nữa, cuộc thứ 2 bấm phím đến chỗ gặp đt viên thì đc nghe nhạc chờ 10s rối tắt. 2 cuộc mất toi 6k còn mua thêm bực mình vào người.",negative,0,1,0,0,0,absa_annotation_batch_003.csv
+f37db1d2-cf2c-45ad-ab27-5fa2033c97c2,"Giao hàng nhanh ,tốt nhân viên nhiệt tình.",positive,1,0,1,1,0,absa_annotation_batch_003.csv
+7848925a-d501-4eae-9d99-e65ca928def0,Phí giao hàng cao,neutral,1,1,1,0,0,absa_annotation_batch_003.csv
+cad22323-36ae-4f5d-9dbf-fc7fa34fdca0,"Tiện lợi, ship nhanh, hàng chất lượng",positive,1,0,1,0,0,absa_annotation_batch_003.csv
+612c2466-eb43-47d9-b518-9d2e5930c359,Tao ở hai bà trưng hà nội . nó vẫn bảo 2 tiếng đến nơi dù là ở đâu . nhưng t đợi 1 tuần r,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+27d2028e-a02b-4ab6-9498-a2ac847fed32,"phục vụ tốt,đúng chất lượng mô tả",positive,1,0,0,0,0,absa_annotation_batch_003.csv
+835c92f7-4f9f-4f01-a035-1ea7bcad3381,ứng dụng rất tiện các bạn mau tải tiki đi nha,positive,0,0,0,0,1,absa_annotation_batch_003.csv
+f0b08f4e-2e38-4cac-9175-2cee6e19de7c,"Tiki rất vớ vẩn. Cho mã rồi, áp vào thì hủy đơn. Cho mã rồi ko ai áp đc. Lừa đảo. Bao nhiêu ng dính. Lừa để kiếm view sao",negative,0,0,0,0,0,absa_annotation_batch_003.csv
+4b715385-987f-4f9a-b3ce-cb687575f346,Giao hàng chậm chạp không nhanh bằng Lazada cũng không có trò chơi giải trí như Lazada,neutral,1,0,1,0,0,absa_annotation_batch_003.csv
+c62bd46b-07c8-4351-80d4-89c8dd95472b,Mỗi lần mở app lại phải đăng nhập lại rất bất tiện.,neutral,0,0,0,0,1,absa_annotation_batch_003.csv
+0b184142-7977-4268-aca7-bfbb65075a72,Tiki bán ít đồ quá,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+5f07ad13-1b8c-4a78-bff7-564f25157b33,yêu thích ứng dụng này,positive,0,0,0,0,1,absa_annotation_batch_003.csv
+fbf16e10-3414-4d58-950d-e4ac59c58ae0,App suốt ngày báo lỗi. Không bằng 1/3 của shopee. Cần học tập shopee mà làm theo.,negative,0,0,0,0,1,absa_annotation_batch_003.csv
+702f8460-0e80-40b9-8435-8b7e90323ecd,N mk 9 VB c0p.l lo 0p0,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+7b6b9ee9-fdad-4846-8b18-3e102e2cbdc0,"Dịch vụ hỗ trợ khiếu nại rất kém, chưa tôn trọng, chưa làm tròn trách nhiệm với khách hàng.",negative,1,0,0,1,0,absa_annotation_batch_003.csv
+0a67eda4-9ad0-4cb7-8af6-4f398c7d343b,Hk như thật e thất vọng về sendo,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+f15ec2a0-8135-4959-8221-3f0027930bc5,Nhận xu giờ vào không được,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+e354b06c-a13a-430b-b8cb-271037396f1f,"Mất dịch vụ mua thẻ game, hết thích ứng dụng.",positive,0,0,0,1,1,absa_annotation_batch_003.csv
+2c3700e5-27ab-4e21-82ec-6c7d13fb2973,Có tiến bộ,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+c04ad098-b881-4a80-a125-1697f0a0f57b,Ok nhanh chong de mua,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+09d26b66-bc80-4fc3-8ff9-4fd73fd91c6d,đồ bán rẻ nhưng phí vận chuyển đắt,neutral,0,1,1,0,0,absa_annotation_batch_003.csv
+2e088228-a4c8-4f7f-bbe3-cd15691c5b0d,Msetj hàng phonh phú,positive,1,0,0,0,0,absa_annotation_batch_003.csv
+6667c5b8-6772-4403-bee4-dbb9c43de626,Toi chua hieu may ve ung dung nay,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+19e94f90-8f8f-4ed2-980b-4682a6d13990,"Good for me, đã là khách hàng lâu năm của Tiki",positive,1,0,0,0,0,absa_annotation_batch_003.csv
+25ba6a86-9b07-44f7-8cdf-852b6151921c,"sao em không thấy hiện tiền giao hàng vậy? vậy làm sao em dám mua, lo tiền giao hàng cao hơn sản phẩm rồi sao",neutral,1,1,1,0,0,absa_annotation_batch_003.csv
+adbf02bd-41d1-4d22-b546-4753e8cc9865,Ứng dụng mua hàng rất tốt ạ,positive,1,0,0,0,1,absa_annotation_batch_003.csv
+58e4b1a5-bce3-4ed2-9c08-b199400af877,89 poo of zoo e,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+82a2c2d2-7204-4bf5-823b-b3bba1d9221a,"App dùng rất tốt, ship nhanh và mình rất thích đặt hàng trên app",positive,1,0,1,0,1,absa_annotation_batch_003.csv
+014c37eb-3443-4cc3-be26-620b70cbd3d4,Toi tran trong yeu cau ko chay quang cao tren dien thoai cua toi nua.chan thanh cam on!,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+46d5010c-746f-485b-93bb-dd82d59afe6d,"giao hàng nhanh,nhân viên thân thiện",positive,1,0,1,1,0,absa_annotation_batch_003.csv
+30192335-6c17-4e22-b3ea-d8ee40642ecb,mấy cái ứng dụng mua sắm thế này của Việt Nam chán chả buồn nói...làm chất một tí đi mấy chế ơi...nếu không làm được thì đừng nói so sánh với mấy trang nước ngoài ...không đủ tuổi,neutral,0,0,0,0,1,absa_annotation_batch_003.csv
+3b613f3c-68f5-4e34-ab81-4c08c05707a5,Khiếu nại trả hàng Sendo bảo đợi trong vòng 24h sẽ liên lạc lại nhưng mãi chẳng thấy.,negative,1,0,0,0,0,absa_annotation_batch_003.csv
+72296648-ccf0-40f7-b318-23816a3c3cac,Đặc hàng hẹn mấy ngày rồi ko có,negative,1,0,0,0,0,absa_annotation_batch_003.csv
+df4ed466-d3e0-4581-bbdc-aabf6b103e1e,Giao hàng quá lâu,neutral,1,0,1,0,0,absa_annotation_batch_003.csv
+d1881e27-8f0e-481c-854b-ed6ed8c2e2f2,Cung rat hay nha xa hang cuoi nam nay hay lam luong do,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+873a7f12-3e2e-47d4-8e58-db1b43ed910f,"Có thể nào ngay đi cái bà mà ""Wow....gì gì đó mà 1 mũi tên trúng 2 đích"" đc hg,nghe cái giọng mắc mệt",negative,0,0,0,0,0,absa_annotation_batch_003.csv
+d6825962-83b9-46fd-a87e-9a487a63e383,Nhan vien giao hang rat te that vong khi mua hang tai tiki nay,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+3fc65bd9-15bd-4091-ab14-82db03555508,Giao hàng hơi chậm,neutral,1,0,1,0,0,absa_annotation_batch_003.csv
+a7691223-ccff-4cee-816f-57be4e299341,Trần Thị Mai Trâm,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+f88fef2a-ec44-403d-a5db-26ecaa5ecc9e,"Tiện lợi, mua hàng mọi lúc mọi nơi",positive,1,0,0,0,0,absa_annotation_batch_003.csv
+856d121e-6305-4e31-a7dc-5f6a4fe25ed6,"bản cập nhật mới bị mất mục sản phẩm mua sau trong giỏ hàng, cảm thấy khá bất tiện, hy vọng sớm khắc phục",neutral,1,0,0,0,1,absa_annotation_batch_003.csv
+ee9bd03a-9c58-4e2d-a025-9a65bfbd91ec,Cũng bình thường thôi,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+7890951f-efdd-4605-a0f8-83ad90a1a818,mặc thoải mái lắm ạ,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+0c31e715-4bf7-4274-9911-b40d620f94b0,"Đơn hàng đã đóng gói và chuẩn bị gửi nhưng lại sai số điện thoại, làm sao để sửa lại vậy ad",neutral,1,0,1,0,1,absa_annotation_batch_003.csv
+b943c664-2512-464a-834c-c5ade45ae4bd,Liên kết với ví smart pay ko đc.,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+e5f326fc-bac8-4627-a4d9-bddc134e8066,Tiki bán tả mắc hơn so với shopee,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+f570be95-4df9-4a9f-ad89-019d483087a3,Tiki liên tục dừng từ hồi ms tải zề,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+ee55f9b4-999a-4aeb-bc14-6506db5a7729,Chẳng có gì đặc biệt.. quá bình thường,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+86843547-fb39-4bda-bf74-091ecb7361d1,Ok ban hang,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+ce214e3d-5d4d-40c6-95c0-e667b1391be0,it is a not bad app,neutral,0,0,0,0,1,absa_annotation_batch_003.csv
+fd2364fa-a7bf-45b3-ac41-8e02909f1f4f,Làm việc như cc,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+b3425697-9085-4b46-8cc6-4277764aa950,Đơn giản là thích thôi,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+4e86e3f3-73d1-4def-aff7-73dc15b92826,Hàng giả nhiều,negative,1,0,0,0,0,absa_annotation_batch_003.csv
+4e9e1a10-1a80-4341-bd02-5ff2a435e41f,Khiếu nại mà không trả lời,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+d80db832-53ee-404a-b1c6-d4df10fef1f2,Rất hữu ích,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+54c0f2c6-e903-4cf4-bac8-96b708397196,"Sản phẩm chất lượng tốt,",positive,1,0,0,0,0,absa_annotation_batch_003.csv
+9d025bb5-92ce-4cf8-a1f2-e16db06087cc,Ko cho COD thì ít người mua lắm.đâu phải ai cũng có thẻ đâu,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+18bca05c-7919-48f5-aca3-066bab7ffddf,cực kỳ hài lòng,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+3eb2e081-15ad-4f6e-a5cb-95bf4e920708,ter ạ ớt ăshe from Japan see S egg,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+af67fbf7-1b37-4347-860d-6ada4cdb69a1,Sao đơn hàng của tôi cứ bị hủy hoài vậy,neutral,1,0,0,0,1,absa_annotation_batch_003.csv
+c9db3ba6-b0f1-448b-992c-e897568f36c4,"Dối trá, dựt cô hồn mà kết quả ngụy tạo",negative,0,0,0,0,0,absa_annotation_batch_003.csv
+10dc5d02-214a-4b8c-9bb6-81d252a1a954,Rất là hay ngắn gọn thế thôi,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+488f7047-ded9-4236-a32f-8dc9cb3b4d36,Mới tải app dìa mà đăng kí không được tài khoản rồi! Ớn,negative,0,0,0,0,1,absa_annotation_batch_003.csv
+46b5ba51-9120-4ddc-84c1-89894535f100,Giao hàng tận nơi.hang chất lượng tốt,positive,1,0,1,0,0,absa_annotation_batch_003.csv
+3c76d8a5-c897-4ffa-96b8-29fe341e2d9e,Ok. Quá tốt. Mình mua nhiều lần rồi. Khá hài lòng Tiki,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+a41f4e00-bafc-44ad-92cc-65c4cb96ed32,Đã đặt hang ngày 13/6/02. Giao hàng trễ có thông báo. Và tự hủy ko báo. 1 sao,negative,1,0,1,0,0,absa_annotation_batch_003.csv
+96ab1fec-9627-448f-8f41-e72e96e2e40b,"Gửi mã kích hoạt qua email mà cho 30s, chưa kịp mở mail nửa là hết thời gian. Nhấp gửi lại thì đợi nửa tiếng ko có. Cho 1 sao. Sau mấy tháng thử đăng nhập lại, báo gửi mã qua mail, mà ngồi chờ quài ko thấy cái mail nào, vẫn vậy, muốn cho âm sao luôn",negative,0,0,0,0,1,absa_annotation_batch_003.csv
+828e82f5-222b-4bd9-81af-eaaf96d1cf1c,"Chậm ngày gửi, mong hãy khắc phục",negative,0,0,0,0,0,absa_annotation_batch_003.csv
+3fc960ef-ca2c-4e3b-95c6-d6fe2ccf0448,Trải nghiệm tiki thấy nản.hàng thì ít.mục tìm kiếm thì giở.tìm kiếm cái này thù hiện cái mà chẳng liên quan đến ý nghĩa lẫn câu chữ.,negative,1,0,0,0,0,absa_annotation_batch_003.csv
+69e044de-fe9e-4fd6-a69d-f855b6daa950,Sen do la mot ung dung tien loi,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+908ba5ec-a151-4de3-8efd-df6d335b42cd,Event dựtz lừa đảo mọi người ko nên tải. mất công xóa,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+b3d5ed04-9f80-4219-9a76-172bb121e26e,Mua hang toi nhan tin ma nguoi ban it khi tra loi hoac lau lam moi tra loi,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+0e701186-ce88-4f02-bab4-88ff16b4740d,App gi ma mua trước trả sao không được sao mua,positive,0,0,0,0,1,absa_annotation_batch_003.csv
+2b96ddf5-d9b9-45fb-8a0e-fcc8b47c63ca,"Nói thật ngày trước rất thích mua hàng trên tiki. Nhưng mà tiki toàn bị đơ khi mở app. Lại ít mặt hàng, tìm kiếm mặt hàng rất khó. Mình rất khó chịu. Mình đã giảm mua hàng trên tiki nhiều rồi",positive,1,0,0,0,1,absa_annotation_batch_003.csv
+88d7e54b-5e47-45dd-ba71-e2309a240db5,Rất hài lòng,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+8377ba8a-8667-48e3-97e2-28a36236421c,Sao ko xoá đc ý,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+b720e431-ed56-4b57-97bd-b6b6373a3218,Điên nhất là lúc ng ta đang chơi game thì quảng cáo,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+22693dfb-4bc6-46ab-b430-d1005d981c17,Ứng dụng rất khó sử dụng và bực nhất là đang xem sản phẩm thì ứng dụng cứ chen quảng cáo vào,negative,1,0,0,0,1,absa_annotation_batch_003.csv
+9c93aec3-2fc2-46c3-a7e0-c96658150498,"Dạo này vào app tiki toàn bị lỗi đăng nhập. Thoát ra là tài khoản cũng đăng xuất theo khi vào phải đăng nhập lại từ đầu, mong tiki xem xét và khắc phục. Cảm ơn!",neutral,0,0,0,0,1,absa_annotation_batch_003.csv
+a8927dda-2e2c-4d8a-9852-6a1169e5590d,"Quá kém so với úng dụng lớn như shopee,lazada",negative,0,0,0,0,0,absa_annotation_batch_003.csv
+203da880-a37a-4571-b7fd-310e2aa954d7,"Tiền ship còn đắt hơn cả hàng, giao hàng ko đúng hẹn",negative,1,1,1,0,0,absa_annotation_batch_003.csv
+2a5e7a10-5dbf-46fa-aea4-aaca5c905bbb,Thủ tục rườm rà quá muốn mua loay hoay mãi mà không mua được bực mình gỡ luôn 😡,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+b354dd40-8bee-42ff-9ac1-e0dc72388c11,Cho em hỏi là giao hàng chưa đến 2 tiếng đúng không ạ!,positive,1,0,1,0,0,absa_annotation_batch_003.csv
+e789ff9d-036f-4b9d-b676-a4002ca77877,có một số loại người này đã được các nhà khoa học và miền núi phía Bắc và miền núi phía Bắc và miền núi phía Bắc và tùy theo từng bước một bước tiến mới trong đó có một số loại người này đã được các nhà khoa học công nghệ cao,negative,0,1,0,0,0,absa_annotation_batch_003.csv
+05e46d54-acca-42e9-9949-6a5267dede82,:&lt; ko có gundam nên hơi buồn chút,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+232ad4c1-98f9-42d9-ae3c-c36ee9d0f6fa,"Tiện dụng, giao hàng nhanh, hàng chất lượng.",positive,1,0,1,0,0,absa_annotation_batch_003.csv
+5d29b429-fbdc-459a-95d7-3c4c2d5d5e64,hiện nay tại sao t không thể tiến hành mua hàng được khi chọn được đồ cho vào giỏ tới bước thanh toán lại là đồ hiện không có trong giỏi mong tiki giải thích dùm. đồ vẫn còn chưa hề báo hết hàng,neutral,1,0,0,0,1,absa_annotation_batch_003.csv
+53697d19-142d-41e3-9b07-fdf15de0f09d,Cái nay cũng được,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+ffa327ad-8ba9-4ae2-88db-7206f83b9410,"UGC, saxl0pit hmm",neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+c217c80c-dc1d-4441-85e7-9352525eae1a,"Tiki không gửi mã otp để lấy lại mật khẩu mà gửi đường link, trong khi đường link bấm vào không được",negative,0,0,0,0,0,absa_annotation_batch_003.csv
+aea4e4a3-dbd4-4b03-add4-66e3e4143e09,hay quá quá tuyệt,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+cdb5e5c2-347e-4c48-81c0-e393e8d46be7,Quá tuyệt vời,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+d89af5bd-a035-42c1-aba0-ae699f930d9f,Mình muốn mua nhưng thủ tục ko giống lúc trước mình hay mua nên mình đang tìm hiểu chờ khi nào hiểu rồi hãy mua,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+a0a1fa2c-9757-48a5-8b69-711bfd5bf905,"Rất thích, rất hài lòng, ủy tín để mua sắm",positive,0,0,0,0,0,absa_annotation_batch_003.csv
+ddb9534f-f508-4e08-93e5-e7ff095a0a2c,"lúc trước có dùng tiki mua mấy lần. từ lúc xem youtube thấy ""trấn thành"" quảng cáo tiki là xóa app tiki luôn 😂",negative,0,0,0,0,1,absa_annotation_batch_003.csv
+78f2bef7-b175-448a-8f9c-2e6af0d4fe04,Cho hỏi sendo tí. Tại sao khi mua hàng sale 11k không được. Cứ quay mòng mòng rồi bắt mua lại giá gốc.du làm nhanh thế nào cũng không đc. Dù mặc hàng đó sale tới 300sp. Chẳng phải chieu tro của nhà kinh doanh không.,negative,1,1,0,0,0,absa_annotation_batch_003.csv
+74a83b95-5652-45e1-9fdd-14704ed65fcd,Lát như chó ý,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+ffc6fe12-35ae-42a5-8a80-2ed8a6ee5eac,app bị gì thế mình đổi địa chỉ hok đc chỉnh lại cũng không đc un,negative,0,0,0,0,1,absa_annotation_batch_003.csv
+19ff9ab6-48f4-4576-be72-0e54d554b40d,Lúc do mjnh mua sạc dự phòng đem gjao hàng mà ko cho mở ra kiểm tra nên mình ko nhận hàng nữa và thằng giao hàng có chửi mình và mình đã hỏi thăm sức khỏe nó,negative,1,0,1,0,0,absa_annotation_batch_003.csv
+2f284f4a-6c6f-442b-bca8-4d3d6d139101,tôi rất hài lòng với ứng dụng này,positive,0,0,0,0,1,absa_annotation_batch_003.csv
+93334845-68ff-48ad-9970-625b3d736ee4,"Tôi đã đăng ký, và ghi đầy đủ họ tên thành phố, quận huyện, nhưng đến khi điền vào địa chỉ lại báo ko hợp lệ là sao ? Sai cái gì , địa chỉ nhà tôi là như vậy ghi đúng rồi ,ghi đúng từng chữ nhưng lại báo không hợp lệ ?",negative,0,0,0,0,0,absa_annotation_batch_003.csv
+56d9c9d5-c58c-4579-8994-518b77d79508,Hàng về nhanh còn tốt nữa🥰🥰🥰🤩🤩🤩,positive,1,0,0,0,0,absa_annotation_batch_003.csv
+a5917702-cf8b-4d18-92c0-43e7971e1ed2,Xác thực sdt chậm,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+12c6dc0c-234f-4424-970b-a415f7c92ba9,Mua hàng trên tiki rất tuyệt luôn. Nhưng có nhiều món mình cần lại không có🙁🙁,neutral,1,0,0,0,0,absa_annotation_batch_003.csv
+09be2754-77f8-4496-9322-42f801e7655a,Chi phí ship hàng quá cao,neutral,1,1,1,0,0,absa_annotation_batch_003.csv
+1d897f21-de85-4409-ad0a-d1ee260d94d5,rất thick ứng dụng này hàng nhận về y chang lúc đặt ko như mấy app khác đặt cỡ nọ mang tới cỡ kia,positive,1,0,0,0,1,absa_annotation_batch_003.csv
+c2272766-1a99-4b7b-b953-f9d39e3774aa,Giao hàng chậm vãi..1 tuần mới có .nản nghĩ mún mua,negative,1,0,1,0,0,absa_annotation_batch_003.csv
+0ff53274-d0c4-4ebd-9b0e-ce553a28ad87,Tiki rất thân thiện. Luôn ủng hộ.,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+ed98a8d1-9115-4ab6-9332-562a2ec48622,Binh thuog,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+06825b1e-df1c-4161-a34a-9e27372adb4f,"Tỷ lệ hủy đơn hàng sau khi xác nhận 3-5 ngày quá cao. Nếu có mặt hàng tương tự bên Lazada, Shopee, Tiki thì mua bên đó thuận lợi hơn.",neutral,1,0,0,0,1,absa_annotation_batch_003.csv
+8ff24a12-87d4-4c71-b310-36e91007fd79,Phục vụ tốt,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+dfe80d3a-5a4d-4dfa-b44e-3b1a41dce2e7,Giao hàng cực nhanh!!!,positive,1,0,1,0,0,absa_annotation_batch_003.csv
+e643b856-61fc-43ae-9dfc-b3d2f2c35933,Shop giao hàng quá châm dõ chán 2 tuần mà chưa thấy tin tức gì,negative,1,0,1,0,0,absa_annotation_batch_003.csv
+21ca034e-b1ef-45c7-9871-900a320d9836,bộ tìm kiếm quá là tệ,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+860025fc-e7e7-4a46-b5be-1b6857d0aa08,"dat hang nhanh,",positive,0,0,0,0,0,absa_annotation_batch_003.csv
+e5fbb059-dd35-45a7-8225-58857186eac8,App quá tệ . Các mặt hàng không phòng phú . Phải nói thật sendo tệ hơn lazada rất nhiều 👎👎👎👎,negative,1,0,0,0,1,absa_annotation_batch_003.csv
+b1f3af02-389e-4b8d-a29d-4a45147dead7,Rất hài lòng,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+c4217aa4-a232-4836-a065-c81b41cc37cb,Hayyyyyyyyyyyyyyyyy,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+e7569d99-b07a-415d-9558-ffd4398079b5,Hủy mấy đơn hàng thì quá mức trung bình vậy? Không mua hàng nổi luôn,neutral,1,0,0,0,1,absa_annotation_batch_003.csv
+07fdf174-a1bc-4df6-9ce8-8d417c855b47,"Có hay, co dở",neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+10197e27-75cd-4de8-9410-a21a68c4509c,"Rất tốt, chỉ có một nhược điểm là phần mềm đôi lúc hơi chậm",positive,0,0,0,0,0,absa_annotation_batch_003.csv
+66c5e4f3-d3ea-4d4c-80d3-b469157e7367,Tạm được...👌,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+bcd63f1a-8956-4ecb-9d5c-9b82fb0adc13,mình đã tải app nhưng vẫn phải tìm kiếm trên google vì không mở app tiki đc thật sự bực mình !!!!!!!!!!!! đề nghị tiki khắc phục,neutral,0,0,0,0,1,absa_annotation_batch_003.csv
+0de0241f-139b-432f-ac92-973fa5f35c02,Phần chăm sóc khách hàng cực kỳ tệ. Giao hàng lâu bỏ mẹ gần 2 tuần,negative,1,0,1,1,0,absa_annotation_batch_003.csv
+ebb6a386-2e5a-4e08-9738-c4e6cdebba26,Toi chua mua nhung thay ung dung rat hay chac co tien semuathoi,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+7c6cf8e1-237a-4f99-ab37-eb498a1a368e,"Trễ dự kiến 2 ngày. vô kiểm tra đơn hàng thì vẫn hiển thị là đang lấy hàng. Lúc đến ngày dự kiến thì Tiki có gửi tn xl rồi nói là dời qua ngày hôm nay, nhưng đợi cả ngày r mà vẫn chưa thấy. hết hôm nay mà không có thì m hủy đơn hàng, sau này không mua của tiki nữa",negative,1,0,0,0,1,absa_annotation_batch_003.csv
+10038ef3-0438-41c2-a3ea-68c4408e15cb,Mua hàng toàn bị lừa,negative,1,0,0,0,0,absa_annotation_batch_003.csv
+b99c6cb6-feac-45c0-b1a9-d090ab34bbeb,Hát nghe cũng hay .,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+75f37e95-4584-4722-bbba-952b5ec6e3b7,App như dở mã giảm giá như điên,negative,0,1,0,0,1,absa_annotation_batch_003.csv
+747e8aeb-8733-4bad-a249-fe5dd9a62f91,"Mong sendo sàng lọc triệt để những shop bán hàng ko uy tín, ko chất lượng trên web của mình, sp nên có nguồn gốc rõ ràng mới cho bán. Còn bán hàng tràn lan làm mất uy tín của sendo cũng như mất đi sự tin tưởng của khách hàng.",positive,1,0,0,0,0,absa_annotation_batch_003.csv
+94f1ccd1-a12d-4703-acdc-a3c5e1f1904d,Vào sendotoi thấy mua bán rất hợp lý và hài lòng,neutral,0,0,0,0,0,absa_annotation_batch_003.csv
+0cf5960a-a73e-4c9e-a2e4-2e5dbdd75570,Tải áp mấy bữa rồi mà k bít cách mua hàng,neutral,1,0,0,0,0,absa_annotation_batch_003.csv
+c58b79ca-b1f9-4736-a693-37689fb412df,Tôi thích mua hàng của sendo,positive,1,0,0,0,0,absa_annotation_batch_003.csv
+f299f896-0fff-42ef-8e24-dd55d798d4bd,Quán cáo ghi 12k vô thấy 122k?,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+e2479f42-e204-45ee-a303-a72dfcf26b36,Ứng dụng xài khá tốt nhưng có vày món hàng sao kiếm hoài ko có nên tui tạm thời chỉ cho 4 sao thôi,positive,1,0,0,0,1,absa_annotation_batch_003.csv
+3c52ada4-104a-4040-9e6b-d48acfabc9fe,"sản phẩm ok, rung mạnh nhiều chế độ cảm nhận nên dùng",positive,1,0,0,0,0,absa_annotation_batch_003.csv
+78569fdc-07a6-4c8f-a557-fd650aad4439,tệ hại.tiki làm ơn bỏ dùm cái vụ nhận xét tối thiểu 50 ký tự dùm...đôi khi 1 sản phẩm tốt chỉ cần 1 tốt là đủ đánh giá 1 món hàng....,neutral,1,1,0,0,0,absa_annotation_batch_003.csv
+dc0c9253-3133-4dc0-9e6d-47a858f5b22e,Tôi cho 1 xao tại vì sao? Thời gian đặt quá 4 ngày mà vẫn chưa vẩn chuyển hàng Thời gian chờ đợi quá lâu đến khi hàng đến đã hơn 10 ngày khách hàng đã ko muốn mua hàng vì thời gian quá lâu Đề nghị shop cải thiện cho phù hợp với gian nhận hàng lâu nhất chỉ đến 1 tuần là đến,negative,1,0,0,0,0,absa_annotation_batch_003.csv
+8efb80be-7b12-40f9-bdc1-5d33577b5a41,"chậm chạp,lề mề, không thèm quan tâm đến câu hỏi của khách hàng,tiki trong mắt tôi là như vậy",negative,1,0,0,0,0,absa_annotation_batch_003.csv
+4cbadeae-0530-48e7-8e2c-ecbbfc301a61,Toàn chạy chương trình 1.000 đồng xạo,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+d97e12df-fa13-4b52-a285-893c15641d24,Mình mua hàng trên này nhiều - ổn/ h flass các gian hàng nên đề thêm khu vực nữa thì tốt hơn,positive,1,0,0,0,0,absa_annotation_batch_003.csv
+7914bb13-36ec-43b9-a237-a6dde744fbcc,Giao hàng sai,negative,1,0,1,0,0,absa_annotation_batch_003.csv
+a6ede845-9d8a-416b-b59f-ce6282e9eccd,Lâu lâu cũng thấy những sản phẩm rẻ hơn những trang TMĐT khác,positive,1,1,0,0,0,absa_annotation_batch_003.csv
+fd45b20f-5e36-40b6-8de0-d01b64204d49,"Đáng lẽ mua bằng app phải tiện lợi hơn nhưng đối với mặt hàng sách thì không có chế độ đọc thử nên khá bất tiện, muốn mua phải lên web xem trc r mới lên app mua hay sao?",neutral,1,0,0,0,1,absa_annotation_batch_003.csv
+5235caa8-3aff-4659-a035-30d4c61def15,Sao không kết nối app được vậy,positive,0,0,0,0,1,absa_annotation_batch_003.csv
+f103280d-3f12-42ff-baa2-fc81294a47dd,Uy tín và chất lượng tốt,positive,1,0,0,0,0,absa_annotation_batch_003.csv
+8836d729-16c1-45ab-98f9-bda182b68df8,Đm lũ chó tiki lừa đảo tao dùng auto mà đcmn vẫn đéo lại bọn tiki lẽ nào auto là qúa chậm,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+acbf20ee-0bcf-4c6d-84cc-142447f9af2e,Rất hài lòng,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+3c8f61d2-07fd-4626-b652-9f4ed9deaf23,"Sau này ko dám mua hàng tiki. Chờ lâu, bực chửi",negative,1,0,0,0,0,absa_annotation_batch_003.csv
+28fca590-a962-4d55-adb5-47d636653be8,Đồ đắt rồi còn xauuu,negative,0,1,0,0,0,absa_annotation_batch_003.csv
+cfecebb7-1206-455f-b85d-d58f63d071de,quá tệ so với app khác. đặt hàng 2 tháng vẫn hứa giao đến ngày lại thông báo trễ thêm 7 đến 14 ngày. không bao giờ đặt cái app này nữa,negative,1,0,0,0,1,absa_annotation_batch_003.csv
+b5f47abe-460f-4b47-a594-5d6ad88a0834,Tuyệt vời 😍👍,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+614cd064-2937-4586-9bd3-e30a8a7753c3,Đăng hình áo 1k hay 12k vô coi thấy bán khẩu trang ... đa số lừa đảo để khách vô coi . Đề nghị sendo dẹp kiểu bán hàng gian dối đó,negative,1,0,0,0,0,absa_annotation_batch_003.csv
+39a20398-a2b5-44f0-a786-89c8a5d9a777,"Những đánh giá 1 sao, không bao giờ được xét duyệt. Ứng dụng không trung thực với khách hàng. Có hàng dỏm thì khách hàng khác không biết được.",neutral,1,1,0,0,1,absa_annotation_batch_003.csv
+d33f6c7a-3f6f-4d99-ae0d-324221bc3726,Tìm kiếm cái này thì ra cái khác.ung dụng như cái ccc ngta,negative,0,0,0,0,0,absa_annotation_batch_003.csv
+74f405dc-ff83-4c1a-b1f7-08b0554c22d5,good toi rat hai long ve san pham,positive,0,0,0,0,0,absa_annotation_batch_003.csv
+4b784ecd-6e43-46fd-bc02-3370f309fd32,Shop bán hàng kiểu gì mà chẳng bao giờ chả lời khách hàng vậy,negative,1,0,0,0,0,absa_annotation_batch_003.csv
