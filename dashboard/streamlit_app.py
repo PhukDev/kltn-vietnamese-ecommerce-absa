@@ -8,60 +8,40 @@ sys.path.insert(0, str(ROOT / "src"))
 
 import streamlit as st  # type: ignore  # noqa: E402
 
-from ecommerce_absa.config import ABSA_ASPECT_COLUMNS, DATA_PATH, MODELS_DIR  # noqa: E402
-from ecommerce_absa.data import load_reviews, score_to_sentiment  # noqa: E402
-from ecommerce_absa.models.baselines import load_model_artifact  # noqa: E402
-from ecommerce_absa.preprocessing import TextPreprocessor  # noqa: E402
-from ecommerce_absa.race import analyze_business_signal  # noqa: E402
+from ecommerce_absa.api import PredictionService  # noqa: E402
+from ecommerce_absa.config import DATA_PATH, MODELS_DIR  # noqa: E402
+from ecommerce_absa.data import load_reviews  # noqa: E402
 
 
 @st.cache_resource(show_spinner=False)
-def load_aspect_model(path: str):
-    model_path = Path(path)
-    if not model_path.exists():
-        return None
-    model, _ = load_model_artifact(model_path)
-    return model
+def get_prediction_service(model_path: str | None, aspect_model_path: str | None):
+    return PredictionService(model_path, aspect_model_path)
 
 
 @st.cache_data(show_spinner=False)
-def load_dashboard_frame(path: str, limit: int, aspect_model_path: str):
+def load_dashboard_frame(path: str, limit: int, model_path: str | None, aspect_model_path: str | None):
     columns = ["reviewid", "content", "score", "thumbsupcount", "replycontent", "appid", "at"]
     frame = load_reviews(path, columns=columns, limit=limit)
-    frame["sentiment"] = frame["score"].map(score_to_sentiment)
-    preprocessor = TextPreprocessor()
-    frame["processed_text"] = frame["content"].fillna("").astype(str).map(preprocessor.transform)
-    aspect_model = load_aspect_model(aspect_model_path)
 
-    if aspect_model is not None:
-        predictions = aspect_model.predict(frame["processed_text"].tolist())
-        frame["aspects"] = [
-            ", ".join(
-                aspect
-                for index, aspect in enumerate(ABSA_ASPECT_COLUMNS)
-                if int(row[index]) == 1
-            )
-            or "general"
-            for row in predictions
-        ]
-        frame["aspect_source"] = "model"
-    else:
-        frame["aspects"] = ""
-        frame["aspect_source"] = "rule_based"
+    service = get_prediction_service(model_path, aspect_model_path)
 
-    signals = frame.apply(
-        lambda row: analyze_business_signal(
-            content=row.get("content", ""),
-            sentiment=row.get("sentiment"),
-            aspects=[item.strip() for item in str(row.get("aspects", "")).split(",") if item.strip()] or None,
-            thumbsupcount=row.get("thumbsupcount", 0),
-            replycontent=row.get("replycontent", ""),
-        ),
-        axis=1,
-    )
-    frame["aspects"] = signals.map(lambda item: ", ".join(item["aspects"]))
-    frame["race_stage"] = signals.map(lambda item: item["race"]["primary_stage"])
-    frame["alert"] = signals.map(lambda item: (item["alert"] or {}).get("message", ""))
+    results = []
+    for idx, row in frame.iterrows():
+        payload = {
+            "content": row.get("content", ""),
+            "score": row.get("score"),
+            "thumbsupcount": row.get("thumbsupcount", 0),
+            "replycontent": row.get("replycontent", ""),
+        }
+        res = service.predict(payload)
+        results.append(res)
+
+    frame["sentiment"] = [r["sentiment"] for r in results]
+    frame["aspects"] = [", ".join(r["aspects"]) for r in results]
+    frame["race_stage"] = [r["race"]["primary_stage"] for r in results]
+    frame["alert"] = [r["alert"].get("message", "") if r["alert"] else "" for r in results]
+    frame["aspect_source"] = [r["metadata"]["aspect_source"] for r in results]
+
     return frame
 
 
@@ -70,11 +50,31 @@ def main() -> None:
     st.title("Ecommerce ABSA Dashboard")
 
     with st.sidebar:
-        data_path = st.text_input("CSV path", value=str(DATA_PATH))
-        aspect_model_path = st.text_input("Aspect model", value=str(MODELS_DIR / "absa_aspect_baseline.joblib"))
-        limit = st.number_input("Rows to load", min_value=1000, max_value=300000, value=50000, step=1000)
+        st.subheader("Cấu hình Dữ liệu & Mô hình")
+        data_path = st.text_input("Đường dẫn file CSV", value=str(DATA_PATH))
 
-    frame = load_dashboard_frame(data_path, int(limit), aspect_model_path)
+        st.write("---")
+        st.markdown("**Lựa chọn Mô hình ABSA**")
+        st.caption("Mẹo: Nhập file PyTorch .pt (ví dụ: `artifacts/models/absa_phobert_gold_eval.pt`) để dùng PhoBERT, hoặc .joblib cho Baseline.")
+
+        aspect_model_path = st.text_input(
+            "Mô hình Khía cạnh (Aspect Model)",
+            value=str(MODELS_DIR / "absa_aspect_baseline.joblib"),
+        )
+        sentiment_model_path = st.text_input(
+            "Mô hình Cảm xúc (Sentiment Model - Tùy chọn)",
+            value="",
+        )
+
+        st.write("---")
+        limit = st.number_input("Số lượng dòng nạp vào", min_value=1000, max_value=300000, value=50000, step=1000)
+
+    frame = load_dashboard_frame(
+        data_path,
+        int(limit),
+        sentiment_model_path or None,
+        aspect_model_path or None,
+    )
     total_reviews = len(frame)
     alert_count = int(frame["alert"].astype(bool).sum())
     negative_rate = float((frame["sentiment"] == "negative").mean()) if total_reviews else 0.0

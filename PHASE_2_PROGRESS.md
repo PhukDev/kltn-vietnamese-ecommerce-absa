@@ -184,3 +184,29 @@ Interpretation:
 - PhoBERT has been proven runnable in the local environment.
 - This run is only an initial CPU checkpoint, not a fair final PhoBERT comparison.
 - To evaluate PhoBERT properly, more epochs and preferably GPU training are still needed.
+
+## PhoBERT GPU Milestone & Live Dashboard Integration
+
+The official deep learning milestone has been completed successfully on GPU:
+
+- Platform: Kaggle Notebook (GPU P100)
+- Epochs: 5
+- Learning Rate: `2e-5`
+- Batch Size: `16`
+- Train set: 779 rows
+- Eval set: 250 rows (clean gold evaluation subset)
+
+Observed GPU Training Results:
+
+- **Aspect micro F1:** `0.5669`
+- **Aspect macro F1:** `0.5465`
+- **Sentiment Accuracy:** `0.6200`
+- **Sentiment macro F1:** `0.5819`
+
+Live Dashboard & API Integration:
+
+- **Unified Prediction Service:** Upgraded `src/ecommerce_absa/api.py` to seamlessly load PyTorch PhoBERT multitask models (`.pt`) using CPU fallback, while preserving backward compatibility for baseline models (`.joblib`).
+- **Interactive Streamlit App:** Re-architected `dashboard/streamlit_app.py` to unify prediction logic and allow selecting the PhoBERT `.pt` model directly from the sidebar. Shows `Aspect source: phobert_multitask` live.
+- **Verification:** Unit tests passed cleanly (`Ran 6 tests - OK`). API and Dashboard verified with live PhoBERT inference in real-time.
+
+This successfully completes the Giai đoạn 4 (Modeling) and Giai đoạn 5 (Deployment) milestones of the KDD pipeline for the ABSA graduation thesis!
