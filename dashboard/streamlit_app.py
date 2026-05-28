@@ -20,6 +20,21 @@ def get_prediction_service(model_path: str | None, aspect_model_path: str | None
 
 @st.cache_data(show_spinner=False)
 def load_dashboard_frame(path: str, limit: int, model_path: str | None, aspect_model_path: str | None):
+    # Check if the CSV is already pre-predicted to skip model inference for instant loading
+    import pandas as pd
+    try:
+        header_check = pd.read_csv(path, nrows=2, encoding="utf-8-sig")
+        is_prepredicted = "sentiment" in header_check.columns and "aspects" in header_check.columns
+    except Exception:
+        is_prepredicted = False
+
+    if is_prepredicted:
+        frame = pd.read_csv(path, nrows=limit, encoding="utf-8-sig")
+        frame["aspect_source"] = "prepredicted"
+        frame["alert"] = frame["alert"].fillna("")
+        frame["replycontent"] = frame["replycontent"].fillna("")
+        return frame
+
     columns = ["reviewid", "content", "score", "thumbsupcount", "replycontent", "appid", "at"]
     frame = load_reviews(path, columns=columns, limit=limit)
 
