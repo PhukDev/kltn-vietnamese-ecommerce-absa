@@ -20,3 +20,4 @@ vietnamese_ecommerce_review.csv
 *.log
 
 tmp/
+scratch/
