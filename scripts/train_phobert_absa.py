@@ -71,15 +71,19 @@ def main() -> None:
     train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True)
     eval_loader = torch.utils.data.DataLoader(eval_dataset, batch_size=args.batch_size, shuffle=False)
 
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print(f"Using device: {device}")
+
     model = build_phobert_multitask_classifier(
         model_name=args.model_name,
         num_sentiment_labels=len(SENTIMENT_LABELS),
         num_aspect_labels=len(ABSA_ASPECT_COLUMNS),
         dropout=args.dropout,
     )
+    model.to(device)
 
-    aspect_pos_weight = build_aspect_pos_weight(train_frame[ABSA_ASPECT_COLUMNS].to_numpy(dtype="float32"), torch)
-    sentiment_class_weight = build_sentiment_class_weight(train_frame["sentiment"].tolist(), torch)
+    aspect_pos_weight = build_aspect_pos_weight(train_frame[ABSA_ASPECT_COLUMNS].to_numpy(dtype="float32"), torch).to(device)
+    sentiment_class_weight = build_sentiment_class_weight(train_frame["sentiment"].tolist(), torch).to(device)
     optimizer = torch.optim.AdamW(model.parameters(), lr=args.lr, weight_decay=args.weight_decay)
 
     best_state = None
@@ -94,8 +98,9 @@ def main() -> None:
             torch,
             aspect_pos_weight=aspect_pos_weight,
             sentiment_class_weight=sentiment_class_weight,
+            device=device,
         )
-        metrics = evaluate_model(model, eval_loader, torch)
+        metrics = evaluate_model(model, eval_loader, torch, device=device)
         combined_score = (metrics["aspect"]["f1_micro"] + metrics["sentiment"]["f1_macro"]) / 2.0
         history.append(
             {
@@ -201,17 +206,22 @@ def build_sentiment_class_weight(sentiments: list[str], torch):
     return torch.tensor(weights, dtype=torch.float32)
 
 
-def run_epoch(model, loader, optimizer, torch, *, aspect_pos_weight, sentiment_class_weight) -> float:
+def run_epoch(model, loader, optimizer, torch, *, aspect_pos_weight, sentiment_class_weight, device) -> float:
     model.train()
     total_loss = 0.0
     total_batches = 0
     for batch in loader:
         optimizer.zero_grad()
+        input_ids = batch["input_ids"].to(device)
+        attention_mask = batch["attention_mask"].to(device)
+        aspect_labels = batch["aspect_labels"].to(device)
+        sentiment_labels = batch["sentiment_labels"].to(device)
+        
         output = model(
-            input_ids=batch["input_ids"],
-            attention_mask=batch["attention_mask"],
-            aspect_labels=batch["aspect_labels"],
-            sentiment_labels=batch["sentiment_labels"],
+            input_ids=input_ids,
+            attention_mask=attention_mask,
+            aspect_labels=aspect_labels,
+            sentiment_labels=sentiment_labels,
             aspect_pos_weight=aspect_pos_weight,
             sentiment_class_weight=sentiment_class_weight,
         )
@@ -223,7 +233,7 @@ def run_epoch(model, loader, optimizer, torch, *, aspect_pos_weight, sentiment_c
     return total_loss / max(total_batches, 1)
 
 
-def evaluate_model(model, loader, torch) -> dict:
+def evaluate_model(model, loader, torch, device) -> dict:
     model.eval()
     aspect_true = []
     aspect_pred = []
@@ -231,9 +241,11 @@ def evaluate_model(model, loader, torch) -> dict:
     sentiment_pred = []
     with torch.no_grad():
         for batch in loader:
+            input_ids = batch["input_ids"].to(device)
+            attention_mask = batch["attention_mask"].to(device)
             output = model(
-                input_ids=batch["input_ids"],
-                attention_mask=batch["attention_mask"],
+                input_ids=input_ids,
+                attention_mask=attention_mask,
             )
             aspect_logits = output["aspect_logits"]
             sentiment_logits = output["sentiment_logits"]
