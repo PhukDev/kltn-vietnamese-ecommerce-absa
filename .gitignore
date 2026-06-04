@@ -15,6 +15,7 @@ artifacts/reports/md_and_outline_snapshot.txt
 
 data/absa_annotation_batch_*.csv
 data/absa_annotation_master.csv
+data/original_*.csv
 vietnamese_ecommerce_review.csv
 
 *.log
