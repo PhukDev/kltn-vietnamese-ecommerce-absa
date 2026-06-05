@@ -128,7 +128,7 @@ def main() -> None:
         raise RuntimeError("Training did not produce a model state")
 
     model.load_state_dict(best_state["model_state"])
-    final_metrics = evaluate_model(model, eval_loader, torch)
+    final_metrics = evaluate_model(model, eval_loader, torch, device=device)
     final_metrics.update(
         {
             "rows_train_loaded": int(len(train_raw)),
@@ -152,31 +152,45 @@ def main() -> None:
 
 class PhoBertDataset:
     def __init__(self, frame, *, tokenizer, max_len: int):
-        self.texts = frame["processed_text"].tolist()
+        import torch
         self.aspect_labels = frame[ABSA_ASPECT_COLUMNS].to_numpy(dtype="float32")
         self.sentiment_labels = [SENTIMENT_TO_ID[item] for item in frame["sentiment"].tolist()]
-        self.tokenizer = tokenizer
-        self.max_len = max_len
+        
+        texts = frame["processed_text"].fillna("").astype(str).tolist()
+        print(f"Pre-tokenizing {len(texts):,} texts...")
+        
+        self.input_ids = []
+        self.attention_mask = []
+        
+        batch_size = 10000
+        for i in range(0, len(texts), batch_size):
+            batch_texts = texts[i:i+batch_size]
+            encoded = tokenizer(
+                batch_texts,
+                truncation=True,
+                padding="max_length",
+                max_length=max_len,
+                return_tensors="pt",
+            )
+            self.input_ids.append(encoded["input_ids"])
+            self.attention_mask.append(encoded["attention_mask"])
+            
+        self.input_ids = torch.cat(self.input_ids, dim=0)
+        self.attention_mask = torch.cat(self.attention_mask, dim=0)
+        print("Pre-tokenization complete!")
 
     def __len__(self):
-        return len(self.texts)
+        return len(self.sentiment_labels)
 
     def __getitem__(self, index):
         import torch
-
-        encoded = self.tokenizer(
-            self.texts[index],
-            truncation=True,
-            padding="max_length",
-            max_length=self.max_len,
-            return_tensors="pt",
-        )
         return {
-            "input_ids": encoded["input_ids"].squeeze(0),
-            "attention_mask": encoded["attention_mask"].squeeze(0),
+            "input_ids": self.input_ids[index],
+            "attention_mask": self.attention_mask[index],
             "aspect_labels": torch.tensor(self.aspect_labels[index], dtype=torch.float32),
             "sentiment_labels": torch.tensor(self.sentiment_labels[index], dtype=torch.long),
         }
+
 
 
 def build_aspect_pos_weight(train_y, torch):
