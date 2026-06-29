@@ -33,13 +33,21 @@ def main() -> None:
     if not input_path.exists():
         raise FileNotFoundError(f"Original dataset file not found: {input_path}")
 
-    print(f"Reading original dataset: {input_path} (1.3M rows)...")
+    print(f"Reading original dataset: {input_path}...")
     df = pd.read_csv(input_path, encoding="utf-8-sig")
     print(f"Total rows read: {len(df):,}")
 
+    # Data Cleaning: Drop duplicate review IDs
+    if "reviewid" in df.columns:
+        df = df.drop_duplicates(subset=["reviewid"]).copy()
+
+    # Data Cleaning: Drop rows with missing content or invalid scores
+    df = df[df["content"].notna() & df["score"].isin([1.0, 2.0, 3.0, 4.0, 5.0])].copy()
+    print(f"Cleaned dataset rows (unique & valid): {len(df):,}")
+
     df["stratify_score"] = df["score"].fillna(-1).astype(int)
 
-    print("Performing stratified split (30% train, 70% predict)...")
+    print(f"Performing stratified split ({100 - int(args.test_size * 100)}% train, {int(args.test_size * 100)}% predict)...")
     train_df, predict_df = train_test_split(
         df,
         test_size=args.test_size,
@@ -48,9 +56,9 @@ def main() -> None:
     )
 
     # -------------------------------------------------------------
-    # 1. Processing 30% Train Set (Generate ABSA labels automatically)
+    # 1. Processing Train Set (Generate ABSA labels automatically)
     # -------------------------------------------------------------
-    print("Generating ABSA aspect & sentiment labels automatically for 30% train set...")
+    print(f"Generating ABSA aspect & sentiment labels automatically for {100 - int(args.test_size * 100)}% train set...")
     
     # Map score to sentiment
     def score_to_sentiment(score_val):
