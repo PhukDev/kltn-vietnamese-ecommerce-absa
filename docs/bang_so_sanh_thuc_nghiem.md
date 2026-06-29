@@ -1,36 +1,36 @@
 # HỆ THỐNG CÁC BẢNG SO SÁNH THỰC NGHIỆM TRONG KHÓA LUẬN TỐT NGHIỆP
 ## Đề tài: Aspect-Based Sentiment Analysis (ABSA) on Vietnamese Ecommerce Reviews
 
-Tài liệu này tổng hợp **5 bảng so sánh cốt lõi** được trích xuất trực tiếp từ kết quả thực nghiệm thực tế trong project của bạn. Những bảng này được thiết kế theo đúng chuẩn nghiên cứu khoa học, cực kỳ đắt giá để bạn đưa trực tiếp vào **Chương 4 (Thực nghiệm & Đánh giá)** của Khóa luận tốt nghiệp và các **Slide báo cáo tiến độ/bảo vệ**.
+Tài liệu này tổng hợp **5 bảng so sánh cốt lõi** được trích xuất trực tiếp từ kết quả thực nghiệm thực tế mới nhất sau khi huấn luyện trên **tập Train 30% (~390k dòng)** và đánh giá trên **tập Gold Eval (721 dòng đã được gán nhãn thủ công chuẩn hóa)**. Những bảng này được thiết kế theo đúng chuẩn nghiên cứu khoa học, cực kỳ đắt giá để bạn đưa trực tiếp vào **Chương 3 & 4 (Thực nghiệm & Đánh giá)** của Khóa luận tốt nghiệp và các **Slide báo cáo tiến độ/bảo vệ**.
 
 ---
 
 ### BẢNG 1: So sánh tổng quan hiệu năng các mô hình ABSA
-*Được huấn luyện trên tập Train (779 reviews) và đánh giá trên tập kiểm thử chuẩn hóa cao (Gold Eval - 250 reviews đã được gán nhãn và kiểm duyệt thủ công).*
+*Được huấn luyện trên tập Train 30% gốc (388,176 reviews hợp lệ sau lọc) và đánh giá trên tập kiểm thử kiểm duyệt thủ công (Gold Eval - 721 reviews).*
 
 | Mô hình / Thuật toán | Aspect F1-micro | Aspect F1-macro | Aspect Hamming Loss | Sentiment F1-macro | Sentiment Accuracy | Đặc trưng kiến trúc |
 | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| **Baseline TF-IDF + SVM** *(Scikit-Learn)* | **62.38%** | **62.79%** | **0.2576** | *N/A* | *N/A* | Phân loại khía cạnh độc lập (Multi-label bằng OneVsRest). |
-| **Bi-LSTM + Word2Vec** *(Deep Learning)* | 60.18% | 60.10% | 0.2912 | *N/A* | *N/A* | Mạng hồi quy hai chiều, học đặc trưng tuần tự và ngữ cảnh của từ. |
-| **PhoBERT Multi-task** *(Fine-tuned Transformer)* | 56.69% | 54.65% | 0.3728 | **58.19%** | **62.00%** | Học máy đa nhiệm (Multi-task), tối ưu hóa đồng thời Aspect và Sentiment trong 1 forward pass. |
+| **Baseline TF-IDF + SVM** *(Scikit-Learn)* | 85.25% | 78.37% | 0.0680 | *N/A* | *N/A* | Phân loại khía cạnh độc lập (Multi-label bằng OneVsRest). |
+| **Bi-LSTM + Word2Vec** *(Deep Learning)* | 74.87% | 68.16% | 0.1315 | *N/A* | *N/A* | Mạng hồi quy hai chiều, học đặc trưng tuần tự và ngữ cảnh của từ. |
+| **PhoBERT Multi-task** *(Fine-tuned Transformer)* | **97.37%** | **97.51%** | **0.0125** | **73.47%** | **73.65%** | Học máy đa nhiệm (Multi-task), tối ưu hóa đồng thời Aspect và Sentiment trong 1 forward pass. |
 
 > [!NOTE]
 > **Nhận xét & Biện luận khoa học (Cực kỳ quan trọng để ghi vào khóa luận):**
-> 1. **Hiệu năng của SVM và Bi-LSTM vượt trội PhoBERT trên tập dữ liệu nhỏ:** PhoBERT là mô hình Pre-trained Transformer khổng lồ (hơn 135 triệu tham số). Khi huấn luyện trên tập dữ liệu nhỏ (779 dòng), PhoBERT rất dễ bị overfitting và khó hội tụ tối ưu nếu không có tập dữ liệu cực lớn. Ngược lại, SVM với cấu trúc tuyến tính đơn giản và biên phân chia tối ưu hoạt động cực kỳ hiệu quả và ổn định trên dữ liệu ít lớp, ít mẫu.
-> 2. **Giá trị thực tiễn của PhoBERT Multi-task:** Mặc dù chỉ số khía cạnh thấp hơn một chút, PhoBERT giải quyết đồng thời cả hai nhiệm vụ (**nhận diện khía cạnh và phân loại cảm xúc**) chỉ trong một mô hình duy nhất. Điều này giúp giảm thiểu thời gian tính toán và tránh sai số tích lũy (error propagation) so với việc sử dụng hai mô hình độc lập.
+> 1. **Sức mạnh của việc tăng quy mô dữ liệu (Data Scaling):** Trong thực nghiệm trước đây trên tập dữ liệu nhỏ (779 dòng), PhoBERT bị overfitting trầm trọng và chỉ đạt F1-micro 56.69%. Tuy nhiên, khi quy mô dữ liệu train được nâng lên **30% dữ liệu gốc (388,176 dòng)**, PhoBERT Multi-task đã phát huy tối đa sức mạnh của mô hình pre-trained Transformer khổng lồ (135 triệu tham số), bứt phá hiệu năng Aspect F1-micro lên **97.37%** và F1-macro lên **97.51%**, vượt trội hoàn toàn so với SVM và Bi-LSTM.
+> 2. **Giá trị thực tiễn của học máy đa nhiệm (Multi-task Learning):** PhoBERT giải quyết đồng thời cả hai nhiệm vụ (nhận diện khía cạnh và phân loại cảm xúc) chỉ trong một mô hình duy nhất. Điều này giúp giảm thiểu thời gian tính toán và tránh sai số tích lũy (error propagation) so với việc sử dụng hai mô hình độc lập, đồng thời đạt độ chính xác cảm xúc rất cao (73.65% Accuracy) trên dữ liệu lệch lớp thực tế.
 
 ---
 
 ### BẢNG 2: So sánh chi tiết hiệu năng Aspect-specific F1-score
-*Phân tích độ chính xác (F1-score) của từng khía cạnh cụ thể trên tập Gold Eval (250 dòng).*
+*Phân tích độ chính xác (F1-score) của từng khía cạnh cụ thể trên tập Gold Eval (721 dòng).*
 
 | Khía cạnh (Aspect) | Số lượng mẫu (Support) | Baseline TF-IDF + SVM | Bi-LSTM | PhoBERT Multi-task | Nhận xét phân tích ngữ nghĩa (Semantic Analysis) |
 | :--- | :---: | :---: | :---: | :---: | :--- |
-| **Delivery** *(Giao hàng)* | 112 | 80.63% | 80.20% | **80.49%** | Đạt hiệu năng cao nhất (>80%) ở tất cả mô hình nhờ các từ khóa mang tính đặc trưng cực cao và tập trung như *"ship", "giao hàng", "nhanh", "chậm", "gói hàng"*. |
-| **Price** *(Giá cả)* | 51 | **73.27%** | 58.11% | 41.74% | Dễ nhận diện nhờ các từ khóa rõ ràng (*"rẻ", "đắt", "giá cả", "sale", "hoàn tiền"*). SVM vượt trội hoàn toàn nhờ khả năng phân biệt từ khóa tốt. |
-| **App** *(Ứng dụng)* | 83 | 66.67% | **68.79%** | 63.39% | Đạt kết quả khá tốt. Các mô hình học sâu (Bi-LSTM và PhoBERT) có xu hướng nắm bắt ngữ cảnh tốt hơn khi người dùng mô tả lỗi app (*"lỗi đăng nhập", "không vào được", "đơ", "cập nhật"*). |
-| **Product** *(Sản phẩm)* | 75 | **51.99%** | 49.29% | 49.81% | Hiệu năng trung bình. Đây là khía cạnh nhiễu nhất do người dùng mô tả rất nhiều thuộc tính vật lý khác nhau của hàng nghìn loại sản phẩm khác nhau. |
-| **Service** *(Dịch vụ)* | 90 | 41.38% | **44.09%** | 37.84% | Thách thức lớn nhất đối với các mô hình do ranh giới ngữ nghĩa giữa "dịch vụ CSKH" và "sản phẩm" rất mơ hồ trong tiếng Việt thương mại điện tử. |
+| **Product** *(Sản phẩm)* | 348 | 90.11% | 85.29% | **96.22%** | Khía cạnh xuất hiện nhiều nhất và đa dạng nhất. PhoBERT vượt trội hoàn toàn nhờ khả năng học biểu diễn ngữ nghĩa sâu sắc của hàng nghìn thuộc tính sản phẩm khác nhau. |
+| **Price** *(Giá cả)* | 100 | 70.18% | 53.24% | **99.50%** | Nhận diện gần như hoàn hảo đối với PhoBERT (99.50%) nhờ học được các liên kết ngữ cảnh tinh tế quanh các từ khóa nhạy cảm giá (*"rẻ", "đắt", "giá cả", "sale"*). |
+| **Delivery** *(Giao hàng)* | 146 | 89.36% | 76.57% | **98.62%** | Đạt hiệu năng cực kỳ cao (>98%) nhờ các từ khóa mang tính đặc trưng cực cao và tập trung như *"ship", "giao hàng", "nhanh", "chậm", "gói hàng"*. |
+| **Service** *(Dịch vụ)* | 67 | 55.32% | 45.52% | **94.81%** | Vốn là khía cạnh khó nhất do ranh giới ngữ nghĩa mơ hồ giữa "dịch vụ CSKH" và "sản phẩm", nhưng PhoBERT vẫn giải quyết xuất sắc nhờ cơ chế Attention bóc tách ngữ cảnh tốt. |
+| **App** *(Ứng dụng)* | 183 | 86.89% | 80.21% | **98.37%** | PhoBERT nắm bắt ngữ cảnh tốt hơn khi người dùng mô tả lỗi app (*"lỗi đăng nhập", "không vào được", "đơ", "cập nhật"*). |
 
 ---
 
@@ -52,25 +52,25 @@ Tài liệu này tổng hợp **5 bảng so sánh cốt lõi** được trích x
 
 | Tiêu chí đánh giá | Huấn luyện cục bộ (CPU Local PC) | Huấn luyện trên Cloud (Kaggle GPU T4 x2) | Ý nghĩa thực tiễn đối với hệ thống |
 | :--- | :---: | :---: | :--- |
-| **Thời gian Train PhoBERT (5 epochs)** | > 6 giờ | **Khoảng 5 - 7 phút** | Tăng tốc độ thử nghiệm mô hình lên **hơn 60 lần**, tiết kiệm tài nguyên cục bộ. |
+| **Thời gian Train PhoBERT (3 epochs)** | Không khả thi (> 100 giờ) | **Khoảng 25 phút** | Áp dụng kỹ thuật **Pre-tokenization** giúp giảm thiểu thời gian huấn luyện từ 7 giờ (ở Version 3) xuống còn 25 phút trên GPU T4 x2. |
 | **Thời gian Suy luận (Inference Latency)** | • SVM: `< 0.001 giây` <br>• PhoBERT: `~1.2 giây` | • PhoBERT: `~0.05 giây` | Sử dụng CPU cục bộ cho các mô hình nhẹ (SVM) để tối ưu chi phí hạ tầng, dùng GPU cho Deep Learning khi cần độ chính xác cao. |
-| **Tốc độ Batch Prediction (100,000 reviews)** | Không khả thi (> 30 giờ) | **2 phút 15 giây** | Khả năng xử lý dữ liệu lớn (Big Data) cực kỳ ấn tượng nhờ ứng dụng kỹ thuật **FP16 Mixed Precision (autocast)** và PyTorch **DataLoader** song song. |
+| **Tốc độ Batch Prediction (910,061 reviews)** | Không khả thi | **Khoảng 15 phút** | Khả năng xử lý dữ liệu lớn (Big Data) cực kỳ ấn tượng nhờ ứng dụng kỹ thuật **FP16 Mixed Precision (autocast)** và PyTorch **DataLoader** song song. |
 
 ---
 
 ### BẢNG 5: So sánh các mô hình Sentiment Baseline truyền thống
-*Được huấn luyện trên tập dữ liệu thô quy mô lớn (99,656 reviews hợp lệ sau tiền xử lý) để phân loại cảm xúc tổng quan.*
+*Được huấn luyện trên tập dữ liệu thô quy mô lớn (388,150 reviews hợp lệ sau tiền xử lý) để phân loại cảm xúc tổng quan.*
 
 | Thuật toán Baseline | Accuracy (Độ chính xác) | Macro F1-score | Thời gian huấn luyện | Phân tích thực nghiệm chuyên sâu |
 | :--- | :---: | :---: | :---: | :--- |
-| **Multinomial Naive Bayes (NB)** | **88.66%** | 57.50% | **< 1 giây** | Tốc độ cực nhanh. Tuy nhiên, do tập dữ liệu thực tế bị lệch lớp trầm trọng (lớp Positive chiếm đa số ~75%), NB có xu hướng thiên vị lớp đa số và **hoàn toàn thất bại ở lớp Trung tính (Neutral - F1-score đạt 0%)**. |
-| **Linear Support Vector Machine (SVM)** | 87.48% | **62.10%** | **~3 giây** | Mặc dù Accuracy thấp hơn NB một chút, nhưng **Macro F1-score vượt trội rõ rệt (62.10% vs 57.50%)**. SVM chứng minh khả năng nhận diện các lớp thiểu số (Neutral và Negative) tốt hơn rất nhiều nhờ việc xây dựng biên phân chia tối ưu hóa khoảng cách lớp. |
+| **Multinomial Naive Bayes (NB)** | **88.08%** | 57.73% | **< 1 giây** | Tốc độ cực nhanh. Tuy nhiên, do tập dữ liệu thực tế bị lệch lớp trầm trọng (lớp Positive chiếm đa số ~75%), NB có xu hướng thiên vị lớp đa số và **hoàn toàn thất bại ở lớp Trung tính (Neutral - F1-score chỉ đạt 0.34%)**. |
+| **Linear Support Vector Machine (SVM)** | 86.56% | **63.99%** | **~3 giây** | Mặc dù Accuracy thấp hơn NB một chút, nhưng **Macro F1-score vượt trội rõ rệt (63.99% vs 57.73%)**. SVM chứng minh khả năng nhận diện các lớp thiểu số (Neutral và Negative) tốt hơn rất nhiều nhờ việc xây dựng biên phân chia tối ưu hóa khoảng cách lớp. |
 
 ---
 
 ## HƯỚNG DẪN ĐƯA VÀO BÁO CÁO KHÓA LUẬN & SLIDE
 
-### 1. Trong Báo cáo Khóa luận (Chương 4: Thực nghiệm & Đánh giá)
+### 1. Trong Báo cáo Khóa luận (Chương 3 & 4)
 - **Tiêu đề đề xuất:** *4.3. Kết quả thực nghiệm và So sánh mô hình*
 - **Cách viết:** Đưa **Bảng 1, Bảng 2 và Bảng 5** vào để làm minh chứng số liệu. Sử dụng phần nhận xét đi kèm dưới mỗi bảng để tăng tính học thuật và chứng minh bạn hiểu rõ bản chất của các thuật toán (sự khác biệt giữa Machine Learning truyền thống và Deep Learning/Transformers).
 - Đưa **Bảng 3** vào phần *Chương 3: Phương pháp nghiên cứu hoặc Động lực đề tài* để thuyết phục hội đồng vì sao bạn lại chọn hướng tiếp cận ABSA phức tạp này thay vì phân tích cảm xúc thông thường.
@@ -80,4 +80,4 @@ Tài liệu này tổng hợp **5 bảng so sánh cốt lõi** được trích x
 - **Slide 1 (Động lực đề tài):** Sử dụng ý tưởng của **Bảng 3** (so sánh Sentence-level vs ABSA) bằng cách lấy ví dụ trực quan về câu hỗn hợp để hội đồng thấy rõ giá trị thực tiễn của ABSA.
 - **Slide 2 (Kết quả mô hình):** Đưa **Bảng 1** làm bảng so sánh trung tâm. Highlight dòng **PhoBERT Multi-task** để làm nổi bật đây là mô hình cải tiến sâu nhất trong đề tài của bạn.
 - **Slide 3 (Phân tích khía cạnh):** Đưa **Bảng 2** dạng biểu đồ cột (nếu có thể vẽ hình) hoặc bảng thu gọn. Phân tích rõ khía cạnh *Delivery* dễ học nhất và *Service* thách thức nhất.
-- **Slide 4 (Tối ưu hóa công nghệ):** Dùng dữ liệu của **Bảng 4** để khoe thành tích: *"Đã gán nhãn hàng loạt thành công 100,000+ review thô chỉ trong 2 phút 15 giây nhờ tận dụng hạ tầng Cloud GPU T4 x2 song song với kỹ thuật tối ưu hóa Mixed Precision"*. Đây sẽ là điểm cộng cực kỳ lớn cho tính thực tiễn của khóa luận tốt nghiệp!
+- **Slide 4 (Tối ưu hóa công nghệ):** Dùng dữ liệu của **Bảng 4** để khoe thành tích: *"Đã gán nhãn hàng loạt thành công 910,000+ review thô chỉ trong 15 phút nhờ tận dụng hạ tầng Cloud GPU T4 x2 song song với kỹ thuật tối ưu hóa Mixed Precision"*. Đây sẽ là điểm cộng cực kỳ lớn cho tính thực tiễn của khóa luận tốt nghiệp!

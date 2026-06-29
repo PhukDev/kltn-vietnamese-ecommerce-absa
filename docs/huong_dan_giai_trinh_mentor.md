@@ -1,4 +1,4 @@
-# HƯỚNG DẪN GIẢI TRÌNH ĐỀ TÀI KHÓA LUẬN TỐT NGHIỆP
+﻿# HƯỚNG DẪN GIẢI TRÌNH ĐỀ TÀI KHÓA LUẬN TỐT NGHIỆP
 > **Tên đề tài:** "Trích xuất thông tin và phân tích quan điểm khách hàng trên nền tảng thương mại điện tử nhằm tối ưu hóa chiến lược kinh doanh"
 > **Tài liệu tham chiếu chính:** Bài báo khoa học *"UIT-VSFC: Vietnamese Students' Feedback Corpus for Sentiment Analysis"* và bộ dữ liệu *vietnamese_ecommerce_review.csv*.
 
@@ -18,8 +18,8 @@
 
 ### 1. Tại sao phân tích cảm xúc chung chung (Sentiment Analysis) lại vô ích với doanh nghiệp?
 Nếu chỉ gán nhãn và dự đoán một bình luận là **Tích cực (Positive)** hay **Tiêu cực (Negative)**, doanh nghiệp sẽ rơi vào trạng thái "mù thông tin":
-*   Biết khách hàng đang giận dữ nhưng **không biết họ giận vì lý do gì** (do hàng lỗi, shipper thái độ, hay ứng dụng bị lag).
-*   Không thể đưa ra quyết định sửa đổi ở cấp phòng ban hay quy trách nhiệm vận hành.
+-   Biết khách hàng đang giận dữ nhưng **không biết họ giận vì lý do gì** (do hàng lỗi, shipper thái độ, hay ứng dụng bị lag).
+-   Không thể đưa ra quyết định sửa đổi ở cấp phòng ban hay quy trách nhiệm vận hành.
 
 ### 2. Sự vượt trội của Phân tích quan điểm theo khía cạnh (Aspect-Based Sentiment Analysis - ABSA)
 Đề tài này giải quyết triệt để vấn đề trên bằng cách phân tách bình luận thô thành các cặp **(Khía cạnh - Sắc thái cảm xúc tương ứng)** trên **5 khía cạnh cốt lõi** của Thương mại điện tử:
@@ -37,11 +37,11 @@ Nếu chỉ gán nhãn và dự đoán một bình luận là **Tích cực (Pos
               Sắc thái:  POSITIVE (Tích cực)                  Sắc thái:  NEGATIVE (Tiêu cực)
 ```
 
-*   **`product` (Sản phẩm)**: Chất lượng hàng hóa, tính chính hãng, đóng gói sản phẩm.
-*   **`price` (Giá cả)**: Mức giá đắt/rẻ, tính trung thực của mã giảm giá, khuyến mãi.
-*   **`delivery` (Vận chuyển)**: Tốc độ giao hàng, thái độ của nhân viên giao hàng (shipper).
-*   **`service` (Dịch vụ)**: Tốc độ và thái độ phản hồi của đội ngũ CSKH/admin, giải quyết khiếu nại.
-*   **`app` (Ứng dụng)**: Trải nghiệm người dùng trên app di động, lỗi kỹ thuật (bugs), lag, lỗi thanh toán.
+-   **`product` (Sản phẩm)**: Chất lượng hàng hóa, tính chính hãng, đóng gói sản phẩm.
+-   **`price` (Giá cả)**: Mức giá đắt/rẻ, tính trung thực của mã giảm giá, khuyến mãi.
+-   **`delivery` (Vận chuyển)**: Tốc độ giao hàng, thái độ của nhân viên giao hàng (shipper).
+-   **`service` (Dịch vụ)**: Tốc độ và thái độ phản hồi của đội ngũ CSKH/admin, giải quyết khiếu nại.
+-   **`app` (Ứng dụng)**: Trải nghiệm người dùng trên app di động, lỗi kỹ thuật (bugs), lag, lỗi thanh toán.
 
 ---
 
@@ -51,25 +51,25 @@ Nếu chỉ gán nhãn và dự đoán một bình luận là **Tích cực (Pos
 Khi giảng viên hỏi *"Doanh nghiệp cần 5 nhãn này làm gì?"*, đây là câu trả lời mang tính quyết định: **5 nhãn này là nguyên liệu đầu vào để tự động hóa 4 quy trình quản trị doanh nghiệp quy mô lớn (Big Data) mà con người không thể làm thủ công:**
 
 ### 1. Tự động hóa KPI phòng ban & Đánh giá đối tác vận chuyển thứ ba
-*   **Thực tế**: Các sàn TMĐT thuê các bên vận chuyển (Giao Hàng Nhanh, J&T, Viettel Post...) và quản trị hàng ngàn nhà cung cấp (Merchants).
-*   **Ứng dụng**: Nhãn `delivery` và `product` được dùng để tính toán tự động **Chỉ số hài lòng vận chuyển (Logistics Satisfaction Index)** và **Chỉ số chất lượng sản phẩm (Product Quality Index)** theo thời gian thực.
-*   **Giá trị**: Cuối tháng, hệ thống tự động xuất báo cáo đề xuất phạt hợp đồng hoặc cắt giảm sản lượng đối với các đối tác giao nhận có tỷ lệ tiêu cực cao.
+-   **Thực tế**: Các sàn TMĐT thuê các bên vận chuyển (Giao Hàng Nhanh, J&T, Viettel Post...) và quản trị hàng ngàn nhà cung cấp (Merchants).
+-   **Ứng dụng**: Nhãn `delivery` và `product` được dùng để tính toán tự động **Chỉ số hài lòng vận chuyển (Logistics Satisfaction Index)** và **Chỉ số chất lượng sản phẩm (Product Quality Index)** theo thời gian thực.
+-   **Giá trị**: Cuối tháng, hệ thống tự động xuất báo cáo đề xuất phạt hợp đồng hoặc cắt giảm sản lượng đối với các đối tác giao nhận có tỷ lệ tiêu cực cao.
 
 ### 2. Phân tích nguyên nhân gốc rễ (Root Cause Analysis - RCA)
-*   **Thực tế**: Một sản phẩm nhận đánh giá 1 sao (Cảm xúc tiêu cực), chủ cửa hàng cần biết vấn đề nằm ở đâu để sửa đổi.
-*   **Ứng dụng**: Hệ thống phân tích tổ hợp nhãn. Ví dụ:
-    *   *Sản phẩm chất lượng tốt (`product` = Tích cực)* nhưng *giao hàng quá chậm (`delivery` = Tiêu cực)* khiến khách hàng đánh giá 1 sao.
-*   **Giá trị**: Chủ cửa hàng biết ngay vấn đề không nằm ở khâu sản xuất hay nguồn hàng, từ đó tiết kiệm hàng trăm triệu đồng chi phí cải tiến sản phẩm không cần thiết, thay vào đó tập trung tối ưu khâu kho vận.
+-   **Thực tế**: Một sản phẩm nhận đánh giá 1 sao (Cảm xúc tiêu cực), chủ cửa hàng cần biết vấn đề nằm ở đâu để sửa đổi.
+-   **Ứng dụng**: Hệ thống phân tích tổ hợp nhãn. Ví dụ:
+    -   *Sản phẩm chất lượng tốt (`product` = Tích cực)* nhưng *giao hàng quá chậm (`delivery` = Tiêu cực)* khiến khách hàng đánh giá 1 sao.
+-   **Giá trị**: Chủ cửa hàng biết ngay vấn đề không nằm ở khâu sản xuất hay nguồn hàng, từ đó tiết kiệm hàng trăm triệu đồng chi phí cải tiến sản phẩm không cần thiết, thay vào đó tập trung tối ưu khâu kho vận.
 
 ### 3. Khoanh vùng lỗi kỹ thuật và Lập lộ trình phát triển phần mềm (Bug Prioritization)
-*   **Thực tế**: Hàng ngàn review chê ứng dụng lag, lỗi thanh toán trôi đi mỗi ngày trên App Store/Google Play.
-*   **Ứng dụng**: Hệ thống tự động lọc riêng các đánh giá có nhãn `app` = Tiêu cực, sau đó chạy thuật toán gom cụm chủ đề (Topic Modeling) hoặc trích xuất từ khóa trên tập dữ liệu này.
-*   **Giá trị**: Đội ngũ lập trình phát hiện ngay lập tức lỗi hệ thống (ví dụ: *"90% review tiêu cực về app liên quan đến từ khóa 'lỗi ví ShopeePay'"*) để vá lỗi lập tức trong vài giờ, thay vì mất hàng tuần đọc thủ công.
+-   **Thực tế**: Hàng ngàn review chê ứng dụng lag, lỗi thanh toán trôi đi mỗi ngày trên App Store/Google Play.
+-   **Ứng dụng**: Hệ thống tự động lọc riêng các đánh giá có nhãn `app` = Tiêu cực, sau đó chạy thuật toán gom cụm chủ đề (Topic Modeling) hoặc trích xuất từ khóa trên tập dữ liệu này.
+-   **Giá trị**: Đội ngũ lập trình phát hiện ngay lập tức lỗi hệ thống (ví dụ: *"90% review tiêu cực về app liên quan đến từ khóa 'lỗi ví ShopeePay'"*) để vá lỗi lập tức trong vài giờ, thay vì mất hàng tuần đọc thủ công.
 
 ### 4. Hệ thống cảnh báo sớm khủng hoảng eWOM (electronic Word of Mouth)
-*   **Thực tế**: Một đánh giá tiêu cực nghiêm trọng (ví dụ lỗi trừ tiền nhưng không tạo đơn) nếu nhận nhiều lượt thích (`thumbsupcount` cao) sẽ dễ dàng lan truyền tạo khủng hoảng truyền thông.
-*   **Ứng dụng**: Hệ thống giám sát liên tục. Nếu phát hiện một câu có nhãn `app` = Tiêu cực + `thumbsupcount` > 10, hệ thống tự động bắn cảnh báo khẩn cấp (Alert) qua Telegram/Slack cho đội PR và kỹ thuật.
-*   **Giá trị**: Dập tắt hoàn toàn nguy cơ khủng hoảng thương hiệu từ trong trứng nước.
+-   **Thực tế**: Một đánh giá tiêu cực nghiêm trọng (ví dụ lỗi trừ tiền nhưng không tạo đơn) nếu nhận nhiều lượt thích (`thumbsupcount` cao) sẽ dễ dàng lan truyền tạo khủng hoảng truyền thông.
+-   **Ứng dụng**: Hệ thống giám sát liên tục. Nếu phát hiện một câu có nhãn `app` = Tiêu cực + `thumbsupcount` > 10, hệ thống tự động bắn cảnh báo khẩn cấp (Alert) qua Telegram/Slack cho đội PR và kỹ thuật.
+-   **Giá trị**: Dập tắt hoàn toàn nguy cơ khủng hoảng thương hiệu từ trong trứng nước.
 
 ---
 
@@ -134,17 +134,17 @@ Khi giảng viên hỏi *"Doanh nghiệp cần 5 nhãn này làm gì?"*, đây l
 Để biến hướng đi này thành hiện thực và có số liệu báo cáo thuyết phục, bạn cần bám sát roadmap kỹ thuật dưới đây:
 
 ### Bước 1: Hoàn thiện Tập Kiểm Thử Vàng (Gold Evaluation Set)
-*   **Mục tiêu**: Rà soát thủ công **250 dòng** trong file `data/absa_gold_eval_review_queue.csv`.
-*   **Ý nghĩa**: Đây là tập dữ liệu "chuẩn mực không tì vết" để làm thước đo đánh giá chính xác hiệu năng của mọi mô hình. Khi có tập Gold Eval sạch, kết quả so sánh mô hình mới được hội đồng công nhận.
+-   **Mục tiêu**: Rà soát thủ công **250 dòng** trong file `data/absa_gold_eval_review_queue.csv`.
+-   **Ý nghĩa**: Đây là tập dữ liệu "chuẩn mực không tì vết" để làm thước đo đánh giá chính xác hiệu năng của mọi mô hình. Khi có tập Gold Eval sạch, kết quả so sánh mô hình mới được hội đồng công nhận.
 
 ### Bước 2: Huấn luyện mô hình Deep Learning trên Google Colab (GPU)
-*   **Mục tiêu**: Sử dụng GPU của Colab để huấn luyện mô hình **PhoBERT Multitask** (`scripts/train_phobert_absa.py`) và **Bi-LSTM** (`scripts/train_bilstm_absa.py`).
-*   **Hành động**: Sửa đổi nhẹ mã nguồn để tích hợp chuyển đổi sang GPU (`.to('cuda')`) nhằm tận dụng tối đa sức mạnh của Colab, nâng số lượng epoch lên từ 5 - 10 để cải thiện vượt trội chỉ số F1-score so với mốc baseline truyền thống.
+-   **Mục tiêu**: Sử dụng GPU của Colab để huấn luyện mô hình **PhoBERT Multitask** (`scripts/train_phobert_absa.py`) và **Bi-LSTM** (`scripts/train_bilstm_absa.py`).
+-   **Hành động**: Sửa đổi nhẹ mã nguồn để tích hợp chuyển đổi sang GPU (`.to('cuda')`) nhằm tận dụng tối đa sức mạnh của Colab, nâng số lượng epoch lên từ 5 - 10 để cải thiện vượt trội chỉ số F1-score so với mốc baseline truyền thống.
 
 ### Bước 3: Đóng gói API & Streamlit Dashboard
-*   **Mục tiêu**: Chạy thử nghiệm Flask API (`src/ecommerce_absa/api.py`) và giao diện trực quan Streamlit Dashboard (`dashboard/streamlit_app.py`).
-*   **Hành động**: Tích hợp mô hình PhoBERT tốt nhất sau khi train từ Colab vào Dashboard, thiết lập logic phát cảnh báo eWOM khi phát hiện review tiêu cực nghiêm trọng có lượt like cao.
+-   **Mục tiêu**: Chạy thử nghiệm Flask API (`src/ecommerce_absa/api.py`) và giao diện trực quan Streamlit Dashboard (`dashboard/streamlit_app.py`).
+-   **Hành động**: Tích hợp mô hình PhoBERT tốt nhất sau khi train từ Colab vào Dashboard, thiết lập logic phát cảnh báo eWOM khi phát hiện review tiêu cực nghiêm trọng có lượt like cao.
 
 ### Bước 4: Hoàn thành Quyển Khóa Luận & Slide Bảo Vệ
-*   **Mục tiêu**: Viết báo cáo khoa học bám sát 5 chương tiêu chuẩn của KLTN ngành Công nghệ thông tin / Hệ thống thông tin.
-*   **Hành động**: Vẽ các biểu đồ so sánh F1-score giữa các mô hình (Naive Bayes vs SVM vs Bi-LSTM vs PhoBERT) trên tập Gold Eval để chứng minh mô hình học sâu PhoBERT mang lại hiệu quả vượt trội như thế nào.
+-   **Mục tiêu**: Viết báo cáo khoa học bám sát 5 chương tiêu chuẩn của KLTN ngành Công nghệ thông tin / Hệ thống thông tin.
+-   **Hành động**: Vẽ các biểu đồ so sánh F1-score giữa các mô hình (Naive Bayes vs SVM vs Bi-LSTM vs PhoBERT) trên tập Gold Eval để chứng minh mô hình học sâu PhoBERT mang lại hiệu quả vượt trội như thế nào.

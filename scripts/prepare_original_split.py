@@ -16,7 +16,7 @@ def main() -> None:
     parser.add_argument("--input", default="vietnamese_ecommerce_review.csv")
     parser.add_argument("--train-out", default="data/original_train.csv")
     parser.add_argument("--predict-out", default="data/original_predict.csv")
-    parser.add_argument("--test-size", type=float, default=0.7)
+    parser.add_argument("--test-size", type=float, default=0.3)
     parser.add_argument("--random-state", type=int, default=42)
     args = parser.parse_args()
 

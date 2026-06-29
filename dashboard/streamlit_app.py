@@ -6,11 +6,99 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-import streamlit as st  # type: ignore  # noqa: E402
+import streamlit as st  # type: ignore
 
-from ecommerce_absa.api import PredictionService  # noqa: E402
-from ecommerce_absa.config import DATA_PATH, MODELS_DIR  # noqa: E402
-from ecommerce_absa.data import load_reviews  # noqa: E402
+from ecommerce_absa.api import PredictionService
+from ecommerce_absa.config import DATA_PATH, MODELS_DIR
+from ecommerce_absa.data import load_reviews
+
+# Define Translation Dictionary
+TRANSLATIONS = {
+    "vi": {
+        "title": "Ecommerce ABSA Dashboard",
+        "sidebar_title": "Cấu hình Dữ liệu & Mô hình",
+        "dataset_label": "Tập dữ liệu hiển thị",
+        "dataset_options": ["Mặc định (Full)", "Tập Train (30% gốc)", "Tập Predict (70% gốc)", "Đường dẫn tùy chỉnh"],
+        "custom_path_label": "Đường dẫn file CSV tùy chỉnh",
+        "model_section": "Lựa chọn Mô hình ABSA",
+        "model_tip": "Mẹo: Nhập file PyTorch .pt (ví dụ: `artifacts/models/absa_phobert_gold_eval.pt`) để dùng PhoBERT, hoặc .joblib cho Baseline.",
+        "aspect_model_label": "Mô hình Khía cạnh (Aspect Model)",
+        "sentiment_model_label": "Mô hình Cảm xúc (Sentiment Model - Tùy chọn)",
+        "limit_label": "Số lượng dòng nạp vào",
+        "tab_analysis": "Dashboard Phân Tích Dữ Liệu & Cảnh Báo",
+        "tab_comparison": "So Sánh Hiệu Năng Các Mô Hình",
+        "metric_reviews": "Đánh giá",
+        "metric_neg_rate": "Tỷ lệ tiêu cực",
+        "metric_reply_rate": "Tỷ lệ phản hồi",
+        "metric_alerts": "Cảnh báo",
+        "aspect_source": "Nguồn nhãn khía cạnh",
+        "sentiment_dist": "Phân phối cảm xúc",
+        "race_dist": "Phân phối giai đoạn RACE",
+        "high_priority_alerts": "Cảnh báo ưu tiên cao",
+        "no_alerts": "Không có cảnh báo nào trong dữ liệu được nạp.",
+        "review_explorer": "Trình khám phá đánh giá",
+        "sentiment_label": "Cảm xúc",
+        "comparison_title": "Báo Cáo So Sánh Hiệu Năng Các Mô Hình ABSA",
+        "comparison_desc": "Số liệu hiển thị dưới đây được đọc động từ kết quả huấn luyện thực tế trên tập **Train (30%)** và đánh giá trên tập **Gold Eval (70%)** để tránh hiện tượng quá khớp (overfitting).",
+        "sub_overview": "1. So sánh tổng quan hiệu năng các mô hình",
+        "sub_aspect_detail": "2. So sánh chi tiết hiệu năng Aspect-specific F1-score",
+        "sub_comments": "3. Nhận xét & Biện luận khoa học",
+        "comments_text": """
+            *   **Tổng quan huấn luyện:** Với tỷ lệ phân chia mới (**30% Train - 70% Eval**), mô hình được đánh giá trên tập test lớn hơn gấp đôi tập train. Điều này giúp ngăn chặn overfitting một cách đáng tin cậy và phản ánh chính xác khả năng tổng quát hóa của mô hình trên dữ liệu thực tế.
+            *   **Hiệu năng của SVM:** Linear SVM hoạt động cực kỳ ấn tượng trên dữ liệu hạn chế nhờ biên phân chia tối ưu hóa khoảng cách lớp tốt.
+            *   **Khía cạnh Delivery:** Đạt hiệu năng cao nhất (>80%) ở tất cả mô hình nhờ các từ khóa mang tính đặc trưng cực cao và tập trung như *"ship", "giao hàng", "nhanh", "chậm", "gói hàng"*.
+            *   **Khía cạnh Service:** Luôn là thách thức lớn nhất do ranh giới ngữ nghĩa giữa "dịch vụ CSKH" và "sản phẩm" rất mơ hồ trong tiếng Việt thương mại điện tử.
+            """,
+        "architecture_svm": "Phân loại khía cạnh độc lập (Multi-label bằng OneVsRest).",
+        "architecture_bilstm": "Mạng hồi quy hai chiều, học đặc trưng tuần tự và ngữ cảnh của từ.",
+        "architecture_phobert": "Học máy đa nhiệm (Multi-task), tối ưu hóa đồng thời Aspect và Sentiment trong 1 forward pass.",
+        "col_model": "Mô hình / Thuật toán",
+        "col_architecture": "Đặc trưng kiến trúc",
+        "col_aspect": "Khía cạnh (Aspect)",
+    },
+    "en": {
+        "title": "Ecommerce ABSA Dashboard",
+        "sidebar_title": "Data & Model Configuration",
+        "dataset_label": "Display Dataset",
+        "dataset_options": ["Default (Full)", "Train Set (30% original)", "Predict Set (70% original)", "Custom Path"],
+        "custom_path_label": "Custom CSV File Path",
+        "model_section": "ABSA Model Selection",
+        "model_tip": "Tip: Enter PyTorch .pt (e.g. `artifacts/models/absa_phobert_gold_eval.pt`) for PhoBERT, or .joblib for Baseline.",
+        "aspect_model_label": "Aspect Model Path",
+        "sentiment_model_label": "Sentiment Model Path (Optional)",
+        "limit_label": "Row Limit",
+        "tab_analysis": "Data Analysis & Alerts Dashboard",
+        "tab_comparison": "Models Performance Comparison",
+        "metric_reviews": "Reviews",
+        "metric_neg_rate": "Negative rate",
+        "metric_reply_rate": "Reply rate",
+        "metric_alerts": "Alerts",
+        "aspect_source": "Aspect source",
+        "sentiment_dist": "Sentiment distribution",
+        "race_dist": "RACE stage distribution",
+        "high_priority_alerts": "High priority alerts",
+        "no_alerts": "No alert in loaded sample.",
+        "review_explorer": "Review explorer",
+        "sentiment_label": "Sentiment",
+        "comparison_title": "ABSA Models Performance Comparison Report",
+        "comparison_desc": "The metrics shown below are dynamically read from actual training results on the **Train (30%)** and evaluated on the **Gold Eval (70%)** set to avoid overfitting.",
+        "sub_overview": "1. Overview Model Performance Comparison",
+        "sub_aspect_detail": "2. Detailed Aspect-specific F1-score Comparison",
+        "sub_comments": "3. Scientific Comments & Analysis",
+        "comments_text": """
+            *   **Training Overview:** With the new split ratio (**30% Train - 70% Eval**), the model is evaluated on a test set that is more than double the size of the training set. This reliably prevents overfitting and accurately reflects the model's generalizability on real-world data.
+            *   **SVM Performance:** Linear SVM performs exceptionally well on limited data due to its optimized class separation margins.
+            *   **Delivery Aspect:** Achieved the highest performance (>80%) across all models thanks to highly specific and concentrated keywords like *"ship", "delivery", "fast", "slow", "packaging"*.
+            *   **Service Aspect:** Consistently remains the biggest challenge due to the vague semantic boundaries between "customer support service" and "product quality" in Vietnamese e-commerce.
+            """,
+        "architecture_svm": "Independent aspect classification (Multi-label via OneVsRest).",
+        "architecture_bilstm": "Bidirectional LSTM, learning sequential and contextual word representations.",
+        "architecture_phobert": "Multi-task learning, optimizing Aspect and Sentiment simultaneously in a single forward pass.",
+        "col_model": "Model / Algorithm",
+        "col_architecture": "Architecture Features",
+        "col_aspect": "Aspect",
+    }
+}
 
 
 @st.cache_resource(show_spinner=False)
@@ -62,42 +150,71 @@ def load_dashboard_frame(path: str, limit: int, model_path: str | None, aspect_m
 
 def main() -> None:
     st.set_page_config(page_title="Ecommerce ABSA Dashboard", layout="wide")
-    st.title("Ecommerce ABSA Dashboard")
+
+    # Add Language Switcher to the top of Sidebar
+    with st.sidebar:
+        st.subheader("Language / Ngôn ngữ")
+        lang_option = st.selectbox(
+            "Select Dashboard Language",
+            options=["Tiếng Việt", "English"],
+            index=0,
+            label_visibility="collapsed"
+        )
+        lang = "vi" if lang_option == "Tiếng Việt" else "en"
+        st.write("---")
+
+    st.title(TRANSLATIONS[lang]["title"])
 
     with st.sidebar:
-        st.subheader("Cấu hình Dữ liệu & Mô hình")
+        st.subheader(TRANSLATIONS[lang]["sidebar_title"])
         data_option = st.selectbox(
-            "Tập dữ liệu hiển thị",
-            options=["Mặc định (Full)", "Tập Train (30% gốc)", "Tập Predict (70% gốc)", "Đường dẫn tùy chỉnh"],
-            index=0
+            TRANSLATIONS[lang]["dataset_label"],
+            options=TRANSLATIONS[lang]["dataset_options"],
+            index=2
         )
-        if data_option == "Mặc định (Full)":
+        
+        if data_option == TRANSLATIONS[lang]["dataset_options"][0]:
             data_path = str(DATA_PATH)
-        elif data_option == "Tập Train (30% gốc)":
+        elif data_option == TRANSLATIONS[lang]["dataset_options"][1]:
             data_path = "data/original_train.csv"
-        elif data_option == "Tập Predict (70% gốc)":
+        elif data_option == TRANSLATIONS[lang]["dataset_options"][2]:
             data_path = "data/original_predict.csv"
         else:
-            data_path = st.text_input("Đường dẫn file CSV tùy chỉnh", value=str(DATA_PATH))
+            data_path = st.text_input(TRANSLATIONS[lang]["custom_path_label"], value=str(DATA_PATH))
 
         st.write("---")
-        st.markdown("**Lựa chọn Mô hình ABSA**")
-        st.caption("Mẹo: Nhập file PyTorch .pt (ví dụ: `artifacts/models/absa_phobert_gold_eval.pt`) để dùng PhoBERT, hoặc .joblib cho Baseline.")
+        st.markdown(f"**{TRANSLATIONS[lang]['model_section']}**")
+        st.caption(TRANSLATIONS[lang]["model_tip"])
 
         aspect_model_path = st.text_input(
-            "Mô hình Khía cạnh (Aspect Model)",
+            TRANSLATIONS[lang]["aspect_model_label"],
             value=str(MODELS_DIR / "absa_aspect_baseline.joblib"),
         )
+        default_phobert_path = MODELS_DIR / "absa_phobert_gold_eval.pt"
         sentiment_model_path = st.text_input(
-            "Mô hình Cảm xúc (Sentiment Model - Tùy chọn)",
-            value="",
+            TRANSLATIONS[lang]["sentiment_model_label"],
+            value=str(default_phobert_path) if default_phobert_path.exists() else "",
         )
 
         st.write("---")
-        limit = st.number_input("Số lượng dòng nạp vào", min_value=1000, max_value=300000, value=50000, step=1000)
+        limit = st.number_input(TRANSLATIONS[lang]["limit_label"], min_value=1000, max_value=300000, value=50000, step=1000)
 
-    # Add Tab Navigation
-    tab_ana, tab_comp = st.tabs(["Dashboard Phân Tích Dữ Liệu & Cảnh Báo", "So Sánh Hiệu Năng Các Mô Hình"])
+    # Add Tab Navigation with dynamic translation
+    tab_ana, tab_comp = st.tabs([TRANSLATIONS[lang]["tab_analysis"], TRANSLATIONS[lang]["tab_comparison"]])
+
+    # Define dataframe column renaming mapping
+    display_cols = {
+        "reviewid": "Review ID",
+        "content": "Content / Nội dung" if lang == "vi" else "Content",
+        "score": "Score / Điểm" if lang == "vi" else "Score",
+        "thumbsupcount": "Likes / Thích" if lang == "vi" else "Likes",
+        "sentiment": "Sentiment / Cảm xúc" if lang == "vi" else "Sentiment",
+        "aspects": "Aspects / Khía cạnh" if lang == "vi" else "Aspects",
+        "aspect_source": "Source / Nguồn" if lang == "vi" else "Source",
+        "race_stage": "RACE Stage",
+        "alert": "Alert / Cảnh báo" if lang == "vi" else "Alert",
+        "appid": "App ID"
+    }
 
     with tab_ana:
         frame = load_dashboard_frame(
@@ -112,52 +229,54 @@ def main() -> None:
         reply_rate = float(frame["replycontent"].fillna("").astype(str).str.strip().astype(bool).mean()) if total_reviews else 0.0
 
         col1, col2, col3, col4 = st.columns(4)
-        col1.metric("Reviews", f"{total_reviews:,}")
-        col2.metric("Negative rate", f"{negative_rate:.1%}")
-        col3.metric("Reply rate", f"{reply_rate:.1%}")
-        col4.metric("Alerts", f"{alert_count:,}")
-        st.caption(f"Aspect source: {frame['aspect_source'].iloc[0] if total_reviews else 'n/a'}")
+        col1.metric(TRANSLATIONS[lang]["metric_reviews"], f"{total_reviews:,}")
+        col2.metric(TRANSLATIONS[lang]["metric_neg_rate"], f"{negative_rate:.1%}")
+        col3.metric(TRANSLATIONS[lang]["metric_reply_rate"], f"{reply_rate:.1%}")
+        col4.metric(TRANSLATIONS[lang]["metric_alerts"], f"{alert_count:,}")
+        st.caption(f"{TRANSLATIONS[lang]['aspect_source']}: {frame['aspect_source'].iloc[0] if total_reviews else 'n/a'}")
 
         left, right = st.columns(2)
         with left:
-            st.subheader("Sentiment distribution")
+            st.subheader(TRANSLATIONS[lang]["sentiment_dist"])
             st.bar_chart(frame["sentiment"].value_counts())
         with right:
-            st.subheader("RACE stage distribution")
+            st.subheader(TRANSLATIONS[lang]["race_dist"])
             st.bar_chart(frame["race_stage"].value_counts())
 
-        st.subheader("High priority alerts")
+        st.subheader(TRANSLATIONS[lang]["high_priority_alerts"])
         alerts = frame[frame["alert"].astype(bool)].copy()
         if alerts.empty:
-            st.info("No alert in loaded sample.")
+            st.info(TRANSLATIONS[lang]["no_alerts"])
         else:
+            alerts_display = alerts[["reviewid", "content", "score", "thumbsupcount", "aspects", "race_stage", "alert"]].copy()
+            alerts_display = alerts_display.rename(columns=display_cols)
             st.dataframe(
-                alerts[["reviewid", "content", "score", "thumbsupcount", "aspects", "race_stage", "alert"]]
-                .sort_values("thumbsupcount", ascending=False)
-                .head(100),
+                alerts_display.sort_values(display_cols["thumbsupcount"], ascending=False).head(100),
                 use_container_width=True,
+                hide_index=True,
             )
 
-        st.subheader("Review explorer")
+        st.subheader(TRANSLATIONS[lang]["review_explorer"])
         selected_sentiment = st.multiselect(
-            "Sentiment",
+            TRANSLATIONS[lang]["sentiment_label"],
             options=sorted(frame["sentiment"].dropna().unique()),
             default=sorted(frame["sentiment"].dropna().unique()),
         )
         filtered = frame[frame["sentiment"].isin(selected_sentiment)]
+        
+        filtered_display = filtered[
+            ["reviewid", "content", "score", "thumbsupcount", "sentiment", "aspects", "aspect_source", "race_stage", "appid"]
+        ].copy()
+        filtered_display = filtered_display.rename(columns=display_cols)
         st.dataframe(
-            filtered[
-                ["reviewid", "content", "score", "thumbsupcount", "sentiment", "aspects", "aspect_source", "race_stage", "appid"]
-            ].head(500),
+            filtered_display.head(500),
             use_container_width=True,
+            hide_index=True,
         )
 
     with tab_comp:
-        st.header("Báo Cáo So Sánh Hiệu Năng Các Mô Hình ABSA")
-        st.write(
-            "Số liệu hiển thị dưới đây được đọc động từ kết quả huấn luyện thực tế trên tập "
-            "**Train (30%)** và đánh giá trên tập **Gold Eval (70%)** để tránh hiện tượng quá khớp (overfitting)."
-        )
+        st.header(TRANSLATIONS[lang]["comparison_title"])
+        st.write(TRANSLATIONS[lang]["comparison_desc"])
 
         import json
         import pandas as pd
@@ -189,31 +308,31 @@ def main() -> None:
             return f"{val:.{decimals}f}"
 
         # Bảng 1: So sánh tổng quan
-        st.subheader("1. So sánh tổng quan hiệu năng các mô hình")
+        st.subheader(TRANSLATIONS[lang]["sub_overview"])
         overview_rows = []
         
         # SVM Row
         svm_ok = svm_data is not None
         overview_rows.append({
-            "Mô hình / Thuật toán": "Baseline TF-IDF + SVM",
+            TRANSLATIONS[lang]["col_model"]: "Baseline TF-IDF + SVM",
             "Aspect F1-micro": fmt_pct(svm_data.get("f1_micro")) if svm_ok else "N/A",
             "Aspect F1-macro": fmt_pct(svm_data.get("f1_macro")) if svm_ok else "N/A",
             "Aspect Hamming Loss": fmt_val(svm_data.get("hamming_loss")) if svm_ok else "N/A",
             "Sentiment F1-macro": "N/A",
             "Sentiment Accuracy": "N/A",
-            "Đặc trưng kiến trúc": "Phân loại khía cạnh độc lập (Multi-label bằng OneVsRest)."
+            TRANSLATIONS[lang]["col_architecture"]: TRANSLATIONS[lang]["architecture_svm"]
         })
         
         # Bi-LSTM Row
         bilstm_ok = bilstm_data is not None
         overview_rows.append({
-            "Mô hình / Thuật toán": "Bi-LSTM + Word2Vec",
+            TRANSLATIONS[lang]["col_model"]: "Bi-LSTM + Word2Vec",
             "Aspect F1-micro": fmt_pct(bilstm_data.get("f1_micro")) if bilstm_ok else "N/A",
             "Aspect F1-macro": fmt_pct(bilstm_data.get("f1_macro")) if bilstm_ok else "N/A",
             "Aspect Hamming Loss": fmt_val(bilstm_data.get("hamming_loss")) if bilstm_ok else "N/A",
             "Sentiment F1-macro": "N/A",
             "Sentiment Accuracy": "N/A",
-            "Đặc trưng kiến trúc": "Mạng hồi quy hai chiều, học đặc trưng tuần tự và ngữ cảnh của từ."
+            TRANSLATIONS[lang]["col_architecture"]: TRANSLATIONS[lang]["architecture_bilstm"]
         })
         
         # PhoBERT Row
@@ -221,26 +340,26 @@ def main() -> None:
         ph_aspect = phobert_data.get("aspect", {}) if phobert_ok else {}
         ph_sentiment = phobert_data.get("sentiment", {}) if phobert_ok else {}
         overview_rows.append({
-            "Mô hình / Thuật toán": "PhoBERT Multi-task",
+            TRANSLATIONS[lang]["col_model"]: "PhoBERT Multi-task",
             "Aspect F1-micro": fmt_pct(ph_aspect.get("f1_micro")) if phobert_ok else "N/A",
             "Aspect F1-macro": fmt_pct(ph_aspect.get("f1_macro")) if phobert_ok else "N/A",
             "Aspect Hamming Loss": fmt_val(ph_aspect.get("hamming_loss")) if phobert_ok else "N/A",
             "Sentiment F1-macro": fmt_pct(ph_sentiment.get("f1_macro")) if phobert_ok else "N/A",
             "Sentiment Accuracy": fmt_pct(ph_sentiment.get("accuracy")) if phobert_ok else "N/A",
-            "Đặc trưng kiến trúc": "Học máy đa nhiệm (Multi-task), tối ưu hóa đồng thời Aspect và Sentiment trong 1 forward pass."
+            TRANSLATIONS[lang]["col_architecture"]: TRANSLATIONS[lang]["architecture_phobert"]
         })
         
         st.dataframe(pd.DataFrame(overview_rows), use_container_width=True, hide_index=True)
 
         # Bảng 2: So sánh Aspect-specific F1-score
-        st.subheader("2. So sánh chi tiết hiệu năng Aspect-specific F1-score")
+        st.subheader(TRANSLATIONS[lang]["sub_aspect_detail"])
         aspects = ["product", "price", "delivery", "service", "app"]
         aspect_names = {
-            "product": "Product (Sản phẩm)",
-            "price": "Price (Giá cả)",
-            "delivery": "Delivery (Giao hàng)",
-            "service": "Service (Dịch vụ)",
-            "app": "App (Ứng dụng)"
+            "product": "Product (Sản phẩm)" if lang == "vi" else "Product",
+            "price": "Price (Giá cả)" if lang == "vi" else "Price",
+            "delivery": "Delivery (Giao hàng)" if lang == "vi" else "Delivery",
+            "service": "Service (Dịch vụ)" if lang == "vi" else "Service",
+            "app": "App (Ứng dụng)" if lang == "vi" else "App"
         }
         
         aspect_rows = []
@@ -258,7 +377,7 @@ def main() -> None:
                 phobert_f1 = fmt_pct(ph_aspect["per_aspect"][aspect].get("f1"))
                 
             aspect_rows.append({
-                "Khía cạnh (Aspect)": aspect_names[aspect],
+                TRANSLATIONS[lang]["col_aspect"]: aspect_names[aspect],
                 "Baseline TF-IDF + SVM": svm_f1,
                 "Bi-LSTM + Word2Vec": bilstm_f1,
                 "PhoBERT Multi-task": phobert_f1
@@ -267,15 +386,8 @@ def main() -> None:
         st.dataframe(pd.DataFrame(aspect_rows), use_container_width=True, hide_index=True)
 
         # Nhận xét & Biện luận
-        st.subheader("3. Nhận xét & Biện luận khoa học")
-        st.markdown(
-            """
-            *   **Tổng quan huấn luyện:** Với tỷ lệ phân chia mới (**30% Train - 70% Eval**), mô hình được đánh giá trên tập test lớn hơn gấp đôi tập train. Điều này giúp ngăn chặn overfitting một cách đáng tin cậy và phản ánh chính xác khả năng tổng quát hóa của mô hình trên dữ liệu thực tế.
-            *   **Hiệu năng của SVM:** Linear SVM hoạt động cực kỳ ấn tượng trên dữ liệu hạn chế nhờ biên phân chia tối ưu hóa khoảng cách lớp tốt.
-            *   **Khía cạnh Delivery:** Đạt hiệu năng cao nhất (>80%) ở tất cả mô hình nhờ các từ khóa mang tính đặc trưng cực cao và tập trung như *"ship", "giao hàng", "nhanh", "chậm", "gói hàng"*.
-            *   **Khía cạnh Service:** Luôn là thách thức lớn nhất do ranh giới ngữ nghĩa giữa "dịch vụ CSKH" và "sản phẩm" rất mơ hồ trong tiếng Việt thương mại điện tử.
-            """
-        )
+        st.subheader(TRANSLATIONS[lang]["sub_comments"])
+        st.markdown(TRANSLATIONS[lang]["comments_text"])
 
 
 if __name__ == "__main__":

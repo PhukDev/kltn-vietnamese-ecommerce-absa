@@ -1,4 +1,4 @@
-# BÁO CÁO ĐỐI CHIẾU & ĐỒNG BỘ ĐỀ CƯƠNG CHÍNH THỨC
+﻿# BÁO CÁO ĐỐI CHIẾU & ĐỒNG BỘ ĐỀ CƯƠNG CHÍNH THỨC
 ## Đề tài: Aspect-Based Sentiment Analysis (ABSA) on Vietnamese Ecommerce Reviews
 ## Sinh viên thực hiện: Ksor Phuk - MSSV: 2301010014
 
@@ -39,12 +39,12 @@ graph TD
 
 ### Chi tiết cách điền số liệu vào Quyển Word:
 1.  **Chương 3 (Thực nghiệm & Đánh giá):**
-    *   Sử dụng **Bảng 1 (So sánh tổng quan)**, **Bảng 2 (Aspect F1-score)**, và **Bảng 5 (Sentiment Baseline)** trong tệp [docs/bang_so_sanh_thuc_nghiem.md](file:///c:/Users/PHUK/Documents/KLTN%202025-2026/DataCenter/docs/bang_so_sanh_thuc_nghiem.md) dán trực tiếp vào Chương 3 của bạn làm minh chứng thực nghiệm. 
-    *   Chụp ảnh các biểu đồ PowerPoint vector (tại Slide 6 và Slide 7) đưa vào làm hình minh họa biểu đồ khoa học.
+    -   Sử dụng **Bảng 1 (So sánh tổng quan)**, **Bảng 2 (Aspect F1-score)**, và **Bảng 5 (Sentiment Baseline)** trong tệp [docs/bang_so_sanh_thuc_nghiem.md](file:///c:/Users/PHUK/Documents/KLTN%202025-2026/DataCenter/docs/bang_so_sanh_thuc_nghiem.md) dán trực tiếp vào Chương 3 của bạn làm minh chứng thực nghiệm. 
+    -   Chụp ảnh các biểu đồ PowerPoint vector (tại Slide 6 và Slide 7) đưa vào làm hình minh họa biểu đồ khoa học.
 2.  **Chương 4 (Đề xuất tối ưu hóa chiến lược kinh doanh):**
-    *   Sử dụng **Bảng 3 (Sentence Sentiment vs ABSA)** và sơ đồ bóc tách câu vector (Slide 8) làm cơ sở lý luận cho tính cần thiết của ABSA.
-    *   Chụp giao diện **Streamlit Dashboard** chạy live của bạn (Phân tích RACE, Biểu đồ cảm xúc, eWOM) đưa vào làm hình minh chứng triển khai phần mềm thực tiễn.
-    *   Giải thích cơ chế cảnh báo CSKH thông qua việc lọc review tiêu cực có `thumbsupcount` cao để xử lý eWOM nhanh chóng.
+    -   Sử dụng **Bảng 3 (Sentence Sentiment vs ABSA)** và sơ đồ bóc tách câu vector (Slide 8) làm cơ sở lý luận cho tính cần thiết của ABSA.
+    -   Chụp giao diện **Streamlit Dashboard** chạy live của bạn (Phân tích RACE, Biểu đồ cảm xúc, eWOM) đưa vào làm hình minh chứng triển khai phần mềm thực tiễn.
+    -   Giải thích cơ chế cảnh báo CSKH thông qua việc lọc review tiêu cực có `thumbsupcount` cao để xử lý eWOM nhanh chóng.
 
 ---
 
