@@ -18,7 +18,7 @@ TRANSLATIONS = {
         "title": "Ecommerce ABSA Dashboard",
         "sidebar_title": "Cấu hình Dữ liệu & Mô hình",
         "dataset_label": "Tập dữ liệu hiển thị",
-        "dataset_options": ["Mặc định (Full)", "Tập Train (30% gốc)", "Tập Predict (70% gốc)", "Đường dẫn tùy chỉnh"],
+        "dataset_options": ["Mặc định (Full)", "Tập Train (70% gốc)", "Tập Predict (30% gốc)", "Đường dẫn tùy chỉnh"],
         "custom_path_label": "Đường dẫn file CSV tùy chỉnh",
         "model_section": "Lựa chọn Mô hình ABSA",
         "model_tip": "Mẹo: Nhập file PyTorch .pt (ví dụ: `artifacts/models/absa_phobert_gold_eval.pt`) để dùng PhoBERT, hoặc .joblib cho Baseline.",
@@ -39,12 +39,12 @@ TRANSLATIONS = {
         "review_explorer": "Trình khám phá đánh giá",
         "sentiment_label": "Cảm xúc",
         "comparison_title": "Báo Cáo So Sánh Hiệu Năng Các Mô Hình ABSA",
-        "comparison_desc": "Số liệu hiển thị dưới đây được đọc động từ kết quả huấn luyện thực tế trên tập **Train (30%)** và đánh giá trên tập **Gold Eval (70%)** để tránh hiện tượng quá khớp (overfitting).",
+        "comparison_desc": "Số liệu hiển thị dưới đây được đọc động từ kết quả huấn luyện thực tế trên tập **Train (70%)** và đánh giá trên tập độc lập **Gold Eval** để tránh hiện tượng quá khớp (overfitting).",
         "sub_overview": "1. So sánh tổng quan hiệu năng các mô hình",
         "sub_aspect_detail": "2. So sánh chi tiết hiệu năng Aspect-specific F1-score",
         "sub_comments": "3. Nhận xét & Biện luận khoa học",
         "comments_text": """
-            *   **Tổng quan huấn luyện:** Với tỷ lệ phân chia mới (**30% Train - 70% Eval**), mô hình được đánh giá trên tập test lớn hơn gấp đôi tập train. Điều này giúp ngăn chặn overfitting một cách đáng tin cậy và phản ánh chính xác khả năng tổng quát hóa của mô hình trên dữ liệu thực tế.
+            *   **Tổng quan huấn luyện:** Với tỷ lệ phân chia mới (**70% Train - 30% Predict**), mô hình được tối ưu hóa trên tập train lớn chiếm 70% dữ liệu sạch. Điều này giúp cải thiện đáng kể độ chính xác và khả năng học sâu của mô hình PhoBERT trên tập dữ liệu tiếng Việt thương mại điện tử lớn.
             *   **Hiệu năng của SVM:** Linear SVM hoạt động cực kỳ ấn tượng trên dữ liệu hạn chế nhờ biên phân chia tối ưu hóa khoảng cách lớp tốt.
             *   **Khía cạnh Delivery:** Đạt hiệu năng cao nhất (>80%) ở tất cả mô hình nhờ các từ khóa mang tính đặc trưng cực cao và tập trung như *"ship", "giao hàng", "nhanh", "chậm", "gói hàng"*.
             *   **Khía cạnh Service:** Luôn là thách thức lớn nhất do ranh giới ngữ nghĩa giữa "dịch vụ CSKH" và "sản phẩm" rất mơ hồ trong tiếng Việt thương mại điện tử.
@@ -60,7 +60,7 @@ TRANSLATIONS = {
         "title": "Ecommerce ABSA Dashboard",
         "sidebar_title": "Data & Model Configuration",
         "dataset_label": "Display Dataset",
-        "dataset_options": ["Default (Full)", "Train Set (30% original)", "Predict Set (70% original)", "Custom Path"],
+        "dataset_options": ["Default (Full)", "Train Set (70% original)", "Predict Set (30% original)", "Custom Path"],
         "custom_path_label": "Custom CSV File Path",
         "model_section": "ABSA Model Selection",
         "model_tip": "Tip: Enter PyTorch .pt (e.g. `artifacts/models/absa_phobert_gold_eval.pt`) for PhoBERT, or .joblib for Baseline.",
@@ -81,12 +81,12 @@ TRANSLATIONS = {
         "review_explorer": "Review explorer",
         "sentiment_label": "Sentiment",
         "comparison_title": "ABSA Models Performance Comparison Report",
-        "comparison_desc": "The metrics shown below are dynamically read from actual training results on the **Train (30%)** and evaluated on the **Gold Eval (70%)** set to avoid overfitting.",
+        "comparison_desc": "The metrics shown below are dynamically read from actual training results on the **Train (70%)** and evaluated on the independent **Gold Eval** set to avoid overfitting.",
         "sub_overview": "1. Overview Model Performance Comparison",
         "sub_aspect_detail": "2. Detailed Aspect-specific F1-score Comparison",
         "sub_comments": "3. Scientific Comments & Analysis",
         "comments_text": """
-            *   **Training Overview:** With the new split ratio (**30% Train - 70% Eval**), the model is evaluated on a test set that is more than double the size of the training set. This reliably prevents overfitting and accurately reflects the model's generalizability on real-world data.
+            *   **Training Overview:** With the new split ratio (**70% Train - 30% Predict**), the model is optimized on a large training set containing 70% of the clean data. This significantly improves accuracy and PhoBERT's representation learning on a large Vietnamese e-commerce review dataset.
             *   **SVM Performance:** Linear SVM performs exceptionally well on limited data due to its optimized class separation margins.
             *   **Delivery Aspect:** Achieved the highest performance (>80%) across all models thanks to highly specific and concentrated keywords like *"ship", "delivery", "fast", "slow", "packaging"*.
             *   **Service Aspect:** Consistently remains the biggest challenge due to the vague semantic boundaries between "customer support service" and "product quality" in Vietnamese e-commerce.
