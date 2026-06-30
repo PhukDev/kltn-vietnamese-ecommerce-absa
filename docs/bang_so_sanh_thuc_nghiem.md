@@ -54,12 +54,12 @@ Tài liệu này tổng hợp **5 bảng so sánh cốt lõi** được trích x
 | :--- | :---: | :---: | :--- |
 | **Thời gian Train PhoBERT (3 epochs)** | Không khả thi (> 100 giờ) | **Khoảng 25 phút** | Áp dụng kỹ thuật **Pre-tokenization** giúp giảm thiểu thời gian huấn luyện từ 7 giờ (ở Version 3) xuống còn 25 phút trên GPU T4 x2. |
 | **Thời gian Suy luận (Inference Latency)** | • SVM: `< 0.001 giây` <br>• PhoBERT: `~1.2 giây` | • PhoBERT: `~0.05 giây` | Sử dụng CPU cục bộ cho các mô hình nhẹ (SVM) để tối ưu chi phí hạ tầng, dùng GPU cho Deep Learning khi cần độ chính xác cao. |
-| **Tốc độ Batch Prediction (910,061 reviews)** | Không khả thi | **Khoảng 15 phút** | Khả năng xử lý dữ liệu lớn (Big Data) cực kỳ ấn tượng nhờ ứng dụng kỹ thuật **FP16 Mixed Precision (autocast)** và PyTorch **DataLoader** song song. |
+| **Tốc độ Batch Prediction (389,964 reviews)** | Không khả thi | **Khoảng 7 phút** | Khả năng xử lý dữ liệu lớn (Big Data) cực kỳ ấn tượng nhờ ứng dụng kỹ thuật **FP16 Mixed Precision (autocast)** và PyTorch **DataLoader** song song. |
 
 ---
 
 ### BẢNG 5: So sánh các mô hình Sentiment Baseline truyền thống
-*Được huấn luyện trên tập dữ liệu thô quy mô lớn (388,150 reviews hợp lệ sau tiền xử lý) để phân loại cảm xúc tổng quan.*
+*Được huấn luyện trên tập dữ liệu thô quy mô lớn (909,913 reviews hợp lệ sau tiền xử lý) để phân loại cảm xúc tổng quan.*
 
 | Thuật toán Baseline | Accuracy (Độ chính xác) | Macro F1-score | Thời gian huấn luyện | Phân tích thực nghiệm chuyên sâu |
 | :--- | :---: | :---: | :---: | :--- |
