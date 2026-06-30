@@ -12,12 +12,12 @@ Tài liệu này tổng hợp **5 bảng so sánh cốt lõi** được trích x
 | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
 | **Baseline TF-IDF + SVM** *(Scikit-Learn)* | 85.25% | 78.37% | 0.0680 | *N/A* | *N/A* | Phân loại khía cạnh độc lập (Multi-label bằng OneVsRest). |
 | **Bi-LSTM + Word2Vec** *(Deep Learning)* | 74.87% | 68.16% | 0.1315 | *N/A* | *N/A* | Mạng hồi quy hai chiều, học đặc trưng tuần tự và ngữ cảnh của từ. |
-| **PhoBERT Multi-task** *(Fine-tuned Transformer)* | **97.37%** | **97.51%** | **0.0125** | **73.47%** | **73.65%** | Học máy đa nhiệm (Multi-task), tối ưu hóa đồng thời Aspect và Sentiment trong 1 forward pass. |
+| **PhoBERT Multi-task** *(Fine-tuned Transformer)* | **97.08%** | **97.34%** | **0.0139** | **74.93%** | **76.01%** | Học máy đa nhiệm (Multi-task), tối ưu hóa đồng thời Aspect và Sentiment trong 1 forward pass. |
 
 > [!NOTE]
 > **Nhận xét & Biện luận khoa học (Cực kỳ quan trọng để ghi vào khóa luận):**
-> 1. **Sức mạnh của việc tăng quy mô dữ liệu (Data Scaling):** Trong thực nghiệm trước đây trên tập dữ liệu nhỏ (779 dòng), PhoBERT bị overfitting trầm trọng và chỉ đạt F1-micro 56.69%. Tuy nhiên, khi quy mô dữ liệu train được nâng lên **30% dữ liệu gốc (388,176 dòng)**, PhoBERT Multi-task đã phát huy tối đa sức mạnh của mô hình pre-trained Transformer khổng lồ (135 triệu tham số), bứt phá hiệu năng Aspect F1-micro lên **97.37%** và F1-macro lên **97.51%**, vượt trội hoàn toàn so với SVM và Bi-LSTM.
-> 2. **Giá trị thực tiễn của học máy đa nhiệm (Multi-task Learning):** PhoBERT giải quyết đồng thời cả hai nhiệm vụ (nhận diện khía cạnh và phân loại cảm xúc) chỉ trong một mô hình duy nhất. Điều này giúp giảm thiểu thời gian tính toán và tránh sai số tích lũy (error propagation) so với việc sử dụng hai mô hình độc lập, đồng thời đạt độ chính xác cảm xúc rất cao (73.65% Accuracy) trên dữ liệu lệch lớp thực tế.
+> 1. **Sức mạnh của việc tăng quy mô dữ liệu (Data Scaling):** Trong thực nghiệm trước đây trên tập dữ liệu nhỏ (779 dòng), PhoBERT bị overfitting trầm trọng và chỉ đạt F1-micro 56.69%. Tuy nhiên, khi quy mô dữ liệu train được nâng lên **70% dữ liệu gốc (909.913 dòng)**, PhoBERT Multi-task đã phát huy tối đa sức mạnh của mô hình pre-trained Transformer khổng lồ (135 triệu tham số), bứt phá hiệu năng Aspect F1-micro lên **97.08%** và F1-macro lên **97.34%**, vượt trội hoàn toàn so với SVM và Bi-LSTM.
+> 2. **Giá trị thực tiễn của học máy đa nhiệm (Multi-task Learning):** PhoBERT giải quyết đồng thời cả hai nhiệm vụ (nhận diện khía cạnh và phân loại cảm xúc) chỉ trong một mô hình duy nhất. Điều này giúp giảm thiểu thời gian tính toán và tránh sai số tích lũy (error propagation) so với việc sử dụng hai mô hình độc lập, đồng thời đạt độ chính xác cảm xúc rất cao (76.01% Accuracy) trên dữ liệu lệch lớp thực tế.
 
 ---
 
