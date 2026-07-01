@@ -26,11 +26,11 @@ Tài liệu này tổng hợp **5 bảng so sánh cốt lõi** được trích x
 
 | Khía cạnh (Aspect) | Số lượng mẫu (Support) | Baseline TF-IDF + SVM | Bi-LSTM | PhoBERT Multi-task | Nhận xét phân tích ngữ nghĩa (Semantic Analysis) |
 | :--- | :---: | :---: | :---: | :---: | :--- |
-| **Product** *(Sản phẩm)* | 348 | 90.11% | 85.29% | **96.22%** | Khía cạnh xuất hiện nhiều nhất và đa dạng nhất. PhoBERT vượt trội hoàn toàn nhờ khả năng học biểu diễn ngữ nghĩa sâu sắc của hàng nghìn thuộc tính sản phẩm khác nhau. |
+| **Product** *(Sản phẩm)* | 348 | 90.11% | 85.29% | **95.68%** | Khía cạnh xuất hiện nhiều nhất và đa dạng nhất. PhoBERT vượt trội hoàn toàn nhờ khả năng học biểu diễn ngữ nghĩa sâu sắc của hàng nghìn thuộc tính sản phẩm khác nhau. |
 | **Price** *(Giá cả)* | 100 | 70.18% | 53.24% | **99.50%** | Nhận diện gần như hoàn hảo đối với PhoBERT (99.50%) nhờ học được các liên kết ngữ cảnh tinh tế quanh các từ khóa nhạy cảm giá (*"rẻ", "đắt", "giá cả", "sale"*). |
 | **Delivery** *(Giao hàng)* | 146 | 89.36% | 76.57% | **98.62%** | Đạt hiệu năng cực kỳ cao (>98%) nhờ các từ khóa mang tính đặc trưng cực cao và tập trung như *"ship", "giao hàng", "nhanh", "chậm", "gói hàng"*. |
 | **Service** *(Dịch vụ)* | 67 | 55.32% | 45.52% | **94.81%** | Vốn là khía cạnh khó nhất do ranh giới ngữ nghĩa mơ hồ giữa "dịch vụ CSKH" và "sản phẩm", nhưng PhoBERT vẫn giải quyết xuất sắc nhờ cơ chế Attention bóc tách ngữ cảnh tốt. |
-| **App** *(Ứng dụng)* | 183 | 86.89% | 80.21% | **98.37%** | PhoBERT nắm bắt ngữ cảnh tốt hơn khi người dùng mô tả lỗi app (*"lỗi đăng nhập", "không vào được", "đơ", "cập nhật"*). |
+| **App** *(Ứng dụng)* | 183 | 86.89% | 80.21% | **98.10%** | PhoBERT nắm bắt ngữ cảnh tốt hơn khi người dùng mô tả lỗi app (*"lỗi đăng nhập", "không vào được", "đơ", "cập nhật"*). |
 
 ---
 
