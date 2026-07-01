@@ -7,7 +7,7 @@
 Quá trình đối sánh hiệu năng giữa ba kiến trúc mô hình (Baseline TF-IDF + SVM, Bi-LSTM + Word2Vec, và PhoBERT Multi-task) được thực hiện một cách khách quan trên tập kiểm thử kiểm duyệt thủ công (Gold Eval gồm 721 dòng). Kết quả thực nghiệm chi tiết được tổng hợp trong các bảng biểu dưới đây:
 
 ### 4.1.1. So sánh tổng quan hiệu năng các mô hình
-Bảng 6 trình bày các chỉ số hiệu năng tổng hợp của ba mô hình trong các tác vụ ACD và ATSC.
+Bảng 4.1 trình bày các chỉ số hiệu năng tổng hợp của ba mô hình trong các tác vụ ACD và ATSC.
 
 **Bảng 4.1: So sánh tổng quan hiệu năng các mô hình ABSA**
 *Nguồn: Trích xuất từ kết quả thực nghiệm thực tế của dự án*
@@ -19,7 +19,7 @@ Bảng 6 trình bày các chỉ số hiệu năng tổng hợp của ba mô hìn
 | **PhoBERT Multi-task** | **97.08%** | **97.34%** | **0.0139** | **74.93%** | **76.01%** | Học máy đa nhiệm, tối ưu hóa đồng thời Aspect và Sentiment trong 1 forward pass. |
 
 ### 4.1.2. So sánh chi tiết hiệu năng trên từng khía cạnh cụ thể
-Bảng 7 đi sâu phân tích chỉ số F1-score chi tiết cho từng khía cạnh mục tiêu trong tập Gold Eval nhằm làm rõ khả năng nhận diện ngữ nghĩa cụ thể của từng thuật toán.
+Bảng 4.2 đi sâu phân tích chỉ số F1-score chi tiết cho từng khía cạnh mục tiêu trong tập Gold Eval nhằm làm rõ khả năng nhận diện ngữ nghĩa cụ thể của từng thuật toán.
 
 **Bảng 4.2: So sánh chi tiết hiệu năng Aspect-specific F1-score**
 *Nguồn: Trích xuất từ kết quả thực nghiệm thực tế của dự án*
@@ -52,7 +52,7 @@ Một kết quả bất ngờ trong thực nghiệm là mô hình học máy tru
 Đặc biệt, ở khía cạnh **Service** (Dịch vụ), cả SVM (55.32%) và Bi-LSTM (45.52%) đều đạt hiệu năng rất kém. Nguyên nhân là do khía cạnh Service thường không chứa các từ khóa chỉ điểm trực tiếp, rõ ràng như khía cạnh Delivery (*"ship"*, *"nhanh"*, *"chậm"*) hay Price (*"rẻ"*, *"đắt"*), mà thường được diễn đạt qua các sắc thái ẩn dụ, thái độ lịch sự hoặc phê phán gián tiếp (ví dụ: *"hỏi một đường trả lời một nẻo"*, *"tư vấn hời hợt"*, *"gửi tin nhắn từ hôm qua đến nay mới thấy trả lời"*). PhoBERT với cơ chế Attention đa đầu (Multi-Head Attention) đã liên kết thành công các quan hệ từ vựng cách xa nhau này, đẩy F1-score khía cạnh Service lên tới **94.81%**.
 
 ### 4.2.4. Đối chiếu khoa học và đóng góp mới so với bài báo gốc (UIT-VSFC)
-Đề tài khóa luận này kế thừa nền tảng khoa học từ bài báo khoa học uy tín *“UIT-VSFC: Vietnamese Students’ Feedback Corpus for Sentiment Analysis”* (Nguyen và cộng sự, 2018). Tuy nhiên, đề tài đã phát triển và cải tiến vượt bậc nhằm giải quyết bài toán thực tế của doanh nghiệp TMĐT. Bảng 8 đối chiếu chi tiết sự khác biệt học thuật và thực tiễn giữa nghiên cứu gốc và đề tài.
+Đề tài khóa luận này kế thừa nền tảng khoa học từ bài báo khoa học uy tín *“UIT-VSFC: Vietnamese Students’ Feedback Corpus for Sentiment Analysis”* (Nguyen và cộng sự, 2018). Tuy nhiên, đề tài đã phát triển và cải tiến vượt bậc nhằm giải quyết bài toán thực tế của doanh nghiệp TMĐT. Bảng 4.3 đối chiếu chi tiết sự khác biệt học thuật và thực tiễn giữa nghiên cứu gốc và đề tài.
 
 **Bảng 4.3: So sánh đối chiếu học thuật giữa bài báo gốc UIT-VSFC và đề tài khóa luận**
 *Nguồn: Tổng hợp đối chiếu lý thuyết và thực nghiệm*
