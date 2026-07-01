@@ -258,14 +258,14 @@ Tên đề tài: *"Trích xuất thông tin và phân tích quan điểm khách 
 *(Tài liệu tiếng Việt xếp theo vần ABC của Tên tác giả; tiếng Anh xếp theo vần ABC của Họ tác giả; Nguồn internet ghi rõ đường link và ngày truy cập)*
 
 ### Tài liệu tiếng Việt:
-1. Hiệp hội Thương mại điện tử Việt Nam - VECOM (2024), *Báo cáo Chỉ số Thương mại điện tử Việt Nam (EBI) 2024*, nguồn link trực tuyến: https://vecom.vn/bao-cao-ebi, ngày truy cập: 15/04/2026.
+1. Hiệp hội Thương mại điện tử Việt Nam - VECOM (2025), *Báo cáo Chỉ số Thương mại điện tử Việt Nam (EBI) 2025*, nguồn link trực tuyến: https://vecom.vn/bao-cao-ebi, ngày truy cập: 15/04/2026.
 
 ### Tài liệu tiếng Anh:
 2. HienBM (2021). *Vietnamese E-commerce Review Dataset*. Kaggle Repository. Available online: https://www.kaggle.com/datasets/hienbm/vietnamese-ecommerce-review, accessed: 12/04/2026.
-3. Ho, T. T., Bui, H. M., and Thai, P. K. (2021). "A Hybrid Approach for Aspect-Based Sentiment Analysis in Mobile Commerce." *International Journal of Artificial Intelligence*, Vol. 8, No. 2, pp. 976-988. Available: https://www.ijain.org/index.php/IJAIN/article/view/976.
+3. Ho, T. T., Bui, H. M., and Thai, P. K. (2023). "A hybrid model for aspect-based sentiment analysis on customer feedback: research on the mobile commerce sector in Vietnam." *International Journal of Advances in Intelligent Informatics*, Vol. 9, No. 2, pp. 248-261. DOI: https://doi.org/10.26555/ijain.v9i2.976.
 4. Mikolov, T., Chen, K., Corrado, G., and Dean, J. (2013). "Efficient Estimation of Word Representations in Vector Space." *arXiv preprint arXiv:1301.3781*.
 5. Nguyen, D. Q., and Tuan Nguyen, A. (2020). "PhoBERT: Pre-trained language models for Vietnamese." *Findings of the Association for Computational Linguistics: EMNLP 2020*, pp. 1037-1042.
-6. Nguyen, T. D., Nguyen, D. M., Nguyen, H. M., and Nguyen, T. G. (2025). "Topic classification of Vietnamese product reviews in e-commerce using PhoBERT." *Journal of Marketing Analytics*, Vol. 13, No. 2, pp. 102-115. DOI: https://doi.org/10.1057/s41270-025-00402-w.
+6. Nguyen, T. D., Nguyen, D. M., Nguyen, H. M., and Nguyen, T. G. (2025). "Topic classification of Vietnamese product reviews in e-commerce using PhoBERT." *Journal of Marketing Analytics*, Vol. 13, No. 2, pp. 371-385. DOI: https://doi.org/10.1057/s41270-025-00402-w.
 7. Smart Insights (2023). *The RACE Framework: A practical framework to improve your digital marketing*. Available online: https://www.smartinsights.com/digital-marketing-strategy/race-a-practical-framework-to-improve-your-digital-marketing/, accessed: 18/04/2026.
 8. Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, L., and Polosukhin, I. (2017). "Attention is all you need." *Advances in Neural Information Processing Systems*, Vol. 30, pp. 5998-6008.
 
