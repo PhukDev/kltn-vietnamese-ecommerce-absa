@@ -258,7 +258,7 @@ Tên đề tài: *"Trích xuất thông tin và phân tích quan điểm khách 
 *(Tài liệu tiếng Việt xếp theo vần ABC của Tên tác giả; tiếng Anh xếp theo vần ABC của Họ tác giả; Nguồn internet ghi rõ đường link và ngày truy cập)*
 
 ### Tài liệu tiếng Việt:
-1. Hiệp hội Thương mại điện tử Việt Nam - VECOM (2025), *Báo cáo Chỉ số Thương mại điện tử Việt Nam (EBI) 2025*, nguồn link trực tuyến: https://vecom.vn/bao-cao-ebi, ngày truy cập: 15/04/2026.
+1. Hiệp hội Thương mại điện tử Việt Nam - VECOM (2024), *Báo cáo Chỉ số Thương mại điện tử Việt Nam (EBI) 2024*, nguồn link trực tuyến: https://vecom.vn/bao-cao-ebi, ngày truy cập: 15/04/2026.
 
 ### Tài liệu tiếng Anh:
 2. HienBM (2021). *Vietnamese E-commerce Review Dataset*. Kaggle Repository. Available online: https://www.kaggle.com/datasets/hienbm/vietnamese-ecommerce-review, accessed: 12/04/2026.
